@@ -1,0 +1,35 @@
+{
+  "name": "Diehard",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+0",
+      "benefit": "When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isn’t your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious. When using this feat, you are staggered. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die. "
+    },
+    {
+      "step": "+6",
+      "benefit": "You now die when your negative hit points are equal to double your constitution score instead of at your constitution score. When using this feat you are now Exhausted instead of Staggered. "
+    },
+    {
+      "step": "+9",
+      "benefit": "You no longer take damage from performing strenuous actions when using this feat. Furthermore you are now Fatigued when using this feat instead of Exhausted. "
+    },
+    {
+      "step": "+12",
+      "benefit": "You now may act normally when using this feat with no penalty. "
+    },
+    {
+      "step": "+16",
+      "benefit": "You now die when your negative hit points are equal to triple your Constitution score. "
+    },
+    {
+      "step": "+21",
+      "benefit": "When you are below 0 hit points, you gain fast healing equal to your Constitution modifier. This fast healing can only restore you to 0 hit points, after which it ceases to function until you are reduced below 0 hit points again. "
+    },
+    {
+      "step": "+30",
+      "benefit": "You now die when your negative hit points are equal to your maximum hit points."
+    }
+  ]
+}

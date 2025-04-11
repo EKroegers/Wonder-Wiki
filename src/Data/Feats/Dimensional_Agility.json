@@ -1,0 +1,41 @@
+{
+  "name": "Dimensional Agility",
+  "flavor": "You have been trained to use magical movement as part of your combat tactics",
+  "prerequisites": "Ability to use the Abundant Step or similar class features, or the ability to cast Dimension Door",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+0",
+      "benefit": "After using Abundant Step, or casting Dimension Door, you can take any actions you still have remaining on your turn. You also gain a +4 bonus on Concentration checks when casting teleportation spells. "
+    },
+    {
+      "step": "+3",
+      "benefit": "As a full-round action, you use Abundant Step, or cast Dimension Door as a special charge. Doing so allows you to teleport up to double your current speed (up to the maximum distance allowed by the spell or ability) and to make the attack normally allowed on a charge. "
+    },
+    {
+      "step": "+6",
+      "benefit": "You can take a full-attack action, activating Abundant Step, or casting Dimension Door as a swift action. If you do, you can teleport up to twice your speed (up to the maximum distance allowed by the spell or ability), dividing this teleportation into increments you use before your first attack, between each attack, and after your last attack. You must teleport at least 5 feet each time you teleport. "
+    },
+    {
+      "step": "+9",
+      "benefit": "When teleporting before an attack by activating Abundant Step, or casting Dimension Door, you gain a +8 bonus on combat maneuver checks to bull rush, disarm, reposition, or trip an opponent. "
+    },
+    {
+      "step": "+12",
+      "benefit": " You provide flanking from all squares you attack from during a turn. Flanking starts from the moment you make an attack until the start of your next turn. Enemies are considered flat-footed against your attacks while using this feat. "
+    },
+    {
+      "step": "+16",
+      "benefit": "During the turn in which you have utilized this feat, enemy attacks have a 50% Miss Chance against you. Additionally, the distance you may teleport when using this feat is equal to the maximum distance allowed by the casting of the spell. "
+    },
+    {
+      "step": "+21",
+      "benefit": "If an enemy attack misses you due to your Miss Chance, they provoke an Attack of Opportunity. You may teleport as a Free Action to deliver this Attack of Opportunity. This movement counts towards your maximum allowed movement by this feat. "
+    },
+    {
+      "step": "+30",
+      "benefit": "The amount of distance you may teleport when using this feat is unlimited. Furthermore, it is a nonaction to use Abundant Step or Dimension Door in conjunction with this feat. "
+    }
+  ]
+}

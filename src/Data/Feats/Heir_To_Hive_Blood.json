@@ -1,0 +1,38 @@
+{
+  "name": "Heir to Hive Blood",
+  "flavor": "The being which changed the trajectory of the Starkin people forever, the Hive King is a figure of godlike power. Were he not consigned to the realm of legend, we would all likely be living beneath his heel.",
+  "prerequisites": "Legendary Bloodline trait, Starkin",
+  "benefits": "The benefits of this feat scale with your Hit Dice",
+  "special": "This feat must be taken at first level",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 HD",
+      "benefit": "The Heir to Hive Blood gains the ability to consume the psyche of other creatures. They may make physical contact with a creature as a Standard Action and force them to make a Will Save (DC 10 + 1/2 the Heir's Hit Dice + the Heir's Intelligence Modifier). If the creature fails this save, their mental ability scores drop to zero, and their psyche is subsumed into the Heir's. When subsuming a creature's psyche, the Heir gains a permanent bonus to their Intelligence score equal to the Intelligence score of the subsumed creature. This ability only works on creatures whose Intelligence scores are greater than three. For each creature the Heir subsumes, they take a cumulative -1 penalty to their Will Saves. "
+    },
+    {
+      "step": "5 HD",
+      "benefit": "The Heir may choose to Bind a creature's psyche within their mindscape, this is done as a Full-Round Action requiring a Will Save (DC 10 + 1/2 the Heir's Hit Dice + the Heir's Intelligence Modifier). This ability has a range equal to a number of 5ft increments equal to the Heir's Intelligence Modifier. Once Bound the creature is considered thoughtform, and their body is rendered comatose. The thoughtform cannot escape unless allowed by the Heir. The Heir may only have one thoughtform bound at a time, and whenever releasing a thoughtform from being Bound, they are free to act as they wish, but may return to their corporeal body as an Immediate Action. "
+    },
+    {
+      "step": "10 HD",
+      "benefit": " Whenever subsuming a creature's psyche, the Heir gains a bonus to their Wisdom score equal to the creature's Wisdom score. They gain bonuses to their Wisdom score retroactively from previously consumed creatures as well. "
+    },
+    {
+      "step": "15 HD",
+      "benefit": " Binding a creature within the Heir's mindscape now only requires a Standard Action, and the Heir may add their Wisdom Modifier to the DC of the Will Save required to resist this ability. "
+    },
+    {
+      "step": "20 HD",
+      "benefit": "Whenever subsuming a creature's psyche, the Heir gains a bonus to their Charisma score equal to the creature's Charisma score. They gain bonuses to their Charisma score retroactively from previously consumed creatures as well. "
+    },
+    {
+      "step": "25 HD",
+      "benefit": "Binding a creature within the Heir's mindscape now only requires a Swift or Immediate Action, and the Heir may add their Charisma Modifier to the DC of the Will Save required to resist this ability. "
+    },
+    {
+      "step": "30 HD",
+      "benefit": "Whenever subsuming a creature's psyche, the Heir gains a bonus to their Strength, Dexterity, and Constitution scores equal to the creature's Strength, Dexterity, and Constitution scores respectively. They gain bonuses to their Physical Ability scores retroactively from previously consumed creatures as well. Additionally, there is no longer a save allowed for a creature to resist being Bound within the Heir's mindscape. Furthermore, the Heir gains access to any abilities possessed by the Bound creature and may use them with either their own Ability Score Modifiers or the Bound creature's. "
+    }
+  ]
+}

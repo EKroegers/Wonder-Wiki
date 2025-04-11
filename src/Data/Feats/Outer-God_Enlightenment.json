@@ -1,0 +1,7 @@
+{
+  "name": "Outer-God Enlightenment",
+  "flavor": "Your loyalty is rewarded",
+  "prerequisites": "Worshiper of Juno",
+  "benefits": "You gain two tentacles. Additionally, these tentacles may be treated as either whips or natural attacks appropriately sized for your character, whichever is more advantageous at the time of use.",
+  "isScalable": false
+}

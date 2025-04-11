@@ -1,0 +1,7 @@
+{
+  "name": "Quicken Ki",
+  "prerequisites": "Ki Attacks class feature",
+  "benefits": "You may use a Ki Attack as a swift action.",
+  "special": "Cost Increase +6",
+  "isScalable": false
+}

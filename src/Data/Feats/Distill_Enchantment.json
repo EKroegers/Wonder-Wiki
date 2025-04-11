@@ -1,0 +1,6 @@
+{
+  "name": "Distill Enchantment",
+  "prerequisites": "CL 5, At least 2 crafting feats",
+  "benefits": "A character with this feat may separate out certain abilities from magic items and store them within scrolls or other magic foci. When stored in this fashion the magical abilities become useless unless used in crafting a new magic item, at which point you may apply that magical ability to the new item. The process of extraction takes 8 full hours of work.",
+  "isScalable": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Heir to Wolf Blood",
+  "flavor": "There is a figure in Akohn folklore known as The White Wolf. The White Wolf is an Akohn known by two qualities; snow-white hair, and an infinite well of primal rage beneath the surface. In the tales that recount the existence of The White Wolf, nearly all end in carnage and bloodshed. It is even said that the might of The White Wolf was brought to bear in The Insurrection, its rage challenging even the Gods. Most Akohn sleep easy, though, believing that The White Wolf never existed.",
+  "prerequisites": "Legendary Bloodline trait, Akohn, Saiyan Warrior 1",
+  "benefits": "The benefits of this feat scale with your Hit Dice",
+  "special": "This feat must be taken at first level",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 HD",
+      "benefit": " The Heir to Wolf Blood may add 1d6 to any Strength-Based d20 rolls they make. Additionally, they may enter a Primal Rage as a swift action. While in a Primal Rage, the Heir's AC becomes 10, and they gain DR/- equal to their Constitution Modifier. Furthermore, while in a Primal Rage, the additional dice they add to their Strength-Based d20 rolls are maximized. "
+    },
+    {
+      "step": "5 HD",
+      "benefit": "The Heir to Wolf Blood gains fast healing equal to their Constitution Modifier when they are not in a Primal Rage. Additionally, when in a Primal Rage, their DR/- is equal to their Strength and Constitution modifiers combined. Furthermore, the Heir may now add 2d6 to any Strength-Based d20 rolls they make. "
+    },
+    {
+      "step": "10 HD",
+      "benefit": "The Heir to Wolf blood is immune to nonlethal damage, death effects, stunning, critical hits, negative levels, and ability damage (but not ability drain). Additionally, whenever in a Primal Rage, the Heir may use their Fortitude Save in place of their Will Save. Furthermore, the Heir reduces the cost of enhancing their melee attacks with Ki by half. Lastly, the Heir may now add 3d6 to any Strength-Based d20 rolls they make. "
+    },
+    {
+      "step": "15 HD",
+      "benefit": "The Heir to Wolf Blood may add their additional dice to any damage they deal with a melee attack, adding their Strength Modifier to every additional die rolled. Additionally, whenever in a Primal Rage, the Heir radiates an effect similar to an Antimagic Field, using their Hit Dice as their Caster Level. Unlike a typical Antimagic Field, this does not suppress magical effects on themselves. Furthermore, the Heir may now add 4d6 to any Strength-Based d20 rolls they make. "
+    },
+    {
+      "step": "20 HD",
+      "benefit": "The Heir to Wolf Blood no longer suffers penalties from their Primal Rage. Additionally, they can be treated as both Raging and not Raging at any given time, whichever is more beneficial. Furthermore, whenever the Heir enhances their melee attacks with Ki, they may double the amount of bonus dice they add to their rolls from this feat. Lastly, the Heir may now add 5d6 to any Strength-Based d20 rolls they make. "
+    },
+    {
+      "step": "25 HD",
+      "benefit": "All dice rolled for The Heir to Wolf Blood's melee attacks are maximized. Additionally, the Heir ignores all Damage Reduction when making a melee attack. Furthermore, the Heir may now add 6d6 to any Strength-Based d20 rolls they make. "
+    },
+    {
+      "step": "30 HD",
+      "benefit": "All melee attacks made by the Heir to Wolf Blood are considered critical hits, and all numerical aspects of their melee damage are doubled. Additionally, enhancing their melee attacks with Ki can now be done with no cost. Furthermore, the Heir may now add 7d6 to any Strength-Based d20 rolls they make. "
+    }
+  ]
+}

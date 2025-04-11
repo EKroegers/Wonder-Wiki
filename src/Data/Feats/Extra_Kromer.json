@@ -1,0 +1,7 @@
+{
+  "name": "Extra Kromer",
+  "prerequisites": "Kromer class feature",
+  "benefits": "You gain 2 extra Kromer at the start of each day, and your maximum Kromer increases by 2.",
+  "special": "This feat can be taken multiple times.",
+  "isScalable": false
+}

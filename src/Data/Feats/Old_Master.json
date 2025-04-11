@@ -1,0 +1,7 @@
+{
+  "name": "Old Master",
+  "flavor": "Your expertise has only grown with age. The advantages of a full life have yielded spectacular results.",
+  "prerequisites": "Old age or older",
+  "benefits": "Whenever a combat feat asks for you to use your Intelligence or Charisma modifier for an ability, you may instead use your Wisdom modifier.",
+  "isScalable": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "flavor": "",
+  "prerequisites": "",
+  "benefits": "",
+  "special": "",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "",
+      "benefit": ""
+    },
+    {
+      "step": "",
+      "benefit": ""
+    },
+    {
+      "step": "",
+      "benefit": ""
+    }
+  ]
+}

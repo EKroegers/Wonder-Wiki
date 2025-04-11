@@ -1,0 +1,7 @@
+{
+  "name": "Widen Ki",
+  "prerequisites": "Ki Attacks class feature",
+  "benefits": "Any numeric measurements of the Ki Attack’s area increase by 100%.",
+  "special": "Cost Increase +4",
+  "isScalable": false
+}

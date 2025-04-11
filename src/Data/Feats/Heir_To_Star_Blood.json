@@ -1,0 +1,38 @@
+{
+  "name": "Heir to Star Blood",
+  "flavor": "The fundamental connection that Lumari hold with this world is the subject of much academic study and intense spiritual reverence. There comes a point that this connection grows so powerful that the reverence turns to fear. Starblood, the only name afforded to the fell bloodline of old, pushes this connection to the absolute limits. Cutting directly to the core of reality, past connections of ley lines and elements, and taking hold of the forces that govern this world and twisting them to their whims.",
+  "prerequisites": "Legendary Bloodline trait, Lumara, Astral Blade 1",
+  "benefits": "The benefits of this feat scale with your Hit Dice",
+  "special": "This feat must be taken at first level",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 HD",
+      "benefit": "Mass is the first of the primordial forces to come under the control of the Heir to Star Blood. The heir gains a Mass Die. The Mass Die begins as a d4. With a melee touch attack, the Heir may increase or reduce the effective size category of a target by manipulating their Mass Die. When decreasing the effective size of a target, their Mass Die increases by one step, to a maximum of a d20. When increasing the effective size of a target, their Mass Die decreases by one step, to a minimum of a d4. The Mass Die is returned to a d4 whenever the Heir takes a Long Rest. "
+    },
+    {
+      "step": "5 HD",
+      "benefit": "Velocity is quickly mastered by the Heir to Star blood, aiding in their ascent to power. Whenever receiving or dealing damage, the Heir may reduce that damage by an amount up to their number of Hit Dice. This damage is converted into Velocity Points. Velocity Points can be spent as a nonaction in order to increase or decrease incoming or outgoing damage. All unused Velocity Points are lost whenever the Heir takes a Long Rest. "
+    },
+    {
+      "step": "10 HD",
+      "benefit": "The Heir to Star Blood turns their focus to Acceleration, contorting yet another primordial force in their thrall. Whenever the Heir to Star Blood would reposition a creature, or they themselves be forcibly repositioned by another creature, they may instead negate this movement and add the number of feet of movement that would have resulted to their Acceleration Point pool. Whenever the Heir repositions a target or themselves, as a nonaction they may increase the number of feet moved by an amount of Acceleration Points (rounding down to the nearest 5ft increment). All unused Acceleration Points are lost whenever the Heir takes a Long Rest. "
+    },
+    {
+      "step": "15 HD",
+      "benefit": "One of the most primordial forces falls into the hands of the Heir to Star Blood; Time. With a melee touch attack, the Heir may inflict the effects of Slow on a creature. This grants the heir a single Time point. Similarly, the Heir may expend a Time Point to grant the effects of Haste to one creature. The Heir uses their Hit Dice as their Caster Level for these effects. All unused Time Points are lost whenever the Heir takes a Long Rest. "
+    },
+    {
+      "step": "20 HD",
+      "benefit": "The Heir to Star Blood begins to increase the complexity of their connection, combining primordial forces in order to raise their power to another realm altogether. When making a successful attack, the Heir may roll their Mass Die and multiply the result by a number of Velocity Points of their choosing, and after the attack is resolved the subject of the attack is moved a number of feet in a direction of the Heir's choosing equal to the result (rounding down to the nearest 5ft increment). This reduces the Heir's Mass Die by one step, and expends the number of Velocity Points used. "
+    },
+    {
+      "step": "25 HD",
+      "benefit": "The Heir to Star Blood becomes capable of manipulating Force to their own ends. They may either manipulate the damage of an attack resolution they are involved in, rolling their Mass Die and multiplying the result by a number of Acceleration points of their choosing. They may either increase or reduce the damage of the attack as a nonaction, and must decide before rolling their Mass Die. Utilizing any of the abilities granted by Force reduces the Heir's Mass Die by one step, and expends the number of Acceleration Points used. "
+    },
+    {
+      "step": "30 HD",
+      "benefit": "The Heir to Star Blood elevates their control of the world to an art form, finally mastering Density. The Heir may reduce the size of the Mass Die in order to avoid harm. Whenever the Heir is targeted with an attack, they may gain a miss chance based on the number of steps the Mass Die is reduced, 20% per step. Additionally, the results of Momentum, Force, and Density may be multiplied by any number of Time Points which the Heir chooses to expend. "
+    }
+  ]
+}

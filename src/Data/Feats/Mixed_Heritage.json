@@ -1,0 +1,7 @@
+{
+  "name": "Mixed Heritage (Alluri)",
+  "prerequisites": "Alluri",
+  "benefits": "Select another Race. The Alluri may act as this race when determining if they qualify for prerequisites for Feats, Classes, or other such features.",
+  "special": "This feat must be taken at first level",
+  "isScalable": false
+}
