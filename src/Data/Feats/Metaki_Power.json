@@ -2,6 +2,5 @@
   "name": "Metaki Power",
   "prerequisites": "Ki Attacks class feature, one other Metaki feat",
   "benefits": "The cost of modifying your chosen Ki Attack with your chosen Metaki feat is reduced by 2 power points (to a minimum extra cost of 0 power points). When you use your chosen Ki Attack with that Metaki feat, you must still obey any restrictions of that feat.",
-  "special": "You can gain this feat multiple times. Each time you must specify which Ki Attack it applies to, and which Metaki feat it is associated with.",
-  "isScalable": false
+  "special": "You can gain this feat multiple times. Each time you must specify which Ki Attack it applies to, and which Metaki feat it is associated with."
 }

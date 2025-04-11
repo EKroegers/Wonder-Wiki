@@ -2,6 +2,5 @@
   "name": "Eternal Spell",
   "prerequisites": "Ability to cast spells",
   "benefits": "You can cause a spell effect to exist for an indefinite duration. The spell maintains safe proximity to the caster unless given instructions, at which point it will attempt to carry them out to the best of their ability. Level Increase: +5 (an eternal spell uses up a spell slot three levels higher than the spell’s actual level).",
-  "special": "A spell slot used to cast an Eternal Spell is considered expended until the Eternal Spell is dispelled or dismissed.",
-  "isScalable": false
+  "special": "A spell slot used to cast an Eternal Spell is considered expended until the Eternal Spell is dispelled or dismissed."
 }

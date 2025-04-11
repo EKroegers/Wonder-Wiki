@@ -2,6 +2,5 @@
   "name": "Shinigami's Blessing",
   "flavor": "You are a symbol of death, free from the laws that bind most reapers",
   "prerequisites": "Weapon Focus (Scythe), Weapon Focus (any non-Scythe), Worshiper of Pythes",
-  "benefits": "When wielding a weapon you have the Weapon Focus feat for, and that weapon is not a Scythe, you may treat it as a Scythe for the purposes of Weapon Focus (Scythe).",
-  "isScalable": false
+  "benefits": "When wielding a weapon you have the Weapon Focus feat for, and that weapon is not a Scythe, you may treat it as a Scythe for the purposes of Weapon Focus (Scythe)."
 }

@@ -1,6 +1,5 @@
 {
   "name": "Hybrid Crafter",
   "prerequisites": "CL 9, At least 4 crafting feats",
-  "benefits": "A character with this feat may make Hybrid items, combining the magical effects of multiple magic items of the same type (or equipment slot) into a singular item. The base cost of a Hybrid item is equal to the sum of the base cost of each item, with an additional 50% fee added to the sum. If you are combining existing items then you may subtract their base costs from the final cost calculated with the aforementioned formula.",
-  "isScalable": false
+  "benefits": "A character with this feat may make Hybrid items, combining the magical effects of multiple magic items of the same type (or equipment slot) into a singular item. The base cost of a Hybrid item is equal to the sum of the base cost of each item, with an additional 50% fee added to the sum. If you are combining existing items then you may subtract their base costs from the final cost calculated with the aforementioned formula."
 }

@@ -1,6 +1,5 @@
 {
   "name": "Zenkai (Akohn)",
   "prerequisites": "Akohn",
-  "benefits": "Whenever a Akohn is reduced to negative hit points in a serious combative situation (Up to DM judgment) they gain a permanent +1 Untyped bonus to either their Strength, Dexterity, or Constitution score (Player choice) once combat concludes and they are restored to a positive number of hit points.",
-  "isScalable": false
+  "benefits": "Whenever a Akohn is reduced to negative hit points in a serious combative situation (Up to DM judgment) they gain a permanent +1 Untyped bonus to either their Strength, Dexterity, or Constitution score (Player choice) once combat concludes and they are restored to a positive number of hit points."
 }

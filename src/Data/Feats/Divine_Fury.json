@@ -2,6 +2,5 @@
   "name": "Divine Fury",
   "flavor": "You channel your anger into a more… destructive outlet.",
   "prerequisites": "Prerequisite(s): Smite Evil class feature, Rage class feature, Worshiper of Dalvor",
-  "benefits": "When simultaneously raging and smiting a creature, you may deal additional divine damage equal to your charisma modifier for every rage die you possess. If your rage or smite ends for any reason, the other ceases simultaneously and you are unable to utilize either for 1 round.",
-  "isScalable": false
+  "benefits": "When simultaneously raging and smiting a creature, you may deal additional divine damage equal to your charisma modifier for every rage die you possess. If your rage or smite ends for any reason, the other ceases simultaneously and you are unable to utilize either for 1 round."
 }

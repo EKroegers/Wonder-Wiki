@@ -2,6 +2,5 @@
   "name": "Warrior of Legend",
   "prerequisites": "BAB +16",
   "benefits": "You may transcribe your knowledge of combat into writing. Any creatures that read your tome gain a +2 insight bonus on all attack rolls made while applying your teachings. You gain a +8 insight bonus to AC against any creatures applying your teachings in combat. Additionally, you cease to age so long as one copy of your teachings exists.",
-  "special": "A creature with levels in a class that grants spellcasting cannot take this feat.",
-  "isScalable": false
+  "special": "A creature with levels in a class that grants spellcasting cannot take this feat."
 }

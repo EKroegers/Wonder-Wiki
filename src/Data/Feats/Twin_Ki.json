@@ -2,6 +2,5 @@
   "name": "Twin Ki",
   "prerequisites": "Ki Attacks class feature",
   "benefits": "Using a Ki Attack altered by this feat causes the blast to take effect twice on the target, as if you were simultaneously using the Ki Attack two times on the same location or target. Any variables in the attack (such as targets, shaping an area, and so on) apply to both of the resulting attacks. The target suffers all the effects of both attacks individually and receives a saving throw for each (if applicable). ",
-  "special": "Cost Increase +8",
-  "isScalable": false
+  "special": "Cost Increase +8"
 }

@@ -2,6 +2,5 @@
   "name": "Knockdown Ki",
   "prerequisites": "Ki Attacks class feature",
   "benefits": "Knockdown Ki Attacks knock any creature caught in its area prone if the target fails its saving throw to avoid any or all of the damage of the Ki Attack. It can only be applied to Ki Attacks that allow Reflex saves and affect an area.",
-  "special": "Cost Increase +2",
-  "isScalable": false
+  "special": "Cost Increase +2"
 }
