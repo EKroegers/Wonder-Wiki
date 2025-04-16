@@ -8,6 +8,7 @@ export default function ScalingFeat({
   featBenefits,
   featSpecial,
   scaleBenefits,
+  setInnerHtml,
   className,
 }) {
   return (
@@ -20,12 +21,26 @@ export default function ScalingFeat({
       featSpecial={featSpecial}
       additonalBodyContent={
         scaleBenefits
-          ? scaleBenefits.map((scaleBundle, index) => (
-              <p className="Feat-Scalable-Benefit-Segment" key={index}>
-                <b>{scaleBundle.step}: </b>
-                {scaleBundle.benefit}
-              </p>
-            ))
+          ? scaleBenefits.map((scaleBundle, index) => {
+              if (setInnerHtml) {
+                return (
+                  <p
+                    key={index}
+                    className="Feat-Scalable-Benefit-Segment"
+                    dangerouslySetInnerHTML={{
+                      __html: `<b>${scaleBundle.step}: </b> ${scaleBundle.benefit}`,
+                    }}
+                  />
+                );
+              } else {
+                return (
+                  <p className="Feat-Scalable-Benefit-Segment" key={index}>
+                    <b>{scaleBundle.step}: </b>
+                    {scaleBundle.benefit}
+                  </p>
+                );
+              }
+            })
           : null
       }
     />

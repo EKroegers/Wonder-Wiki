@@ -1,0 +1,151 @@
+{
+  "name": "Apostate",
+  "role": "Depends",
+  "alignment": "Any",
+  "hitDie": "d10",
+  "startingWealth": "5d6 x 10 gp (average 175 gp.)",
+  "classSkills": "Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Knowledge (nobility) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int)",
+  "maxLevel": 20,
+  "baseAttackBonusType": "Full",
+  "saveTypes": { "Fortitude": "Good", "Reflex": "Bad", "Willpower": "Bad" },
+  "classFeatures": [
+    {
+      "featureName": "Ideal",
+      "featureDescription": "At first level, the Apostate selects an Ideal that they embody, one that drives their actions and symbolizes their goals. Once selected, this Ideal cannot be changed.<br/><br/><i>Heroism: </i>The Apostate is the greatest of us. Embodying the characteristics befitting of a true hero, they are the first into battle, and the last man standing.<br/><br/><i>Righteousness: </i>The Apostate embodies what all strive for, akin to divinity. Paragons of virtue, they are the guiding light that shines upon all beneath them.<br/><br/><i>Truth: </i>The Apostate brings to light the truths buried under the dark deceptions of the modern world. It is their duty to uncover the truth, no matter the cost.<br/><br/>The Apostate gains <a target='_blank' href='https://www.d20pfsrd.com/feats/general-feats/leadership/'>Leadership</a> as a bonus feat.<br/><br/>Their cohorts and followers cannot exceed their own level.",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Flaw",
+      "featureDescription": "At first level, the Apostate selects a Flaw that afflicts them, one that underlines their actions and colors their outlook. Once selected, this Flaw cannot be changed.<br/><br/><i>Guilt: </i>This world scares you. You have delivered its evils firsthand, and it falls to you in order to atone for these sins, by any means necessary.<br/><br/><i>Hatred: </i>This world sickens you. Those who do not step in line should be cut down, and all that is keeping you from taking that matter into your own hands… is you.<br/><br/><i>Apathy: </i>This world is beneath you. The petty back and forth of the modern carousel of progress is exhausting, and you've more than once considered bringing it to an end.<br/><br/>The Apostate gains Diehard as a bonus feat.",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fate of the Chosen",
+      "featureDescription": "At 2nd level, the Apostate becomes painfully aware that their fate is not in their hands, and they cannot quell the desire to change that fact.<br/><br/>At the beginning of each day, the Apostate rolls two d20's, known as Fate Dice, recording their results for later use. At any time a d20 is rolled by the Apostate or their allies, the Apostate may substitute one of their Fate Dice for the roll that was actually made.<br/><br/>Each Fate Die can only be used once, and at the beginning of the next day the Apostate loses any unused Fate Dice.",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ordinance",
+      "featureDescription": "At 3rd level, the Apostate finds their fate intertwined in equal measure to their Ideals, and their Flaws.<br/><br/>The Apostate must define two Ordinances for themselves; one tied to their Ideal, and one tied to their Flaw. These must be goals or tasks that guide them in a direction of embodying their Ideal or Flaw, and they gain boons in pursuing either.<br/><br/>When pursuing their Ideal Ordinance, the number on any die rolls made against them with the goal to impede their progress are reduced by an amount equal to their Ordinance Boon.<br/><br/>When pursuing their Flawed Ordinance, the number on any die rolls they make in an effort to pursue their goal are increased by an amount equal to their Ordinance Boon.<br/><br/>The bonus cannot increase the number on the die beyond its maximum, and the penalty cannot decrease the number on the die below its minimum.<br/><br/>The Apostate's Ordinance Boon is equal to their total Apostate Class Level divided by four.",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Chosen Ideal",
+      "featureDescription": "At 4th level the Apostate has solidified their vision for their Ideal, taking steps to shape themselves into this greater version of themselves.<br/><br/><i>Heroism: </i>The Apostate has grown accustomed to throwing themselves into danger ahead of their allies. For each creature whose reach you occupy, you gain DR 1/- for as long as you are within their reach.<br/><br/><i>Righteousness: </i>With divine justice on their side, and an ironclad dedication to their morals, the Apostate is protected from even the greatest of harm. Damage dealt to the Apostate cannot exceed double their number of hit dice from a single attack.<br/><br/><i>Truth: </i>The Apostate has a tendency for learning things they should never have known. Whenever the Apostate is targeted by an attack or ability, they are given all of the details of the function, mechanics, numbers, and intent behind that attack or ability.",
+      "featureLevel": 4,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Minute Flaw",
+      "featureDescription": "At 4th level, the Apostate's Flaw has taken root, silently pushing them to perform acts that feed its festering growth.<br/><br/><i>Guilt: </i>The Apostate's guilt drags them to depths unheard of, and they know not if they will ever return. Whenever the Apostate takes damage, they may cause the creature that caused that damage to begin to bleed. The bleed damage the creature takes every turn is equal to the charisma modifier of the Apostate. This bleed damage persists until the Apostate or the bleeding creature is healed.<br/><br/><i>Hatred: </i>The Apostate's hatred burns with an eternal flame, and the flame demands sacrifice. For every successful attack the Apostate makes in combat, they gain a +1 bonus to hit and damage for the remainder of combat.<br/><br/><i>Apathy: </i>The Apostate's apathy pushes them to find interest in toying with the lives of others, something that they find they are quite good at. Whenever damaging or being damaged by a creature, the Apostate may inflict Confusion on them. The Apostate may choose the result of the Confusion if the creature cannot act normally.",
+      "featureLevel": 4,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Burden of the Chosen",
+      "featureDescription": "At 5th level, the Apostate begins to truly understand the weight of the shackles of Fate, but chains are weapons all the same.<br/><br/>The Apostate gains an additional Fate Die, to a total of three, and gains the additional ability to replace the d20 rolls of adversaries with their Fate Dice.",
+      "featureLevel": 5,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Playing the Hero",
+      "featureDescription": "At 7th level, the Apostate has become adept in the art of keeping up appearances, whether for their sake or others.<br/><br/>The Apostate adds their Class Level to the following skills; Diplomacy, Bluff, Intimidate, Linguistics, and Sense Motive.<br/><br/>Additionally, the Apostate may treat their class levels as Paladin levels for the sake of qualifying for magic items, feats, and other such benefits.",
+      "featureLevel": 7,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Moral Imperative",
+      "featureDescription": "At 8th level, the Apostate has learned that heroism and villainy are rather limber concepts.<br/><br/>The Apostate may choose to be treated as the most favorable alignment when affected by effects whose effects vary based on alignment.",
+      "featureLevel": 8,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Focused Ideal",
+      "featureDescription": "At 9th level, the Apostate's Ideal has become synonymous with themselves, and the Apostate sees a clear path of ascension before them.<br/><br/><i>Heroism: </i>A master of horde combat, none may join the Apostate in battle without being forced to play by their rules. If the Apostate threatens an area that is also threatened by an enemy, the area is treated as only being threatened by the Apostate.<br/><br/><i>Righteousness: </i>The Apostate cannot allow their righteous crusade to be halted by anything. Whenever in combat, the Apostate gains a divine bonus to their saving throws equal to their hit dice<br/><br/><i>Truth: </i>The Apostate may force Truth and Lies to reconcile to something more concrete. The Apostate may, as a swift action, inquire about an enemies bonus to one type of d20 roll. The enemy may reply however they wish, however they will take a penalty on that roll equal to the difference between their answer and their actual bonus. The enemy is not made aware of this consequence. This lasts until the Apostate takes a long rest.",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Persistent Flaw",
+      "featureDescription": "At 9th level, the Apostate's Flaw has begun to bleed into their words and actions, corrupting their thoughts and changing them from within.<br/><br/><i>Guilt: </i>Pain is something the Apostate has become intimately familiar with, both in how to deal with receiving it, and how to inflict it. The Apostate may choose to link themselves to a creature they can see as a standard action. Any changes to the creature's hit points are also applied to the Apostate's hit points, and vice versa. Effects that simultaneously affect both of their hit points apply twice.<br/><br/><i>Hatred: </i>The intense feeling that strikes the Apostate in combat is otherworldly, and gives them the strength to fight on more than anything they have ever known. When dealing damage to an enemy, the Apostate gains temporary hit points equal to the damage dealt. These hit points stack with themselves and last until the beginning of the Apostate's next turn.<br/><br/><i>Apathy: </i>The Apostate has grown used to the feeling of emptiness within them, though others are far less willing to become acquainted with it. Whenever dealing damage to a creature, the Apostate applies a -1 penalty to each of their ability scores. This penalty applies until the creature or the Apostate takes a long rest.",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Epiphany",
+      "featureDescription": "At 10th level, the Apostate has been met with a number of trials, and with every pristine ending they reach, the bloody means by which they reached it eat at them more and more. If they believe their Ideal ends to justify their Flawed means, then they gain one of the following abilities; <br/><br/><i>Guilt: </i>The Apostate may designate a number of hit points they are willing to sacrifice for Penance. For one turn they gain a bonus to hit and damage equal to the amount decided for Penance, and at the end of their turn their hit points are lowered by the number of points decided for Penance.<br/><br/><i>Hatred: </i>The Apostate may, as a swift action, designate their next attack as a Hateful Strike. If the Hateful Strike is successful, then it is considered a critical hit.<br/><br/><i>Apathy: </i>The Apostate may, as a swift action, choose to obfuscate their turn. They may choose the actions they want to take, and the actions they appear to take. This obfuscation lasts until the beginning of the Apostate's next turn, and illusions created as a part of this obfuscation are impossible to discern as such by means short of True Seeing.<br/><br/>If they instead believe that even Flawed ends can be justified by Ideal means, they instead gain one of the following abilities;<br/><br/><i>Heroism: </i>The Apostate's allies can use their initiative roll in place of their own if the Apostate's roll exceeded their own.<br/><br/><i>Righteousness: </i>Whenever the Apostate is hit with an attack, they gain a bonus to their divine bonus to AC equal to their Charisma Modifier until the end of their next turn.<br/><br/><i>Truth: </i>The Apostate may establish a 30ft radius sphere of Absolution as a swift action. Whenever the Apostate establishes this area, they may make a statement. If this statement is one of Truth, all things said within this area are forced to be truths. If this statement is one of Lies, all things said within this area are forced to be lies. This area lasts for as long as the Apostate maintains concentration.",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Path of the Chosen",
+      "featureDescription": "At 12th level, the Apostate is beginning to take measures to bend fate to their will, a folly that has claimed many before them, but one that they undertake nonetheless.<br/><br/>The Apostate may expend one Fate Die to replicate the effects of a successful <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/d/divination/'>Divination</a>. <br/><br/>Additionally, the Apostate gains an additional Fate Die, to a total of four.",
+      "featureLevel": 12,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fate's Favorite",
+      "featureDescription": "At 13th level, the Apostate finds that a grisly death is a minor inconvenience when you're being dragged about by the whims of forces far greater than yourself. <br/><br/>Once per day, whenever the Apostate is killed, they are immediately placed under the effects of <a target='_blank' href='https://www.d20pfsrd.com/classes/core-classes/cleric/domains/paizo-domains/healing-domain/resurrection/'>Resurrection</a>, and are considered willing regardless of the Apostate's actual opinion on the matter. The negative level gained in this revival is considered temporary.<br/><br/>Additionally, the Apostate ceases to age, and is immune to effects that age them.",
+      "featureLevel": 13,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "High Ideal",
+      "featureDescription": "At 14th level, the Apostate has formed themselves into something greater than any mortal, becoming a ubiquitous symbol of their Ideal.<br/><br/><i>Heroism: </i>The Apostate is nearly unmatched in martial combat, their swiftness and strength are devastating in equal measure. Attacks directed at the Apostate provoke Attacks of Opportunity. Should the Apostate exceed the attack roll of the attack directed at them, the attack misses instead.<br/><br/><i>Righteousness: </i>The Apostate is the perfect warrior for the endless warfare of the Gods. The Apostate gains Regeneration equal to their Charisma modifier. This Regeneration is suppressed for one minute if the Apostate receives precision damage.<br/><br/><i>Truth: </i>The Apostate has learned to twist the words of liars back upon them, impaling them on their own sword. Whenever the Apostate inflicts a penalty to the rolls of a creature, the Apostate gains a bonus to all rolls equal to that penalty. This persists for as long as the penalty does.",
+      "featureLevel": 14,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Glaring Flaw",
+      "featureDescription": "At 14th level, the Apostate's Flaw grows out of control, seeping into every aspect of the Apostate's life until there is no escape.<br/><br/><i>Guilt: </i>The Apostate has become accustomed to the suffering that permeates the world, having caused so much of it, they have grown used to directing its flow. Whenever an attack or ability occurs within the sight of the Apostate, and it is capable of instead targeting the Apostate, the Apostate may decide to direct the attack or ability at themselves as an immediate action.<br/><br/><i>Hatred: </i>The Apostate is most happy when they are able to carve their enemies asunder, taking pride in their work. Whenever the Apostate confirms a Critical Hit, or makes a Hateful Strike, they are allowed to make an additional attack at the same base attack bonus.<br/><br/><i>Apathy: </i>The Apostate has mastered the art of making their actions and words operate independently. The Apostate may reverse the effects of one action they take per turn if they dislike the results. In reversing the action they gain the ability to try a different action, and nobody except for the Apostate is aware that the first action took place. Additionally, illusions made by the Apostate cannot be discerned as such by any means.",
+      "featureLevel": 14,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Strength of the Chosen",
+      "featureDescription": "At 15th level, the Apostate has made great strides, gaining immense power in their journey, but might alone is still insufficient to overcome fate's grasp.<br/><br/>The Apostate the Apostate would be killed by hit point damage, they may expend a Fate Die to instead negate that damage.<br/><br/>Additionally, the Apostate gains an additional Fate Die, to a total of five.",
+      "featureLevel": 15,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fatalist",
+      "featureDescription": "At 17th level, the Apostate cannot die until their destiny is fulfilled. They will be returned to life… whether they wish it or not.<br/><br/>When resurrecting from death with Fate's Favorite, the Apostate is treated as the benefactor of the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/t/true-resurrection/'>True Resurrection</a>.",
+      "featureLevel": 17,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Will of the Chosen",
+      "featureDescription": "At 18th level, the Apostate has finally gained the means to change their fate.<br/><br/>The Apostate may expend a Fate Die in order to perform a <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/m/miracle/'>Miracle</a>.<br/><br/>Additionally, the Apostate gains an additional Fate Die, to a total of six.",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Grand Ideal",
+      "featureDescription": "At 19th level the Apostate has outwardly embodied their Ideal in its entirety, becoming what they always wanted to be.<br/><br/><i>Heroism: </i>There is nothing the Apostate cannot fight, no number of men that could be thrown before them that they would not be able to kill. As a free action, the Apostate may <a target='_blank' href='https://www.d20pfsrd.com/gamemastering/Conditions/#antagonized3pp'>Antagonize</a> any number of creatures that they can see or hear, or that can see or hear them. When taking this action, the Apostate's reach doubles.<br/><br/><i>Righteousness: </i>The Apostate will fight as long as the flame of righteousness burns within them. Brushing the realm of the gods, their resilience is divine. For each attack received in a round, the apostate gains DR1/-. This damage reduction lasts until the end of their next turn.<br/><br/><i>Truth: </i>The Apostate has found the Absolute Truth of the world, and they may force the world to adhere to it. Whenever targeted by an ability or attack which the Apostate knows the mechanics of, the Apostate may choose to be unaffected by it.",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Crippling Flaw",
+      "featureDescription": "At 19th level the Apostate's Flaw has all but consumed them, burning through to the very core of their being and branding itself upon their soul.<br/><br/><i>Guilt: </i>Nothing will ever be enough to absolve the Apostate, so they are intent on taking others down with them. If the Apostate is reduced below zero hit points, they may, as an immediate action, reduce any creatures of their choice that they can see to 1 hit point. Once a creature has been targeted by this ability, they are immune to it for 24 hours. <br/><br/><i>Hatred: </i>Once the Apostate has made their prey bleed, the battle is already over. All damage dealt by the Apostate on a given turn is dealt once more at the beginning of the wounded creature's next turn as bleed damage.<br/><br/><i>Apathy: </i>Once the Apostate finds interest in something, they find it difficult to leave things alone, not until their new toy is broken, that is. If the Apostate has previously controlled the actions of a creature, they may force the creature to repeat the action the Apostate previously forced them to take as a move action.",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Sacrificial Lamb",
+      "featureDescription": "At 19th level the Apostate knows better than any other that power requires sacrifice.<br/><br/>Upon reaching 19th level, the Apostate may choose to sacrifice any Cohorts or Followers they gained from the Leadership feat to immediately advance to level 20.",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Apotheosis",
+      "featureDescription": "At 20th level the Apostate must make a choice; Overcome your Flaw, or allow it to consume you. If they allow their Flaw to consume them, then they gain one of the features listed below; <br/><br/><i>Guilt: </i>The Apostate may, as a Full-Round action, sacrifice everything to atone. The Apostate chooses a number of hit points to sacrifice. The Apostate, as well as every creature of their choosing that they can see, sacrifice the same number of hit points.<br/><br/><i>Hatred: </i>The Apostate may, as a Full-Round action, enter a state of abject hatred. This causes all successful attacks made by the Apostate to be considered critical hits. This lasts for one minute. The Apostate may use this ability once per day.<br/><br/><i>Apathy: </i>The Apostate may, as a Full-Round action, dissolve the line between themselves and others. This allows the Apostate to select another creature of their choosing that they can see, and force that creature to take a full turn under the control of the Apostate. The creature has no input on the actions taken during this time. The Apostate may use this ability once per day.<br/><br/>If they instead overcome their Flaw, then they gain one of the features listed below instead;<br/><br/><i>Heroism: </i>The Apostate may, as a swift action, grant all of their allies an additional turn in combat, taken immediately. The Apostate may use this ability once per day.<br/><br/><i>Righteousness: </i>The Apostate may, as a swift action, grant all of their allies their ability to reduce all damage dealt to a maximum of double the Apostate's number of hit dice. This lasts for one minute. The Apostate may use this ability once per day.<br/><br/><i>Truth: </i>The Apostate may, as a swift action, grant all of their allies knowledge of any attacks or abilities of their choosing, and their ability to become immune to said attacks or abilities. This lasts for one minute. The Apostate may use this ability once per day.<br/><br/>Additionally, the Apostate gains an additional Fate Die, to a total of seven.",
+      "featureLevel": 20,
+      "setInnerHtml": true
+    }
+  ]
+}

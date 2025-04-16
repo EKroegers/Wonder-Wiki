@@ -21,6 +21,7 @@ export function HomebrewFeats() {
               featBenefits={feat.benefits}
               featSpecial={feat.special ?? ''}
               scaleBenefits={feat.scaleBenefits}
+              setInnerHtml={feat.setInnerHtml}
             />
           );
         } else {
@@ -33,6 +34,7 @@ export function HomebrewFeats() {
               featPrerequisites={feat.prerequisites ?? ''}
               featBenefits={feat.benefits}
               featSpecial={feat.special ?? ''}
+              setInnerHtml={feat.setInnerHtml}
             />
           );
         }
