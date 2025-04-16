@@ -30,7 +30,7 @@
     {
       "featureName": "Ordinance",
       "featureDescription": "At 3rd level, the Apostate finds their fate intertwined in equal measure to their Ideals, and their Flaws.<br/><br/>The Apostate must define two Ordinances for themselves; one tied to their Ideal, and one tied to their Flaw. These must be goals or tasks that guide them in a direction of embodying their Ideal or Flaw, and they gain boons in pursuing either.<br/><br/>When pursuing their Ideal Ordinance, the number on any die rolls made against them with the goal to impede their progress are reduced by an amount equal to their Ordinance Boon.<br/><br/>When pursuing their Flawed Ordinance, the number on any die rolls they make in an effort to pursue their goal are increased by an amount equal to their Ordinance Boon.<br/><br/>The bonus cannot increase the number on the die beyond its maximum, and the penalty cannot decrease the number on the die below its minimum.<br/><br/>The Apostate's Ordinance Boon is equal to their total Apostate Class Level divided by four.",
-      "featureLevel": 2,
+      "featureLevel": 3,
       "setInnerHtml": true
     },
     {
