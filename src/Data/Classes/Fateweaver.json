@@ -1,0 +1,247 @@
+{
+  "name": "Fateweaver",
+  "role": "Striker (Damage), Support (Debuff), Defender (Area Control)",
+  "alignment": "Any",
+  "hitDie": "d8",
+  "startingWealth": "5d6 x 10 gp (average 175 gp.)",
+  "classSkills": "Appraise (Int), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (nobility) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int)",
+  "skillRanks": 2,
+  "maxLevel": 20,
+  "baseAttackBonusType": "3/4",
+  "saveTypes": { "Fortitude": "Bad", "Reflex": "Good", "Willpower": "Good" },
+  "classFeatures": [
+    {
+      "featureName": "Threads of Fate",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver is able to see and manipulate the Threads of Fate, turning determinism into a deadly weapon.</p><p>The Threads of Fate are melee weapons with a reach equalling a number of 5ft increments equal to the Wisdom modifier of the Fateweaver, dealing 1 point of slashing damage. The Fateweaver may add their Wisdom Modifier to their rolls to hit and to damage dealt. The Threads of Fate are not subject to an enemy's Damage Reduction.</p><p>The Threads of Fate are summoned into existence whenever the Fateweaver wishes to use them, manifesting in their grasp.</p><p>While manifested, the Threads of Fate are vulnerable to being sundered.</p><p>The Threads of Fate have a hardness equal to the Fateweaver's number of hit dice plus their Wisdom modifier, and a single hit point.</p><p>The Threads of Fate are invisible to those who have not been damaged by them yet.</p><p>If a Thread of Fate is destroyed, the Fateweaver may reclaim it during their next Long Rest.</p><p>The Fateweaver begins play with two Threads of Fate available to use.</p><p>The Threads of Fate are ineffective against foes unbound by the concept of fate, the Threads breaking on contact with their form. This caveat is, in these situations, generally the least of the Fateweavers worries.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Arachnid Empathy",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver holds a kinship with nature's weavers.</p><p>At 2nd level, the Fateweaver gains the following ability;</p><p>All arachnid creatures are considered Friendly towards the Fateweaver unless provoked. Additionally, the Fateweaver may share an arachnid's senses with a touch, and this ability lasts as long as the Fateweaver concentrates on it.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Grasping Threads",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver has tightened their grip on Fate, learning how to use it to entrap their foes within their own destiny.</p><p>At 2nd level, the Fateweaver gains the following ability;</p><p>Whenever dealing damage to a creature using their Threads of Fate, the Fateweaver may make a Grapple attempt as a Free Action, using the bonus to hit of the attack as their combat maneuver check.</p><p>When grappling a creature with a Thread of Fate, the Fateweaver does not gain the grappled condition.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Evasion",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 3rd level and higher, the Fateweaver can avoid even magical and unusual attacks with great agility. If they make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, they instead take no damage.&nbsp;</p><p>A helpless Fateweaver does not gain the benefit of Evasion.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Dancing Threads",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver has learned the flow of Fate, and how to deftly dance between its deadly movements.</p><p>At 3rd level, the Fateweaver gains the following ability;</p><p>The Fateweaver may leave their Threads of Fate manifested within reality, even when not in use.</p><p>This grants the benefit of providing a deflection bonus to the Fateweaver's AC equal to their Wisdom Modifier for each thread they possess.</p><p>Additionally, the Fateweaver may make an attack against a creature within range using their Threads of Fate as an Immediate Action.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Razor Wire",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver has taken to weaving a web of their own, and their enemies invariably tumble into its grasp.</p><p>At 4th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may, as a Free or Immediate Action, position one of their Threads as a trap. The Fateweaver chooses two points, both of which must be within the reach of the Fateweaver's Threads, and position one of their Threads between those two points, so long as it does not pass through a square occupied by another creature.</p><p>If a creature passes into a square occupied by the Thread, they may make a Reflex Save (DC 10 + ½ the Hit Dice of the Fatewweaver + the Fateweaver's Wisdom Modifier) if they are able to see the Thread. On a failed save the enemy is damaged by the Thread as if by an attack.</p><p>When Threads are being used as traps, the Fateweaver gains no benefit from them being manifested, and may not use them to make attacks.</p><p>The Fateweaver may recall all Threads that are being used as traps as a Move Action.</p><p>Additionally, the Threads of Fate now deal 5 base damage, have a critical range of 19-20, and a x3 critical multiplier.</p><p>Furthermore, the Fateweaver gains an additional Thread of Fate, to a total of 3.</p>",
+      "featureLevel": 4,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Widow's Web",
+      "featureType": "Do",
+      "featureDescription": "<p>The Fateweaver has created their first Masterpiece; their Widow's Web. All those who step within it, none who escape it do so unharmed.</p><p>At 5th level, the Fateweaver gains the following ability;</p><p>The Widow's Web is a<i> Standard-Radius Opaque Barriered Non-Distributive</i> <a target='_blank' href='#/player-homebrew/domains/'>Domain</a> which uses Wisdom as its key ability score and can be used a number of times per day equal to the Fateweaver's Wisdom Modifier.</p><p>As a part of the Full-Round Action to create Widow's Web, the Fateweaver may place any number of their Threads as traps within the area affected by the Web.</p><p>All creatures within the vulnerable area must make a Reflex Save (DC 10 + ½ the Fateweaver's number of Hit Dice + the Fateweaver's Wisdom Modifier) or become Grappled by the Widow's Web. Creatures who cannot see the Threads of Fate automatically fail this save. Regardless of success or failure, the Widow's Web is considered to be difficult terrain.</p><p>Creatures who are grappled by the Widow's Web are automatically hit by Threads of Fate when attacked.</p>",
+      "featureLevel": 5,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Recluse's Venom",
+      "featureType": "Su",
+      "featureDescription": "<p>The pain Fate inflicts upon you is very rarely the cause of death. The far more insidious killer is what comes after.</p><p>At 6th level, the Fateweaver gains the following ability;</p><p>The Fateweaver's Threads of Fate may carry an Innate Poison.</p><p>The Fateweaver's Innate Poison is a <a target='_blank' href='#/reworks/poisons/'>poison</a> with a Grade equal to the Fateweaver's Wisdom Modifier.</p><p>The Fateweaver decides the effects of their Innate Poison whenever dealing damage to with their Threads of Fate, though the Innate Poison is always an Injury type poison requiring a Fortitude Save (DC 10 + ½ the Fateweaver's number of Hit Dice + the Fateweaver's Wisdom Modifier).</p><p>The Fateweaver may imbue attacks made with their Threads with their Innate Poison a number of times per day equal to their Wisdom Modifier.</p><p>All attacks made by the Fateweaver within their Widow's Web carry the Fateweaver's Innate Poison.</p>",
+      "featureLevel": 6,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Abstraction",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Fateweaver has grown used to operating outside the normal flow of the world, and embraced their role as something other than mortal.</p><p>At 7th level, the Fateweaver gains the following ability;</p><p>The Fateweaver becomes unbound by the natural laws that govern this world. This grants a variety of benefits.</p><p>Darkvision 60 feet.</p><p>Immunity to precision damage.</p><p>When the Fateweaver is slain, no soul is set loose. Spells that restore souls to their bodies, such as raise dead, reincarnate, and resurrection, don't work on the Fateweaver. It takes a different magical effect, such as a limited wish, wish, miracle, or true resurrection to restore it to life.&nbsp;</p><p>The Fateweaver does not need to eat, breathe, or sleep</p>",
+      "featureLevel": 7,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Sheet Web",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Fateweaver's web has become a part of them. They are inseparable from their Threads of Fate.</p><p>At 8th level, the Fateweaver gains the following ability;</p><p>The Fateweaver gains an additional Attack of opportunity and an additional Immediate and Swift Action pair for each Thread of Fate they have manifested.</p>",
+      "featureLevel": 8,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Tangleweb",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Threads of Fate bind many impossibly tight, and the Fateweaver wields those Threads with deadly efficiency.</p><p>At 9th level, the Fateweaver gains the following ability;</p><p>Whenever damaging something with their Threads of Fate, the target of the attack is entangled for a number of rounds equal to the Fateweaver's Wisdom Modifier. On a successful Critical Hit, the target is instead Grappled.</p><p>Additionally, the Threads of Fate now deal 10 base damage, have a critical range of 18-20, and a x4 critical multiplier.</p><p>Furthermore, the Fateweaver gains an additional Thread of Fate, to a total of 4.</p>",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Improved Evasion",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 10th level, the Fateweaver gains Improved Evasion.</p><p>This works like Evasion, except that while the Fateweaver still takes no damage on a successful Reflex saving throw against attacks, they henceforth take only half damage on a failed save.&nbsp;</p><p>A helpless Fateweaver does not gain the benefit of Improved Evasion.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fatebound",
+      "featureType": "Sp",
+      "featureDescription": "<p>In weaving the Threads of Fate, the Fateweaver has learned the best of ways to intertwine two strings, making them all the easier to cut. This weave is their second Masterpiece.</p><p>At 10th level, the Fateweaver gains the following ability;</p><p>When selecting two points to place a Thread to create a trap, the Fateweaver may select two creatures as the anchor points.</p><p>When doing this, the creature's Fates are bound. Any effects that befall one creature, also afflict the other in equal measure. Effects that afflict both creatures, also afflict the other, effectively doubling the consequences.</p><p>When anchoring these two creatures, the Thread of Fate still functions as it would if it were a trap.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Gallows Dive",
+      "featureType": "Sp",
+      "featureDescription": "<p>Fate and Death are truly inexorable concepts for all beings. The Fateweaver is the embodied deliverance of both.</p><p>At 11th level, the Fateweaver gains the following ability;</p><p>As a Standard Action, the Fateweaver may attempt to hang a creature grappled by their Thread of Fate.</p><p>The creature must succeed a Fortitude Save (DC 10 + ½ the Fateweaver's number of Hit Dice + the Fateweaver's Wisdom modifier) or be killed.</p><p>If the creature succeeds they are instead elevated into the air (to a height of the Fateweaver's choosing but still within the effective radius of the Threads of Fate) and begin to asphyxiate as if affected by <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/s/suffocation/'>Suffocation</a>.</p><p>The creature automatically fails their saving throw if they are within the Fateweaver's Widow's Web.</p>",
+      "featureLevel": 11,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Flow of Fate",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver can twist their own Fate as easily as they twist the Fates of others. It is in using both of these skills in tandem that they become truly dangerous.</p><p>At 12th level, the Fateweaver gains the following ability;</p><p>Whenever anchoring between two creatures with a Thread of Fate, such as using the Fatebound ability, the Fateweaver may choose to have anything that affects one creature instead affect the other, with nothing happening to the initially targeted creature.</p><p>If more than two creatures are anchored together by a Thread of Fate, or multiple creatures are chained together with multiple Threads of Fate, then the Fateweaver may choose which creature the effects are passed to.</p><p>All creatures within the Fateweaver's Widow's Web are considered to be anchored together by a Thread of Fate.</p><p>Additionally, the Fateweaver may choose to have Threads of Fate connecting things be immaterial, and only visible and existent to themselves. Threads of Fate are unable to restrict movement in this state.</p><p>Furthermore, the Threads of Fate now deal 15 base damage, have a critical range of 17-20, and a x5 critical multiplier.</p><p>Lastly, the Fateweaver gains an additional Thread of Fate, to a total of 5.</p>",
+      "featureLevel": 12,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Single Step Catalyst",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver thrives in situations when they can plan ahead, using the flow of Fate to guide their actions. They know better than any how quickly Fate can turn.</p><p>At 13th level, the Fateweaver gains the following ability;</p><p>Whenever targeted by an attack, the Fateweaver may use a Thread of Fate in order to intercept the attack. When intercepting an attack, the Fateweaver must make an attack roll as an Immediate Action. If the Fateweaver's attack roll exceeds the attack roll of the intercepted attack then the attack is negated.</p><p>If the Fateweaver successfully intercepts an attack, they may make an attack of opportunity, turning the intercepted attack on the attacker. The Fateweaver uses the attack roll that successfully intercepted the offending attack as the attack roll for the roll to hit against the attacker.</p><p>The Fateweaver may intercept any attacks within their Widow's Web, even ones that are not directed at themselves.</p><p>The Fateweaver may redirect attacks with this ability made by either Fatebound creature if either one of them is within the Fateweaver's reach.</p>",
+      "featureLevel": 13,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Unbreaking Weave",
+      "featureType": "Sp",
+      "featureDescription": "<p>Though a single strand may be weak, the Fateweaver is capable of harnessing the strength of infinity.</p><p>At 14th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may use one of their Threads of Fate in order to create an effect akin to <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/w/wall-of-force/'>Wall of Force</a>, using their Hit Dice as their Caster Level, as a Standard Action. The Fateweaver may pass through this Weave without impediment if they so wish.</p><p>When within their Widow's Web, the hit points of the effect are multiplied by the Wisdom Modifier of the Fateweaver.</p><p>The Fateweaver may turn any Thread of Fate currently manifested into an Unbreaking Weave, even those connecting two creatures. In this case both creatures are Grappled to the Undreaking Weave if their CMD is lesser than the Fateweaver's Thread of Fate attack roll.</p>",
+      "featureLevel": 14,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Puppeteer",
+      "featureType": "Sp",
+      "featureDescription": "<p>Fate puppets all beings to their inevitable end, the Fateweaver has learned to do the same. This is their third Masterpiece.</p><p>At 15th level, the Fateweaver gains the following ability;</p><p>Whenever a creature is slain within the reach of the Fateweaver's Threads of Fate, the Fateweaver may choose to turn their body into a Puppet using one of their Threads as an Immediate Action.</p><p>Puppets have the following characteristics;</p><p>They are no longer sentient, and act under the direct control of the Fateweaver, requiring no action to issue commands.</p><p>They retain all characteristics and abilities they had in life.</p><p>Any effects contingent on their death do not activate unless allowed by the Fateweaver, however they will activate upon the destruction of the Puppet.</p><p>The Puppet begins play at 0 hit points, and when their negative hit points equal their hit point maximum, they are destroyed.</p><p>The Thread of Fate controlling the Puppet extends from their body directly upwards, vanishing once out of the Thread's range. If the Thread is Sundered, the Puppet is destroyed.</p><p>Puppets are considered objects.</p><p>While within the Fateweaver's Widow's Web, the Puppet may be treated as if they are the Fateweaver for the sake of any affects the Fateweaver wishes.</p><p>If a Puppet is created by a death as the result of Gallows Dive, they are instead restored to their hit point maximum upon becoming a Puppet.</p><p>So long as the Puppet remains intact, the Thread used to create it is considered lost, and may not be used in any other capacity by the Fateweaver.</p>",
+      "featureLevel": 15,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Communal Web",
+      "featureType": "Su",
+      "featureDescription": "<p>To weave together the tapestry of Fate is a long and arduous task. The Fateweaver may occasionally allow themselves to receive help.</p><p>At 16th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may grant another creature one of their Threads of Fate. When wielding a Thread of Fate, the receiving creature may use any features dependent on the Thread of Fate, so long as they are not one of the Fateweaver's Masterpieces.</p><p>Additionally, the Threads of Fate now deal 20 base damage, have a critical range of 16-20, and a x6 critical multiplier.</p><p>Furthermore, the Fateweaver gains an additional Thread of Fate, to a total of 6.</p>",
+      "featureLevel": 16,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Funnel Web",
+      "featureType": "Su",
+      "featureDescription": "<p>The way Fate entraps its prey is not entirely dissimilar to the behavior of a ravenous spider, and the Fateweaver shares in that same hunger.</p><p>At 17th level, the Fateweaver gains the following ability;</p><p>Creatures that pass within the Fateweaver's threatened area are Entangled, and must make a Reflex Save (DC 10 + ½ the Fateweaver's Hit Dice + the Fateweaver's Wisdom Modifier) or become Grappled, affixed to the ground by an ethereal web.</p><p>Creatures who become Entangled or Grappled by Funnel Web are also subject to the Fateweaver's Recluse's Venom ability.</p><p>Creatures within the Fateweaver's Widow's Web automatically fail their saving throw.</p><p>Puppets created by the Fateweaver also gain this ability.</p>",
+      "featureLevel": 17,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Prophecy",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver can force Fate to play out before their very eyes, and step outside of that Fate whenever they wish. This is their fourth Masterpiece.</p><p>At 18th level, the Fateweaver gains the following ability;</p><p>When damaging a creature with a Thread of Fate, the Fateweaver may force them to choose their future. When this occurs, the damaged creature must select all actions they will take on their next turn, and these actions become known to the Fateweaver.</p><p>When the creature's turn comes to pass, they cannot deviate from the actions they previously selected, even if the situation has changed to where those actions may no longer be viable, or even be harmful.</p><p>The damaged creature does not become aware of Prophecy taking place until the end of their prophesied turn.</p><p>The Fateweaver may use this ability once per day per Thread of Fate they possess.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Eternal Binds",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Fateweaver knows better than any that there is no way to escape the end you are destined for, and they intend to keep this an absolute truth.</p><p>At 19th level, the Fateweaver gains the following ability;</p><p>When using Fatebound to connect two creatures, once they are connected there is no limit to the distance they may be apart, so long as the Thread remains immaterial.</p><p>Additionally, the Threads of Fate now deal 25 base damage, have a critical range of 15-20, and a x7 critical multiplier.</p><p>Furthermore, the Fateweaver gains an additional Thread of Fate, to a total of 7.</p>",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Maestro",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver has perfected their craft.</p><p>At 20th level, the Fateweaver gains the following ability;</p><p>Whenever an effect would knock the Fateweaver unconscious or kill them, the Fateweaver may destroy one of their Threads of Fate or one of their Puppets to negate the effect.</p><p>While any of their Masterpieces are in effect, they may restore a destroyed Thread of Fate as a Full-Round Action.</p><p>Additionally, the Threads of Fate now deal 50 base damage, have a critical range of 10-20, and a x8 critical multiplier.</p><p>Furthermore, the Fateweaver gains an additional Thread of Fate, to a total of 8.</p><p>Lastly, the Fateweaver's Threads of Fate become unbreakable, and they become immune to any effects that concern Fate, Wishes, and abilities that manipulate dice.</p>",
+      "featureLevel": 20,
+      "setInnerHtml": true
+    }
+  ],
+  "epicLevelClassFeatures": [
+    {
+      "featureName": "Eternal Prophecy",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver knows all, and they needn't hold back any longer.</p><p>At 21st level, the Fateweaver gains the following ability;</p><p>There is no longer a limit to the number of times the Fateweaver may use Prophecy.</p>",
+      "featureLevel": 21,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Invisible Strand",
+      "featureType": "Su",
+      "featureDescription": "<p>The bending and refraction of light is a beautiful phenomena, but pales in comparison to the Fateweaver's refraction of reality itself.</p><p>At 22nd level, the Fateweaver gains the following ability;</p><p>The Fateweaver gains a 10% miss chance (as if from concealment) for every Thread of Fate that they have manifested currently.</p>",
+      "featureLevel": 22,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Light Threads",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver improves their control over the fundamental forces of this world.</p><p>At 23rd level, the Fateweaver gains the following ability;</p><p>The Fateweaver may reclaim a lost Thread as a Standard Action</p><p>Additionally, the Threads of Fate now deal 100 base damage, have a critical range of 7-20, and a x9 critical multiplier.</p>",
+      "featureLevel": 23,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fatalitoxin",
+      "featureType": "Su",
+      "featureDescription": "<p>The venoms of mundane spiders serve to incapacitate and liquefy their prey for easier consumption. The venoms of the Fateweaver serve a similar purpose.</p><p>At 24th level, the Fateweaver gains the following ability;</p><p>The Fateweaver's Recluse's Venom no longer allows a save.&nbsp;</p><p>Additionally, every time a creature is damaged, they receive a number of negative levels equal to the Fateweaver's Wisdom Modifier.</p>",
+      "featureLevel": 24,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Empty Threads",
+      "featureType": "Su",
+      "featureDescription": "<p>Reaching their hand into the infinite web of Threads of Fate that make up our world, the Fateweaver is unafraid.</p><p>At 25th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may reclaim a lost Thread as a Move Action</p><p>Additionally, the Threads of Fate now deal 150 base damage, and have a critical range of 4-20.</p>",
+      "featureLevel": 25,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Marionette",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Fateweaver's Puppets serve significant purpose, whether they wish it or not.</p><p>At 26th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may utilize any abilities their Puppets possess.</p>",
+      "featureLevel": 26,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Infinite Threads",
+      "featureType": "Su",
+      "featureDescription": "<p>The Fateweaver has access to the infinite Threads of possibility that exist in this world, the loss of one of theirs is hardly a trouble.</p><p>At 27th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may reclaim a lost Thread as a Swift Action.</p><p>Additionally, the Threads of Fate now deal 250 base damage, all attacks are considered critical threats, and have a critical multiplier of x10</p>",
+      "featureLevel": 27,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Between the Weave",
+      "featureType": "Sp",
+      "featureDescription": "<p>The grand distances made up of space and time mean nothing to a purveyor of Destiny, like the Fateweaver.</p><p>At 28th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may, as a Swift or Immediate action, switch places with any creature touching one of their Threads of Fate.</p>",
+      "featureLevel": 28,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Tapestry",
+      "featureType": "Su",
+      "featureDescription": "<p>The Masterpieces of the Fateweaver will be recorded in a ledger far greater than mortal history; inscribed upon the universe itself.</p><p>At 29th level, the Fateweaver gains the following ability;</p><p>The Fateweaver may use any one of their Masterpieces without a cost, and as an Immediate or Swift Action.</p>",
+      "featureLevel": 29,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Beyond",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Fateweaver is Fate incarnate.</p><p>At 30th level, the Fateweaver gains the following ability;</p><p>So long as they are touching a Thread of Fate, the Fateweaver may <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/w/wish/'>reshape reality</a> as an Immediate Action.</p><p>This is their Final Masterpiece.</p>",
+      "featureLevel": 30,
+      "setInnerHtml": true
+    }
+  ]
+}

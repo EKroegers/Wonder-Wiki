@@ -19,7 +19,8 @@ import { PlayerHomebrew } from './Pages/PlayerHomebrew.jsx';
 import { CustomClasses } from './Pages/CustomClasses.jsx';
 import { ApostatePage } from './Pages/ApostatePage.jsx';
 import { AstralBladePage } from './Pages/AstralBladePage.jsx';
-import { DaggerOfDusk } from './Pages/Dagger_Of_Dusk.jsx';
+import { DaggerOfDusk } from './Pages/DaggerOfDuskPage.jsx';
+import { FateweaverPage } from './Pages/FateweaverPage.jsx';
 import { Domains } from './Pages/Domains.jsx';
 import { HomebrewFeats } from './Pages/HomebrewFeats.jsx';
 import { HomebrewTraits } from './Pages/HomebrewTraits.jsx';
@@ -57,7 +58,7 @@ export default function App() {
               <Route path="apostate" element={<ApostatePage />} />
               <Route path="astral-blade" element={<AstralBladePage />} />
               <Route path="dagger-of-dusk" element={<DaggerOfDusk />} />
-              <Route path="fateweaver" element={<div />} />
+              <Route path="fateweaver" element={<FateweaverPage />} />
               <Route path="mutant-mercenary" element={<div />} />
               <Route path="saiyan-warrior" element={<div />} />
               <Route path="underdog" element={<div />} />
