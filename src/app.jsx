@@ -21,6 +21,7 @@ import { ApostatePage } from './Pages/ApostatePage.jsx';
 import { AstralBladePage } from './Pages/AstralBladePage.jsx';
 import { Domains } from './Pages/Domains.jsx';
 import { HomebrewFeats } from './Pages/HomebrewFeats.jsx';
+import { HomebrewTraits } from './Pages/HomebrewTraits.jsx';
 
 import { Setting } from './Pages/Setting.jsx';
 
@@ -59,7 +60,7 @@ export default function App() {
             </Route>
             <Route path="domains" element={<Domains />} />
             <Route path="homebrew-feats" element={<HomebrewFeats />} />
-            <Route path="homebrew-traits" element={<div />} />
+            <Route path="homebrew-traits" element={<HomebrewTraits />} />
             <Route path="pacts" element={<div />} />
           </Route>
           <Route path="setting">
