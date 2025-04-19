@@ -9,11 +9,11 @@ export function HomebrewFeats() {
   return (
     <section>
       <h1>Homebrew Feats</h1>
-      {FEAT_LIST.map((feat, index) => {
+      {FEAT_LIST.map((feat) => {
         if (feat.isScalable) {
           return (
             <ScalingFeat
-              key={index}
+              key={feat.name}
               className={feat.className ?? ''}
               featName={feat.name}
               featFlavor={feat.flavor ?? ''}
@@ -27,7 +27,7 @@ export function HomebrewFeats() {
         } else {
           return (
             <Feat
-              key={index}
+              key={feat.name}
               className={feat.className ?? ''}
               featName={feat.name}
               featFlavor={feat.flavor ?? ''}
