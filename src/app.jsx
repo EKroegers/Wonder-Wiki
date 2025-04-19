@@ -21,6 +21,7 @@ import { ApostatePage } from './Pages/ApostatePage.jsx';
 import { AstralBladePage } from './Pages/AstralBladePage.jsx';
 import { DaggerOfDusk } from './Pages/DaggerOfDuskPage.jsx';
 import { FateweaverPage } from './Pages/FateweaverPage.jsx';
+import { MutantMercenaryPage } from './Pages/MutantMercenaryPage.jsx';
 import { Domains } from './Pages/Domains.jsx';
 import { HomebrewFeats } from './Pages/HomebrewFeats.jsx';
 import { HomebrewTraits } from './Pages/HomebrewTraits.jsx';
