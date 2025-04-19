@@ -1,0 +1,7 @@
+{
+  "name": "The Other Side",
+  "prologue": "<p ><i>Come now, shake my hand… Won't you shake a poor sinner's hand? - </i><b><i>Doctor Familié</i></b></p>",
+  "benefits": "<p>The pact bearer gains the ability to offer pacts to other mortals. When offering pacts in this fashion, the pact bearer may decide the terms of the pact as well as all associated costs, but the benefits must be of an existing pact, as the pact bearer is nothing more than a middleman for pact-bearing entities.</p><p>The pact bearer is given a quota by the greater entity it acts as a middleman for, and failure to meet this deadline will be faced with consequences.</p><p>The pact bearer's shadow transforms, gaining the statistics of a <a target='_blank' href='https://www.d20pfsrd.com/bestiary/monster-listings/undead/shadow/shadow-greater/'>Greater Shadow</a>, but having its movement restricted to within a 30ft radius of the pact bearer, and always stretching from the pact bearer as if cast upon the surroundings by an invisible flame.</p><p>The shadow of the pact bearer is returned to existence after a long rest if killed.</p>",
+  "epilogue": "<p><i>There is but one thing more dangerous than to deal with an entity offering power in exchange for servitude, and that is to fail in that servitude. - </i><b><i>Unknown</i></b><i>, an excerpt from </i><b><i>Pact Bearer</i></b></p>",
+  "setInnerHtml": true
+}

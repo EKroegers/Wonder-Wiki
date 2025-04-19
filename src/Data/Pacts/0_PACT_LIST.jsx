@@ -1,1 +1,18 @@
-export const PACT_LIST = [require('./Dissonance.json')];
+export const PACT_LIST = [
+  require('./Dissonance.json'),
+  require('./The_Free.json'),
+  require('./Honed_Strength.json'),
+  require('./The_Imaginary_God.json'),
+  require('./Infinity.json'),
+  require('./The_Limitless.json'),
+  require('./Midas.json'),
+  require('./Shadow.json'),
+  require('./Symbiosis.json'),
+  require('./The_Beast_Mother.json'),
+  require('./The_Eight_Gates.json'),
+  require('./The_Glutton.json'),
+  require('./The_Other_Side.json'),
+  require('./The_Hollow.json'),
+  require('./The_Six_Eyes.json'),
+  require('./Undying_Love.json'),
+];

@@ -52,6 +52,17 @@ export function Pacts() {
           />
         );
       })}
+      <h2>Variations on Pacts</h2>
+      <p>
+        The above are the standard incarnations of these pacts. Pacts may be
+        subject to Binding Vows and may also have certain restrictions applied
+        or lifted in exchange for greater or lesser power respectively. Examples
+        include Pact of the Glutton applying to all creatures slain but in turn
+        having a limited capacity, or the Pact of Infinity being permanently
+        involuntarily active but reflecting attacks that fail to surpass the AC
+        of the pact bearer. As always, modifications to pacts must be approved
+        by the DM.
+      </p>
       <Link to={'/player-homebrew'}>Back</Link>
     </section>
   );

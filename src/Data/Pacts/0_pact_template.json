@@ -2,5 +2,6 @@
   "name": "",
   "prologue": "",
   "benefits": "",
-  "epilogue": ""
+  "epilogue": "",
+  "setInnerHtml": true
 }
