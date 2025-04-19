@@ -29,6 +29,7 @@ import { Pacts } from './Pages/Pacts.jsx';
 import { Setting } from './Pages/Setting.jsx';
 import { LivingSpells } from './Pages/LivingSpells.jsx';
 import { NewSchoolsOfMagic } from './Pages/NewSchoolsOfMagic.jsx';
+import { MutantMercenaryPage } from './Pages/MutantMercenaryPage.jsx';
 
 export default function App() {
   return (
@@ -59,7 +60,10 @@ export default function App() {
               <Route path="astral-blade" element={<AstralBladePage />} />
               <Route path="dagger-of-dusk" element={<DaggerOfDusk />} />
               <Route path="fateweaver" element={<FateweaverPage />} />
-              <Route path="mutant-mercenary" element={<div />} />
+              <Route
+                path="mutant-mercenary"
+                element={<MutantMercenaryPage />}
+              />
               <Route path="saiyan-warrior" element={<div />} />
               <Route path="underdog" element={<div />} />
             </Route>

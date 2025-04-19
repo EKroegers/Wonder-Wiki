@@ -74,6 +74,7 @@ const BABProgessions = {
     '+19/+14/+14/+14',
     '+20/+15/+15/+15',
   ],
+  MutantMerc: ['+1'],
 };
 
 const saveProgressions = {
@@ -121,6 +122,7 @@ const saveProgressions = {
     '+6',
     '+6',
   ],
+  MutantMerc: ['+1'],
 };
 
 export default function ClassTable({

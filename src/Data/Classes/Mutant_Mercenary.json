@@ -1,0 +1,46 @@
+{
+  "name": "Mutant Mercenary",
+  "role": "<p><b>Role: </b><i>Who knows?</i> <b>Just run in and die.</b></p>",
+  "alignment": "Any",
+  "hitDie": "12",
+  "startingWealth": "Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (engineering) (Int), Profession (Wis), Ride (Dex), Survival (Wis), and Swim (Str)",
+  "classSkills": 2,
+  "skillRanks": 1,
+  "maxLevel": 1,
+  "baseAttackBonusType": "MutantMerc",
+  "saveTypes": {
+    "Fortitude": "MutantMerc",
+    "Reflex": "MutantMerc",
+    "Willpower": "MutantMerc"
+  },
+  "classFeatures": [
+    {
+      "featureName": "Regeneration",
+      "featureType": "Chi",
+      "featureDescription": "<p><i>The ol' bread and butter. Can't die, like… ever, but you can still feel pain. Ain't that a raw deal? You can make up pretty much whatever for how you got it, but government test tube babies are a good staple.</i></p><p>This ability grants the following benefits;</p><p>Instead of Hit Dice, this class grants 12 Hit points plus the Mutant Mercenary's Constitution Modifier.</p><p>Additionally, the Mutant Mercenary gains Regeneration equal to their Maximum Hit Points.</p><p>Furthermore, the Mutant Mercenary is immune to Death Effects and Ability Damage, Drain, and Penalties.</p><p>Lastly, all status effects that afflict the Mutant Mercenary have a duration of 1 round.</p><p><b>You could make a case for this being more of a curse than a blessing. The ability to never be able to escape suffering doesn't seem like much of a “power” to me. I guess you can just ignore that if it doesn't fit with your fantasy.</b></p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Hammerspace",
+      "featureType": "Mi",
+      "featureDescription": "<p><i>If I had to actually keep track of my inventory, it would prevent me from doing my amazing work of making dick jokes and ignoring the plot until it's time to try to poke plot holes in the finale! Talk about railroading…</i></p><p>At 1st level this ability grants the following benefits;&nbsp;</p><p>The Mutant Mercenary gains access to an interdimensional space they may store items within.&nbsp;</p><p>This interdimensional space is alway accessible to the Mutant Mercenary and has a capacity of 500lbs and 100 cubic ft.</p><p>On levels other than the 1st this ability grants the following benefits;</p><p>The Hammerspace gains additional capacity of 500 lbs and 100 cubic ft per Hit Die the Mutant Mercenary possesses.</p><p><b>It's likely that this is something they came up with at the very beginning to make things easier, and down the line people have decided to abuse that good will, and that gets us to where we are now.</b></p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "One of a Kind",
+      "featureType": "Chan",
+      "featureDescription": "<p><i>Hey, we've all gotta be special, right? Maybe we don't have magic or divine power or ninjutsu or a punching ghost… but hey we can have big numbers and sorta negate the whole core that makes all of this a game!</i></p><p>This ability grants the following benefits;</p><p>The Mutant Mercenary gains +1 to all of their Ability Scores, and +5ft to all of their Movement Speeds.</p><p><b>Random Result plus Modifier compared to Threshold. That's the core of this whole thing, but if the numbers get high enough the standard variation from the dice becomes meaningless and you select to succeed on where you've invested the right points. Is that a bug or a feature, I wonder?</b></p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "The Main Character",
+      "featureType": "Ga",
+      "featureDescription": "<p><i>I get there are other people at the table, but what they don't understand is that this totally makes sense for my character arc and is what I would do in this scenario. Really it's out of my control and the DM's fault for putting us in this situation.</i></p><p>This ability grants the following benefits;</p><p>The Mutant Mercenary is aware of things they should not be. There is no division between the knowledge the Mutant Mercenary has…<br /><br /><br /></p><p><b>a̷͖̙͕͊̾̿͆n̴̨̡̛̗̦̳̲͉̹̥͓͍̤̜̓̾̾̿̉̏̈͂͆̀̚͜͝d̵̤͖̘̤̭͙̀̀͐͌͋͂͐̽̀̎̒̑</b> ̵̨̝̫͙̟̞͇̩͎͌̀̑̈́͌̋̃t̷̡̳͎̫͇̩͒̍̀̈́̓̾̉͜h̴͕͉̣̠͕͚͔̬̦̲͖̗̰͖̽̈́͌e̶̯͉̻͂͆͑̒̑͂͂̃͂̽̊̕ ̶̳̣̖̱̓͛͋͗k̴̥̣̜͓͓͙͔̹͎̏̋̿̇͐̌͐͐̌̃̄̑̋̕<i>ņ̵̫̤̜̥̻͍̜̦̖̬̭͔̫̊͂̌ó̶͚̻͍͓̺̹͚͍̖̣͖̣̮͑̓̽̀̚ͅw̵̧̫̰͈̦̿̓̈̃l̷̗̦̥̗̰̦̫̯̙͉̠͇̤̘̏̓̐̐͌͆̂̿̑̄̐̾͜͠͠͝ę̴̤͉̪͙̻̭̬͚̲̪̊͜ͅd̸̨̢̰̲̼͓̂̃̈̓͐̄͛͘ͅg̴̬̘̘̻̖̗̗̮͚̞̟͇̩̿̊̋̽̎̃̒e̸̩̗͑͒̍̓͆́̀͗̐̕</i> ̷̢̱̮̙͎̽̽́́̇̚͝y̴̡̡̛̞͔̫̞͚̥̠̤̥̓͌̐͌̿̂͜ͅo̸̡̧̫̠̖̟̗̮͇͇͔̒̂̈́͆̆̌̌́̕̚͠͝͠͝ǘ̴̢̦̙̈̚ <b>̴͚̬̺̝̙̦̦͕̜̥́͆̅̎̐̕̕͜͝ḧ̷̥̭͉͈̔̀͊̐͋a̸͕̪͓̙͈͌̑̓͂̎́͒͐̕̕͠v̴̜̹͗́̾̇́̒̀̓́̑̚͝ę̷̗̩̘͛̾͂̉̉͑̃̃̋̊̅͝.</b></p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    }
+  ]
+}

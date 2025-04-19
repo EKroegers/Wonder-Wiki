@@ -20,14 +20,19 @@ export default function CustomClassPage({
   epicLevelClassFeatures,
   className,
   extraContent,
+  setRoleInnerHtml,
 }) {
   return (
     <section className={`Custom-Class-Page ${className ?? ''}`.trim()}>
       <h1>{name}</h1>
-      <p>
-        <b>Role: </b>
-        {role}
-      </p>
+      {setRoleInnerHtml ? (
+        <p dangerouslySetInnerHTML={{ __html: role }} />
+      ) : (
+        <p>
+          <b>Role: </b>
+          {role}
+        </p>
+      )}
       <p>
         <b>Alignment: </b>
         {alignment}
