@@ -25,6 +25,8 @@ import { HomebrewTraits } from './Pages/HomebrewTraits.jsx';
 import { Pacts } from './Pages/Pacts.jsx';
 
 import { Setting } from './Pages/Setting.jsx';
+import { LivingSpells } from './Pages/LivingSpells.jsx';
+import { NewSchoolsOfMagic } from './Pages/NewSchoolsOfMagic.jsx';
 
 export default function App() {
   return (
@@ -66,8 +68,11 @@ export default function App() {
           </Route>
           <Route path="setting">
             <Route index element={<Setting />} />
-            <Route path="living-spells" element={<div />} />
-            <Route path="new-schools-of-magic" element={<div />} />
+            <Route path="living-spells" element={<LivingSpells />} />
+            <Route
+              path="new-schools-of-magic"
+              element={<NewSchoolsOfMagic />}
+            />
             <Route path="races" element={<div />} />
           </Route>
         </Route>
