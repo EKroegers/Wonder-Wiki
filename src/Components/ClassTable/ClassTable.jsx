@@ -125,10 +125,36 @@ const saveProgressions = {
   MutantMerc: ['+1'],
 };
 
+const additionalColumnProgressions = {
+  'Ki Points': [
+    '5',
+    '9',
+    '15',
+    '23',
+    '33',
+    '45',
+    '59',
+    '71',
+    '82',
+    '94',
+    '106',
+    '126',
+    '147',
+    '170',
+    '195',
+    '221',
+    '250',
+    '280',
+    '311',
+    '343',
+  ],
+};
+
 export default function ClassTable({
   maxLevel,
   baseAttackBonusType,
   saveTypes,
+  additionalColumn,
   classFeatures,
 }) {
   let tableRows = [];
@@ -155,6 +181,9 @@ export default function ClassTable({
         <td>{saveProgressions[saveTypes['Fortitude']][i]}</td>
         <td>{saveProgressions[saveTypes['Reflex']][i]}</td>
         <td>{saveProgressions[saveTypes['Willpower']][i]}</td>
+        {additionalColumn ? (
+          <td>{additionalColumnProgressions[additionalColumn][i]}</td>
+        ) : null}
         <td>{featureList}</td>
       </tr>
     );
@@ -170,6 +199,7 @@ export default function ClassTable({
             <td>Fort Save</td>
             <td>Ref Save</td>
             <td>Will Save</td>
+            {additionalColumn ? <td>{additionalColumn}</td> : null}
             <td>Special</td>
           </tr>
         </thead>

@@ -42,13 +42,29 @@ const epicBABProgessions = {
     '+27/+22/+22/+22/+22',
     '+28/+23/+23/+23/+23',
     '+29/+24/+24/+24/+24',
-    '+30/+20/+20/+20/+20',
+    '+30/+25/+25/+25/+25',
+  ],
+};
+
+const epicAdditionalColumnProgressions = {
+  'Ki Points': [
+    '376',
+    '445',
+    '481',
+    '556',
+    '595',
+    '635',
+    '676',
+    '718',
+    '761',
+    '805',
   ],
 };
 
 export default function EpicClassTable({
   baseAttackBonusType,
   epicLevelClassFeatures,
+  additionalColumn,
 }) {
   let tableRows = [];
 
@@ -72,6 +88,9 @@ export default function EpicClassTable({
         <td>{get20sNumberWithSuffix(i + 1)}</td>
         <td>{epicBABProgessions[baseAttackBonusType][i - 20]}</td>
         <td>{`+${i - 19}`}</td>
+        {additionalColumn ? (
+          <td>{epicAdditionalColumnProgressions[additionalColumn][i - 20]}</td>
+        ) : null}
         <td>{featureList}</td>
       </tr>
     );
@@ -85,6 +104,7 @@ export default function EpicClassTable({
             <td>Level</td>
             <td>Base Attack Bonus</td>
             <td>Saves Bonus</td>
+            {additionalColumn ? <td>{additionalColumn}</td> : null}
             <td>Special</td>
           </tr>
         </thead>

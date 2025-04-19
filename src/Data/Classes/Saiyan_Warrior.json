@@ -1,0 +1,270 @@
+{
+  "name": "Saiyan Warrior",
+  "role": "Varies with discipline (DPS/Utility/Tank)",
+  "alignment": "Any",
+  "hitDie": "d10",
+  "startingWealth": "5d6 x 10 gp (average 175 gp.)",
+  "classSkills": "Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (local) (Int), Knowledge (history) (Int), Profession (Wis), Ride (Dex), Survival (Wis), and Swim (Str)",
+  "skillRanks": 2,
+  "maxLevel": 20,
+  "baseAttackBonusType": "Full",
+  "saveTypes": { "Fortitude": "Good", "Reflex": "Bad", "Willpower": "Bad" },
+  "additionalColumn": "Ki Points",
+  "classFeatures": [
+    {
+      "featureName": "Ki",
+      "featureType": "Ex",
+      "featureDescription": "<p>Ki is a tangible energy inside every living being, with its major focus being in the center of the body. By drawing it out, an individual is able to manipulate it and use it outside the body. Saiyan Warriors specialize in this process, utilizing Ki in a variety of ways to enhance their physical abilities.</p><p>The amount of Ki that a Saiyan Warrior has access to is shown in <b>Table: Ki Points</b></p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Born to Fight",
+      "featureDescription": "<p>The discipline of Saiyan Warrior is one that can be divided among a few lines, and even those begin to blur and tear at the edges once proper scrutiny is employed. Saiyan Warriors are those who have a connection to Ki, the mechanism by which they are able to amplify their bodily strengths in order to level the playing field with those who prefer to extol the virtues of magecraft or technology in combat.</p><p>Upon character creation a Saiyan Warrior must select a discipline, representing the way their body naturally channels the power of Ki. The disciplines are as follows;</p><h4><b>Primal Warrior</b></h4><p>Primal Warriors are those that are able to channel Ki through their ancestry, magnifying the brutal and unrefined nature of their great ape ancestry and making it material. They have the power to transform into giant apes, raw fury given physical form. They are able to do so by channeling their Ki into an aura of strange radiation, inducing an immediate and uncontrollable transformation. The giant ape's rampage is always brief, but invariably devastating.</p><h4><b>Divine Warrior</b></h4><p>Divine Warriors are those that channel their Ki in accordance to their destiny. Their relationship with their power is far less destructive than their contemporaries, instead channeling their Ki in order to overwhelm their opponents with speed and technique. Divine Warriors are not able to control when they first transform, instead their transformation will come to them when it is destined to. Upon their transformation they will be cloaked in a bright and fiery aura, their hair taking on a magenta glow and their overall appearance seeming to make them appear in their youthful prime.</p><h4><b>Golden Warrior</b></h4><p>Golden Warriors are those that channel their Ki for power alone. The use of Ki always takes a toll on the bodies of the user, but the Golden Warrior takes that to its extreme. When transformed the Golden Warrior is enshrouded in a golden aura, their hair taking on a similar color. Their transformation is one born of rage, the desire to grow in strength so great that they are willing to do any harm to themselves or others they must in order to reach greater heights. They must be pushed beyond their limits in a moment of emotional turmoil in order to ascend into this new level of power for the first time.</p><p>After selecting a discipline, each Saiyan Warrior goes on a greatly divergent path, every Saiyan Warrior having to hone their abilities in their own way. Each of the individual paths' abilities will be expounded upon in their own section, and the remainder of this section will be dedicated to abilities that all Saiyan Warriors share.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Charge Ki",
+      "featureType": "Ex",
+      "featureDescription": "<p>A Saiyan Warrior is able to gather Ki through methods other than resting and hearty meals, though they remain the preferred methods. As a Full-Round Action that provokes Attacks of Opportunity, the Saiyan Warrior may replenish their Ki through an incredibly conspicuous ritual consisting of drawing upon their inner reserves of fortitude and screaming.</p><p>The Saiyan Warrior regains a number of Ki points equal to their class level whenever they charge their Ki in this way.</p><p>Improved - At 7th level the Saiyan Warrior may use this ability as a Move Action.</p><p>Greater - At 15th level the Saiyan Warrior may use this ability as a Swift Action.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Attacks",
+      "featureType": "Ex",
+      "featureDescription": "<p>Ki can be channeled in any number of destructive ways, the experimentation of which has been a cornerstone of Saiyan Warrior culture for as long as written record persists.</p><p>The DC of Ki attacks is determined by the subclass chosen by the Saiyan Warrior.</p><p>Ki attacks are performed in the place of a typical attack at the cost of Ki.</p><p>Ki can be offensively channeled into attacks in the following ways;</p><h4><b>Beam&nbsp;</b></h4><p>The Saiyan Warrior may launch a beam of energy at their target, dealing 3d6 damage. The damage of this attack increases by 1d6 per level. The beam is initially 60ft in length, and increases by 5ft per level. This ability costs a number of Ki points equal to the Saiyan Warrior's level. This attack requires a Reflex Save from enemies to avoid damage.</p><h4><b>Cone</b></h4><p>The Saiyan Warrior may launch a cone of energy at their targets, dealing 3d6 damage. The damage of this attack increases by 1d6 per level. The cone is initially 30ft in length, and increases by 5ft for every two additional levels the Saiyan Warrior attains. This ability costs a number of Ki points equal to the Saiyan Warrior's level. This attack requires a Reflex Save from enemies to avoid damage.</p><h4><b>Volley</b></h4><p>The Saiyan Warrior may launch a volley of Ki blasts at their target, each blast dealing 1d6 damage. This attack begins firing 1 blast at first level, and can fire an additional blast for every two additional levels the Saiyan Warrior attains. The range of this attack is 25ft at first level, plus an additional 5ft for every two levels the Saiyan Warrior attains. This technique costs 1 Ki per volley fired. This attack requires an attack roll against the enemies Touch AC for each volley fired, all individual blasts using the same attack roll to hit.</p><h4><b>Bomb</b></h4><p>The Saiyan Warrior may channel their Ki into an explosive sphere that can be lobbed at their enemies. The bomb deals 4d6 damage in a 10ft radius, centered on a point within 50ft of the Saiyan Warrior. The damage of the bomb increases by 2d6 for every four additional levels the Saiyan Warrior attains, the radius also increases by 5ft for every four additional levels attained, and the range of the bomb increases by 5ft per for every additional attained. This ability costs a number of Ki points equal to the Saiyan Warrior's level. This attack requires a Reflex Save from enemies to avoid damage.</p><h4><b>Explosion</b></h4><p>The Saiyan Warrior may exude their Ki from their bodies in an explosive emanation. The explosion deals 5d6 damage in a 15ft sphere centered on the Saiyan Warrior. The damage increases by 1d6 per level, and the area of effect increases by 5ft for every two additional levels attained. This technique costs an amount of Ki equal to double the Saiyan Warrior's level. This attack requires a Reflex Save from enemies to avoid damage.</p><h4><b>Melee</b></h4><p>The Saiyan Warrior can use Ki to enhance their melee strikes. These Ki projections are activated the moment attack is made, prior to the roll to hit, and costs 2 Ki per use. The Ki projections deal an additional 1d6 damage on hit, plus an additional 1d6 damage per five levels that the Saiyan Warrior has attained.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Flight",
+      "featureType": "Ex",
+      "featureDescription": "<p>Flight is a relatively basic technique in the grand scheme of Ki esoterica, however it proves to be difficult to master for even the greatest Saiyan Warriors.</p><p>Beginning at 2nd level, Saiyan Warriors gain the ability to fly so long as their current number of Ki points are greater than their character level. This flight begins at a speed of 15ft, and increases by an additional 15ft for every three levels the Saiyan Warrior has attained beyond their second level.</p><p>Upon reaching 20th level the speed of Ki Flight becomes 150ft.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true,
+      "hideInTable": true
+    },
+    {
+      "featureName": "Ki Flight (15ft)",
+      "featureLevel": 2,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Uncanny Dodge",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 3rd level, a Saiyan Warrior gains the ability to react to danger before their senses would normally allow them to do so. They cannot be caught flat-footed, nor do they lose their Dex bonus to AC if the attacker is invisible. They still lose their Dexterity bonus to armor class if immobilized. A Saiyan Warrior with this ability can still lose their Dexterity bonus to armor class if an opponent successfully uses the feint action against them.</p><p>If a Saiyan Warrior already has uncanny dodge from a different class, they automatically gain improved uncanny dodge (see below) instead.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Specialization",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 4th level, the Saiyan Warrior selects a type of Ki attack to specialize in. Their specialization grants the following benefits at the 4th, 8th, 12th, 16th, and 20th levels:</p><h4><b>Beam</b></h4><h5><b>Initiate</b></h5><p>The Saiyan Warrior may use their own beam attacks to counter opposing beams. When in the area of effect of a beam or line, the Saiyan Warrior may, as an Immediate Action, fire their own beam to stop the opposing attack halfway. To do this they must spend all associated costs with firing a beam attack. To determine the winner of the clash, roll damage for both, and compare the results. If the Saiyan Warrior's damage is greater than the opposing attack, then they win the clash and their beam deals damage normally within its area, and they avoid damage from the enemy attack. If the enemy attack is greater in damage, then the Saiyan Warrior takes damage equal to the original damage of the enemy attack, minus the damage that their beam attack would have dealt.</p><h5><b>Novice</b></h5><p>The Saiyan Warrior may cause their beam attacks to cause explosions on impact. By spending an additional amount of Ki equal to half their class level, they may cause their beam to additionally deal damage in a 15ft radius centered on where it impacts something. One explosion can be triggered for every 5ft square the beam occupies. The radius of this explosion increases by 5ft for every four levels the Saiyan Warrior has attained.</p><h5><b>Adept</b></h5><p>The Saiyan Warrior may use their beam attacks to avoid incoming dangers. As an Immediate Action when the Saiyan Warrior is going to take damage, they may use a beam attack to avoid it. The beam begins in the square that the Saiyan Warrior currently occupies, and sends the user in a direction of their choosing, a distance equal to the length of their beam attack. When using the beam attack in this way, they still spend all associated costs with using the beam. If the Saiyan Warrior impacts a surface before traveling the full length of the beam, the surface takes 1d6 damage per 5ft increment they have yet to travel, and if the surface is destroyed, the Saiyan Warrior continues moving as they did before impacting it, the total distance they can travel being reduced by the amount of damage required to destroy the obstruction. This ability can also be used as a Move Action without the need for danger.</p><h5><b>Expert</b></h5><p>The Saiyan Warrior may now curve their beam attacks. When using a beam they may deviate the path of the beam by 5ft for every 10ft it travels forward. Enemies struck by the Saiyan Warrior's beam attacks after the beam deviates by at least 5ft are denied their dexterity bonus to their Reflex Save.</p><h5><b>Master</b></h5><p>There comes a time in all battles where several smaller beams will simply not do. The Saiyan Warrior may choose to, as a Full-Round action, fire a massively empowered beam. By paying triple the Ki cost for their beam attack, they may fire a beam that is 50ft in width, and 1500ft in length. This beam deals five times as much damage as the Saiyan Warrior's beam would normally deal. The beam persists until the beginning of the Saiyan Warriors next turn, where they may choose to continue firing it (paying all associated costs again) or cease their attack. Enemies take damage if they start their turn in the beam.</p><h4><b>Cone</b></h4><h5><b>Initiate</b></h5><p>When it comes to putting enemies in the ground, putting them on the ground is a nice start. By expending +50% the Ki cost when making a cone attack, the Saiyan Warrior may knock prone any targets which fail their saving throw.</p><h5><b>Novice</b></h5><p>While strategy is important, there is a time and place for damage being put above all else. Instead of making multiple cone attacks, the Saiyan Warrior may make a single cone attack that is massively empowered. The dice of each cone attack used in this single attack are summed together, and the damage of the attack is increased by an amount equal to the number of cone attacks used multiplied by the total number of dice. The Saiyan Warrior must expend Ki for each cone attack used in the final cone attack.</p><h5><b>Adept</b></h5><p>The Saiyan Warrior is an old friend of Unrelenting Force, and has yet to encounter the fabled Immovable Object. When damaging targets with a cone, on a failed save the targets are pushed to the end of the cone's area of effect.</p><h5><b>Expert</b></h5><p>To wipe away the enemy with a single blast is good, to wipe away any recourse for them to defend themselves can be even better. When making a cone attack, the Saiyan Warrior may expend double the amount of Ki normally required, and the resulting cone destroys all mundane equipment worn or held by targets within the cone.</p><h5><b>Master</b></h5><p>If a warrior puts everything they have into an attack, then surely it is too big to fail. By spending a full round charging a cone attack at its standard Ki cost, at the beginning of the Saiyan Warrior's next turn they may unleash a cone attack that inflicts five times the damage, is five times the length, and allows no saving throw.</p><h4><b>Volley</b></h4><h5><b>Initiate</b></h5><p>Creativity is said to be the most vital part of combat, and the Saiyan Warrior can not be said to be lacking in creativity. Instead of launching a volley of blasts at an enemy, the Saiyan warrior may instead allow the blasts to orbit them, granting a +1 deflection bonus to AC per orbiting blast. Each time the Saiyan Warrior is attacked, a blast is destroyed, removing the AC bonus granted. The Saiyan Warrior may decide as an Immediate or Free action to launch any number of blasts at an enemy within range.</p><h5><b>Novice</b></h5><p>If a Saiyan Warrior has a favorite attack, it is usually the first thought to come to their mind to attempt to mitigate the weaknesses of it, or at the very least, the second or third. When striking a target with multiple blasts from a volley, the Saiyan Warrior may instead treat the blasts as if they were from one source of damage rather than however many blasts were involved in the attack.</p><h5><b>Adept</b></h5><p>While raw damage is often the most attractive option for a Saiyan Warrior, a more tactical touch often yields positive results as well. Whenever dealing damage with a blast, the Saiyan Warrior may instead push the target 5ft in any direction of their choice.</p><h5><b>Expert</b></h5><p>The volley can be a double-edged blade many times, though leveraging its disadvantages is the job of an expert, after all. The Saiyan Warrior may cause each blast in a volley to create a 10ft radius sphere of smoke on impact. Multiple blasts striking the same target create a larger sphere, adding an additional 10ft to the radius of the sphere for each additional blast that impacts the same target. This smoke lasts a single round.</p><h5><b>Master</b></h5><p>There are some times that ensuring the death of an adversary is more important than anything else, and that situation happens extremely frequently to a Saiyan Warrior. As a Full-Round Action, the Saiyan Warrior may spend the remainder of their Ki firing volleys. All of these volleys are guaranteed to hit, however once begun the Saiyan Warrior cannot stop this attack prematurely.</p><h4><b>Bomb</b></h4><h5><b>Initiate</b></h5><p>At the intersection of mobility, positioning, and crowd control, explosions stand unchallenged. The Saiyan Warrior may convert all damage dealt by bomb attacks into knockback equivalent to double the damage that would have been dealt by the bomb. Targets are knocked back in the direction of the Saiyan Warrior's choosing.</p><h5><b>Novice</b></h5><p>While raw power is often the deciding factor in combat, mind games are rather potent in their own right. When making a bomb attack, the Saiyan Warrior may increase the damage dealt by the bomb by +50% in exchange for delaying the detonation of the bomb by a single round, the explosion ensuing at the start of the Saiyan Warriors next turn.</p><h5><b>Adept</b></h5><p>Attacks that can defeat a man are common, attacks that can defeat the lands themselves are less common. When making a bomb attack, the Saiyan Warrior may expend +50% more Ki in order to leave the terrain within the affected area of the bomb as difficult terrain. The Saiyan Warrior may expend +100% more Ki in order to destroy all affected mundane terrain.</p><h5><b>Expert</b></h5><p>Collateral damage is a complicated subject to broach in theory, however in the heat of combat it becomes significantly less complicated. As a Full-Round action the Saiyan Warrior may create a bomb at its maximum size and launch it at its intended target. This bomb deals double the typical damage for a bomb attack. The bomb travels to its destination, dealing damage to each creature and object it hits along the way. For every creature or object the bomb impacts along the way, the total damage of the bomb is reduced by 2d6 and the total radius of the bomb is reduced by 5ft.</p><h5><b>Master</b></h5><p>The power of one oftentimes can barely suffice, the power of many is enough to move any obstacle. The Saiyan Warrior may, in place of expending their own Ki to make a bomb attack, gather energy from the environment around them. For each round that is spent gathering energy, the damage of the bomb increases by an amount equal to the base damage of a bomb attack. Additionally, the Saiyan Warrior or any allies with a comparable Ki pool may donate Ki to the bomb, increasing the damage by 1d6 per Ki point donated. It is a standard action to donate Ki to the bomb. When charged to the liking of the Saiyan Warrior they may do one of two things; They may make an attack using the bomb against a creature in range, or they may absorb the energy of the bomb and use it to empower themselves for the next 10 rounds. If they choose to empower themselves they gain a pool of energy equal to 1 point for every d6 of damage the bomb would have dealt. This energy may be used to grant a bonus to any rolls made by the Saiyan Warrior at a rate of +1 per point of energy per roll, or may be used to empower the damage of other attacks made by the Saiyan Warrior, at a rate of +1d6 base damage per point spent. All unspent points are lost whenever the 10 rounds have elapsed.</p><h4><b>Explosion</b></h4><h5><b>Initiate</b></h5><p>Quick thinking is often the only thing that keeps the Saiyan Warrior alive, so not many are picky in terms of how their survival instinct decides to respond to problems. The Saiyan Warrior may create an explosion as an immediate action. If this is done in response to an attack, the damage of the attack is reduced by an amount equal to the damage of the explosion (minimum zero).</p><h5><b>Novice</b></h5><p>Manipulating the aspects of your technique is among the first tricks a Saiyan Warrior learns, however it is often the most useful. The Saiyan Warrior may manipulate their explosions in one of two ways; They may either halve the radius of their explosion in order to double their damage output, or halve their damage output in order to double the radius of their explosion.</p><h5><b>Adept</b></h5><p>The force of a proper explosion is something finely crafted through the generations of Saiyan Warriors, as is the craft of surviving getting hit by one. Whenever a creature fails their save against the explosion of a Saiyan Warrior, they are moved in a straight line to the nearest square at the edge of the explosion's radius.</p><h5><b>Expert</b></h5><p>When under threat from a number of assailants, the Saiyan Warrior is most likely to fall back on what they know. As a Full-Round Action the Saiyan Warrior may cause an explosion as an emanation that lasts one round. For each attack negated and each time damage is dealt, the Saiyan Warrior must pay the cost for the explosion once again, in addition to the cost of initially creating the emanation, which is equal to the standard cost of the explosion.</p><h5><b>Master</b></h5><p>When a Saiyan Warrior is in a battle they cannot win, they are not likely to give up easily. The Saiyan Warrior may choose to charge a final explosion. They may spend all of their actions each turn using Charge Ki ability. For every point of Ki that they charge with these actions, the resulting explosion's damage increases by 5d6, and its radius increases by 5ft. There is no save for this ability, and the Saiyan Warrior takes the damage dealt by this ability as well.</p><h4><b>Melee</b></h4><h5><b>Initiate</b></h5><p>The ability to enhance one's physical makeup with Ki changed martial arts forever, and it isn't difficult to see why. The Saiyan Warrior gains a +1 deflection bonus to AC for one round for each time they enhance their melee attacks with Ki.</p><h5><b>Novice</b></h5><p>Reckless abandon is the name of the game when it comes to Ki enhancement. In place of making numerous attacks on their turn, the Saiyan Warrior may make a single attack at their highest base attack bonus. This attack deals damage equal to the normal melee attack, and deals damage equal to the standard amount from melee Ki projections, multiplied by the number of Ki points sacrificed for the attack, divided by two.</p><h5><b>Adept</b></h5><p>While Ki offered a number of ways to further inflict damage upon one's enemies, more importantly though it offers many ways to avoid that same damage. By expending 5 Ki as an immediate action, the Saiyan Warrior may use their Attack of Opportunity to negate one incoming attack.</p><h5><b>Expert</b></h5><p>A master of melee amplification knows first and foremost that combat rarely comes down to a straight contest of strengths, and a more intelligent approach to violence is often appropriate. When their melee strikes are enhanced with Ki, the Saiyan Warrior ignores Hardness for objects and Damage Reduction for creatures, and deals triple knockback to creatures and objects alike.</p><h5><b>Master</b></h5><p>Any moment you spend not attacking your opponent is a moment they can capitalize on. Whenever making a melee attack that is enhanced with Ki, if the attack successfully hits the enemy, the Saiyan warrior may make an additional attack at the same base attack bonus as a nonaction.</p>",
+      "featureLevel": 4,
+      "setInnerHtml": true,
+      "hideInTable": true
+    },
+    {
+      "featureName": "Ki Specialization (Initiate)",
+      "featureLevel": 4,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Improved Uncanny Dodge",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 5th level and higher, a Saiyan Warrior can no longer be flanked. This defense denies a rogue the ability to sneak attack the Saiyan Warrior by flanking them, unless the attacker has at least four more rogue levels than the target has Saiyan Warrior levels.</p><p>If a character already has uncanny dodge (see above) from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank the character.</p>",
+      "featureLevel": 5,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Flight (30ft)",
+      "featureLevel": 5,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Martial Arts Master",
+      "featureType": "Ex",
+      "featureDescription": "<p>It is one thing to be an impressive manipulator of the innate energies of Ki, it is another entirely to use it in battle. That requires true skill</p><p>At 6th level, a Saiyan Warrior may use his class level to qualify for feats with a fighter level prerequisite when those feats are applied to unarmed strikes or weapons with the monk special quality.</p>",
+      "featureLevel": 6,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Charge Ki (Improved)",
+      "featureLevel": 7,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Ki Flight (45ft)",
+      "featureLevel": 8,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Ki Specialization (Novice)",
+      "featureLevel": 8,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Get Back Up",
+      "featureType": "Ex",
+      "featureDescription": "<p>Surrender is never an option for the Saiyan Warrior.</p><p>At 9th level, the Saiyan Warrior doubles the threshold at which their negative hit points must exceed for them to be slain.</p>",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ready for Action",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior is a master of disrupting their opponent's rhythm, and claiming the advantage for themselves.</p><p>At 10th level, the Saiyan Warrior gains an additional Immediate Action, and a corresponding additional Swift Action.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Flight (90ft)",
+      "featureLevel": 11,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Ki Specialization (Adept)",
+      "featureLevel": 12,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Charge Ki (Greater)",
+      "featureLevel": 13,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Ki Flight (105ft)",
+      "featureLevel": 14,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "First into the Fray",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior is almost always the one to start the fight, but they are invariably the one to end it as well.</p><p>At 15th level, the Saiyan Warrior gains a bonus to their Initiative rolls equal to their character level.</p>",
+      "featureLevel": 15,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Specialization (Expert)",
+      "featureLevel": 16,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Ki Flight (120ft)",
+      "featureLevel": 17,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Not the Type to Quit",
+      "featureType": "Ex",
+      "featureDescription": "<p>Injury, Death, and Fear… they mean nothing to a veteran Saiyan Warrior, because they have a job to finish.</p><p>At 18th level, the Saiyan Warrior doubles the threshold at which their negative hit points must exceed for them to be slain. This bonus stacks with the bonus granted by Get Back Up, quadrupling the threshold.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Instinctive Action",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior's ability to react and disrupt combat is second to none.</p><p>At 19th level, the Saiyan Warrior gains two additional Immediate Actions, and two corresponding additional Swift Actions. This benefit is in addition to the one granted by the Ready for Action, to a total of three additional Immediate and Swift Actions.</p>",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Flight (150ft)",
+      "featureLevel": 20,
+      "setInnerHtml": true,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Ki Specialization (Master)",
+      "featureLevel": 20,
+      "setInnerHtml": true,
+      "hideInBody": true
+    }
+  ],
+  "epicLevelClassFeatures": [
+    {
+      "featureName": "Endless Ambition",
+      "featureType": "Ex",
+      "featureDescription": "<p>A lifetime of warfare has made the Saiyan Warrior among the deadliest beings in all of creation, and they still continue to seek more powerful opponents.</p><p>At 21st level, the Saiyan Warrior gains a bonus to all rolls against opponents equal to the difference between their hit dice, so long as the opponent's hit dice are greater than the hit dice of the Saiyan Warrior.</p><p>If using the Immortal's Handbook divinity rules, the Saiyan Warrior gains an additional bonus using the comparison of Divine Rank.</p>",
+      "featureLevel": 21,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Unrelenting",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior doesn't let their opponent breathe easy for a single moment.</p><p>At 22nd level, the Saiyan Warrior gains another additional Immediate Action, and another corresponding additional Swift Action. This benefit is in addition to the one granted by the Ready for Action, to a total of four additional Immediate and Swift Actions.</p>",
+      "featureLevel": 22,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Mastery",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior has pushed their proficiency with Ki to a new level.</p><p>At 23rd level, the Saiyan Warrior may select one Ki specialization they do not already have, and gain all features for that specialization.</p>",
+      "featureLevel": 23,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Never Give Up",
+      "featureType": "Ex",
+      "featureDescription": "<p>Overcoming the insurmountable is often an impossible task, but a necessary one.</p><p>At 24th level, the Saiyan Warrior doubles the threshold at which their negative hit points must exceed for them to be slain. This bonus stacks with the bonus granted by Get Back Up and Not the Type to Quit, octupling the threshold.</p>",
+      "featureLevel": 24,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Paragon",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior has elevated the manipulation of Ki to an art form.</p><p>At 25th level, the Saiyan Warrior may select one Ki specialization they do not already have, and gain all features for that specialization.</p>",
+      "featureLevel": 25,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Full Force",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior pushes their body to its limit in order to achieve the impossible.</p><p>At 26th level, the Saiyan Warrior may increase the die size of any damage dice they roll by two steps</p>",
+      "featureLevel": 26,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ki Ascension",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior has become one with Ki.</p><p>At 27th level, the Saiyan Warrior may select one Ki specialization they do not already have, and gain all features for that specialization.</p>",
+      "featureLevel": 27,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Immovable Object",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior can not be stopped.</p><p>At 28th level, the threshold at which the Saiyan Warrior's negative hit points must exceed for them to be slain is multiplied by ten, not stacking with any previous class features.</p>",
+      "featureLevel": 28,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Unstoppable Force",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior will not be stopped.</p><p>At 29th level, the Saiyan Warrior may increase the die size of any damage dice they roll by three steps. This bonus stacks with the one granted by Full Force, to a total of 5 steps of improvement.</p>",
+      "featureLevel": 29,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ultra Instinct",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Saiyan Warrior is all they will ever need.</p><p>At 30th level, the Saiyan Warrior may expend a Ki point to gain an additional Immediate or Swift Action.</p>",
+      "featureLevel": 30,
+      "setInnerHtml": true
+    }
+  ]
+}

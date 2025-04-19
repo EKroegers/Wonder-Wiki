@@ -16,6 +16,7 @@ export default function CustomClassPage({
   maxLevel,
   baseAttackBonusType,
   saveTypes,
+  additionalColumn,
   classFeatures,
   epicLevelClassFeatures,
   className,
@@ -58,47 +59,57 @@ export default function CustomClassPage({
         maxLevel={maxLevel}
         baseAttackBonusType={baseAttackBonusType}
         saveTypes={saveTypes}
-        classFeatures={classFeatures}
+        additionalColumn={additionalColumn}
+        classFeatures={classFeatures.filter(
+          (classFeature) => !classFeature.hideInTable
+        )}
       />
       <h2>Class Features</h2>
       <p>All of the following are class features of the {name}</p>
       {classFeatures
-        ? classFeatures.map((classFeature) => {
-            return (
-              <ClassFeature
-                key={classFeature.featureName}
-                className={classFeature.className}
-                featureName={classFeature.featureName}
-                featureType={classFeature.featureType}
-                featureDescription={classFeature.featureDescription}
-                setInnerHtml={classFeature.setInnerHtml}
-              />
-            );
-          })
+        ? classFeatures
+            .filter((classFeature) => !classFeature.hideInBody)
+            .map((classFeature) => {
+              return (
+                <ClassFeature
+                  key={classFeature.featureName}
+                  className={classFeature.className}
+                  featureName={classFeature.featureName}
+                  featureType={classFeature.featureType}
+                  featureDescription={classFeature.featureDescription}
+                  setInnerHtml={classFeature.setInnerHtml}
+                />
+              );
+            })
         : null}
+      {extraContent}
       {epicLevelClassFeatures ? (
         <>
           <h2>Epic {name}</h2>
           <EpicClassTable
             baseAttackBonusType={baseAttackBonusType}
-            epicLevelClassFeatures={epicLevelClassFeatures}
+            additionalColumn={additionalColumn}
+            epicLevelClassFeatures={epicLevelClassFeatures.filter(
+              (epicClassFeature) => !epicClassFeature.hideInTable
+            )}
           />
           <h2>Epic Class Features</h2>
-          {epicLevelClassFeatures.map((epicLevelClassFeature) => {
-            return (
-              <ClassFeature
-                key={epicLevelClassFeature.featureName}
-                className={epicLevelClassFeature.className}
-                featureName={epicLevelClassFeature.featureName}
-                featureType={epicLevelClassFeature.featureType}
-                featureDescription={epicLevelClassFeature.featureDescription}
-                setInnerHtml={epicLevelClassFeature.setInnerHtml}
-              />
-            );
-          })}
+          {epicLevelClassFeatures
+            .filter((epicClassFeature) => !epicClassFeature.hideInBody)
+            .map((epicLevelClassFeature) => {
+              return (
+                <ClassFeature
+                  key={epicLevelClassFeature.featureName}
+                  className={epicLevelClassFeature.className}
+                  featureName={epicLevelClassFeature.featureName}
+                  featureType={epicLevelClassFeature.featureType}
+                  featureDescription={epicLevelClassFeature.featureDescription}
+                  setInnerHtml={epicLevelClassFeature.setInnerHtml}
+                />
+              );
+            })}
         </>
       ) : null}
-      {extraContent}
       <Link to={'/player-homebrew/custom-classes'}>Back</Link>
     </section>
   );
