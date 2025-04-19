@@ -26,7 +26,10 @@ export function Domains() {
       <p>
         An enclosing barrier around the area of effect, this barrier has
         statistics similar to a{' '}
-        <a href="https://www.d20pfsrd.com/magic/all-spells/w/wall-of-force/">
+        <a
+          target="_blank"
+          href="https://www.d20pfsrd.com/magic/all-spells/w/wall-of-force/"
+        >
           Wall of Force
         </a>
         , but the interior has a hardness is equal to the hit dice of the

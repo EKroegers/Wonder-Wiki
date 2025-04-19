@@ -190,7 +190,7 @@
     {
       "featureName": "Spaces Between",
       "featureType": "Su",
-      "featureDescription": "<p>The Astral Blade is one with what is and what is not, and can pass between them seamlessly.</p><p>The Astral Blade may cast Dimension Door at will, using their Astral Blade level as their Caster Level.</p><p>Additionally, the Astral Blade gains <a target='_blank' href='https://docs.google.com/document/d/1luGmri8CEUqqc-JS_givSmHVQR6KBtah2BJ0mBsaZ-w/edit#heading=h.gjt07yuavisj'>Dimensional Agility</a> feat as a bonus feat.</p>",
+      "featureDescription": "<p>The Astral Blade is one with what is and what is not, and can pass between them seamlessly.</p><p>The Astral Blade may cast Dimension Door at will, using their Astral Blade level as their Caster Level.</p><p>Additionally, the Astral Blade gains <a target='_blank' href='#/player-homebrew/homebrew-feats'>Dimensional Agility</a> as a bonus feat.</p>",
       "featureLevel": 24,
       "setInnerHtml": true
     },
