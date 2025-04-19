@@ -30,7 +30,6 @@ import { Pacts } from './Pages/Pacts.jsx';
 import { Setting } from './Pages/Setting.jsx';
 import { LivingSpells } from './Pages/LivingSpells.jsx';
 import { NewSchoolsOfMagic } from './Pages/NewSchoolsOfMagic.jsx';
-import { MutantMercenaryPage } from './Pages/MutantMercenaryPage.jsx';
 
 export default function App() {
   return (
