@@ -54,7 +54,7 @@ export default function EpicClassTable({
 
   for (let i = 20; i < 30; i++) {
     let filteredFeatures = epicLevelClassFeatures.filter(
-      (feature) => feature.featureLevel === i
+      (feature) => feature.featureLevel === i + 1
     );
 
     let featureList =

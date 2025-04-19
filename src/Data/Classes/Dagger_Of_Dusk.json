@@ -1,0 +1,254 @@
+{
+  "name": "Dagger of Dusk",
+  "role": "Face, Scout (Infiltrator), Strike (Damage), Support (Debuff), Defender (Area Control)",
+  "alignment": "Any",
+  "hitDie": "d6",
+  "startingWealth": "5d6 x 10 gp (average 175 gp.)",
+  "classSkills": "Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), Swim (Str), and Use Magic Device (Cha)",
+  "skillRanks": 6,
+  "maxLevel": 20,
+  "baseAttackBonusType": "3/4",
+  "saveTypes": { "Fortitude": "Bad", "Reflex": "Good", "Willpower": "Good" },
+  "classFeatures": [
+    {
+      "featureName": "Dagger of Dusk",
+      "featureType": "Su",
+      "featureDescription": "<p>The namesake of the Dagger of Dusk is their greatest tool as assassins. Their ability to grow significantly more deadly when striking in the dark is incomparable to your average sellswords' capabilities.</p><p>Whenever making an attack, the Dagger of Dusk may deal an additional amount of damage depending on their own illumination level.</p><p>If the attack is made while the Dagger is in Supernatural Darkness, they deal additional damage equal to their Charisma Modifier multiplied by double their number of hit dice.</p><p>If the attack is made while the Dagger is in Darkness, they deal additional damage equal to their Charisma Modifier multiplied by their number of hit dice.</p><p>If the attack is made while the Dagger is in Dim light, they deal additional damage equal to their Charisma Modifier multiplied by ½ their number of hit dice.</p><p>If the attack is made while the Dagger is in Normal Light, they deal no additional damage.</p><p>If the attack is made while the Dagger is in Bright Light, they deal half damage.</p><p>This additional damage is not multiplied on a critical hit.</p><p>Additionally, whenever a creature is slain as a result of the extra damage dealt by this feature, the Dagger may choose to destroy their corpse as <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/d/disintegrate/'>Disintegrate</a>.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Gaze into the Void",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger of Dusk is uniquely bonded to the concept of Darkness. Living within it and molded by its grasp, they live in it as naturally as those who live in the light.</p><p>The Dagger can see perfectly in darkness of any kind, including supernatural darkness.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Shadow Space",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger of Dusk may reach within the shadows and use them to their advantage, taking hold of the space between spaces and taking whatever they may need.</p><p>At 2nd level, the Dagger of Dusk gains the following ability;</p><p>The Dagger may treat shadows and areas of Darkness or darker as storage. Functioning like a Bag of Holding, the Shadow Space contains 500 lbs and 100 cubic ft per hit die the Dagger possesses.</p><p>Creatures may not enter the Shadow Space.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Blessings of the Dark Goddess",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger of Dusk is no stranger to worship. Many assassins have their own rituals before they undertake their dangerous work, and the Daggers pray to the Dark Goddess for her affinity for the void.</p><p>At 2nd level, the Dagger of Dusk gains the following ability;</p><p>The Dagger may add a bonus equal to their Charisma Modifier to the following skills;</p><p>Acrobatics, Disable Device, Escape Artist, Profession, Sleight of Hand, and Stealth.</p><p>Additionally, they may double the bonus from their Charisma Modifier to all Charisma-Based skill checks.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Evasion",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 3rd level and higher, the Dagger can avoid even magical and unusual attacks with great agility. If they make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, they instead take no damage.&nbsp;</p><p>A helpless Dagger does not gain the benefit of Evasion.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Dancing Shadow",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Dagger of Dusk is adept at using the shadows for a defensive advantage, but their expertise transcends the typical assassin's proficiency.</p><p>At 3rd level, the Dagger of Dusk gains the following ability;</p><p>Miss Chances the Dagger gains from concealment or darkness cannot be bypassed by means other than attacks guaranteed to hit (such as Magic Missile).</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Shadow Blister",
+      "featureType": "Sp",
+      "featureDescription": "<p>The form of the Dagger of Dusk is as malleable as the darkness itself.</p><p>At 4th level, the Dagger of Dusk gains the following ability;</p><p>So long as they are in an area of Dim light or darker, the Dagger of Dusk may cast <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/a/alter-self/'>Alter Self</a> at Will, using their Dagger of Dusk level as their Caster Level.</p><p>Additionally, the Dagger is constantly under the benefits of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/p/pass-without-trace/'>Pass Without Trace</a> while in an area of Dim light or darker.</p>",
+      "featureLevel": 4,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Mantle of the Void",
+      "featureType": "Do",
+      "featureDescription": "<p>Shadows are the core of the Dagger of Dusk's existence. After enough time being dependent upon the bending and breaking of darkness, they learn to create their own.</p><p>At 5th level, the Dagger of Dusk gains the following ability;</p><p>The Dagger of Dusk may, as a Swift Action, invoke their Mantle of the Void.&nbsp;</p><p>This is a <i>Standard-Radius Barrierless Non-Distributive</i> <a target='_blank' href='#/player-homebrew/domains/'>Domain</a> with two innate spells; <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/d/deeper-darkness/'>Deeper Darkness</a> and <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/d/dust-of-twilight/'>Dust of Twilight</a>, and Charisma as its key ability score.</p>",
+      "featureLevel": 5,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Beast of Shadow",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger has spent long enough in the dark to learn not to fear what may be lurking within it, for they are far more dangerous.</p><p>At 6th level, the Dagger of Dusk gains the following ability;</p><p>So long as they are in an area of Dim light or darker, the Dagger may, as a Swift Action, become a Beast of Shadow. When transformed into a Beast of Shadow, the Dagger gains the following benefits;</p><p>The Dagger becomes <a target='_blank' href='https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-rules/#incorporeal_ex'>Incorporeal</a>, but is able to damage corporeal creatures normally.</p><p>The Dagger is able to change their size category as a Free Action, the smallest they may be is Small and the largest they may be is Large.</p><p>The Dagger gains two Claw attacks, dealing 1d4 slashing damage each at medium.</p><p>All natural attacks deal one point of Strength damage.</p><p>The Dagger gains an additional attack, as if from <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/h/haste/'>Haste</a>.</p><p>The Dagger's base land speed increases to 60ft if it is not already greater.</p><p>If forced into an area of Normal light, the Dagger is forced back into their normal form. If forced into an area of Bright light, the Dagger is forced back into their normal form and Stunned for one round.</p>",
+      "featureLevel": 6,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Dark Double",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger of Dusk frequently works alone, but they have learned to pull allies from the dark just as easily as from the light.</p><p>At 7th level, the Dagger of Dusk gains the following ability;</p><p>So long as they are in an area of Dim light or darker, the Dagger has a number of permanent <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/m/mirror-image/'>Mirror Images</a>, which reform immediately after being destroyed, depending on the current light level.</p><p>Dim light grants one, Darkness granting two, and Supernatural Darkness granting three.</p><p>Each of these images is semi-real, and may also function as <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/u/unseen-servant/'>Unseen Servants</a>, though they cannot exist or operate in an area of Normal or Bright light.</p>",
+      "featureLevel": 7,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Black Veil",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger of Dusk has grown accustomed to cloaking themselves in Darkness. Afterall, they can't hit what they can't see.</p><p>At 8th level, the Dagger of Dusk gains the following ability;</p><p>The Dagger of Dusk gains a Miss Chance as if from concealment when in dark areas.</p><p>A 20% Miss Chance when in areas of Dim light.</p><p>A 50% Miss Chance when in areas of Darkness.</p><p>A 70% Miss Chance when in areas of Supernatural Darkness.</p>",
+      "featureLevel": 8,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Darkblood",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger of Dusk has become more in tune with the ethereal darkness of shadow than their own corporeal physiology.</p><p>At 9th level, the Dagger of Dusk gains the following ability;</p><p>While in an area of Dim light or darker, the Dagger is to all mind-affecting effects, bleed, death effects, disease, paralysis, poison, sleep effects, stunning, nonlethal damage, ability drain, energy drain, exhaustion and fatigue</p>",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Improved Evasion",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 10th level, the Dagger of Dusk gains Improved Evasion.</p><p>This works like Evasion, except that while the Dagger still takes no damage on a successful Reflex saving throw against attacks, they henceforth take only half damage on a failed save.&nbsp;</p><p>A helpless Dagger does not gain the benefit of Improved Evasion.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Raven's Flight",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger of Dusk learned to leverage the advantages of the dark, using its presence to draw them skyward.</p><p>At 10th level, the Dagger of Dusk gains the following ability;</p><p>While in an area of Dim light, the Dagger gains a fly speed of 30ft with average maneuverability if not already greater.</p><p>While in an area of Darkness, the Dagger gains a fly speed of 60ft with good maneuverability if not already greater.</p><p>While in an area of Supernatural Darkness, the Dagger gains a fly speed of 120ft with perfect maneuverability if not already greater.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Monster of the Black",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger of Dusk often relies on deception, cunning, and expertise in order to swiftly deal with any problem that comes their way, though they know it sometimes necessary to tear a problem limb from limb instead.</p><p>At 11th level, the Dagger of Dusk gains the following abilities when transforming into a Beast of Shadow;</p><p >The Dagger is able to change their size category as a Free Action, the smallest they may be is Tiny and the largest they may be is Huge.</p><p>All natural attacks deal an amount of Strength damage equal to the Dagger's Charisma Modifier.</p><p>The Dagger gains an additional attack, as if from <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/h/haste/'>Haste</a>.</p><p>The Dagger's base land speed increases to 120ft if it is not already greater.</p><p>The Dagger may add a bonus to hit with melee attacks equal to their Charisma Modifier.</p><p>The Dagger's Miss Chance increases by +10%.</p><p>As well as all benefits granted by the Beast of Shadow ability.</p><p>Whenever forced back into their normal form, the Dagger is no longer stunned in an area of Bright light.</p>",
+      "featureLevel": 11,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Umbral Corruption",
+      "featureType": "Su",
+      "featureDescription": "<p>Poisons are paramount to the work of assassins, and the Dagger of Dusk is capable of infusing them with power far exceeding that of mundane toxins.</p><p>At 12th level, the Dagger of Dusk gains the following ability;</p><p>Whenever dealing additional damage to a target as a result of their Dagger of Dusk class ability, the Dagger may inflict an Umbral Corruption upon their target. The target receives a Fortitude save (DC10 + ½ the Hit Dice of the Dagger + the Dagger's Charisma Modifier) to negate the effect.</p><p>In Dim light the Dagger may inflict one of the following effects with their Umbral Corruption;&nbsp;</p><p>Fatigued: The target is fatigued.</p><p>Shaken: The target is shaken for 1 round per hit die of the Dagger.</p><p>Sickened: The target is sickened for 1 round per hit die of the Dagger.</p><p>Dazed: The target is dazed for 1 round.</p><p>Diseased: The target contracts a disease, as if the Dagger had cast <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/c/contagion'>Contagion</a>, using their Dagger hit die as their caster level.</p><p>Staggered: The target is staggered for 1 round per two hit dice of the Dagger.</p><p>In Darkness the Dagger may inflict one of the following effects with their Umbral Corruption;&nbsp;</p><p>Cursed: The target is cursed, as if the Dagger had cast <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/b/bestow-curse'>Bestow Curse</a>, using their Dagger hit die as their caster level.</p><p>Exhausted: The target is exhausted.</p><p>Frightened: The target is frightened for 1 round per two hit dice of the Dagger.</p><p>Nauseated: The target is nauseated for 1 round per three hit dice of the Dagger.&nbsp;</p><p>Poisoned: The target is poisoned, as if the Dagger had cast <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/p/poison'>Poison</a>, using the Dagger's hit die as the caster level.</p><p>In Supernatural Darkness the Dagger may inflict one of the following effects with their Umbral Corruption;&nbsp;</p><p>Blinded: The target is blinded for 1 round per hit die of the Dagger.</p><p>Deafened: The target is deafened for 1 round per hit die of the Dagger.</p><p>Paralyzed: The target is paralyzed for 1 round.</p><p>Stunned: The target is stunned for 1 round per four hit dice of the Dagger.</p>",
+      "featureLevel": 12,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Shadow Step",
+      "featureType": "Sp",
+      "featureDescription": "<p>The ability to move within the darkness is paramount for all assassins, but the Dagger of Darkness elevates this skill to its pinnacle.</p><p>At 13th level, the Dagger of Dusk gains the following ability;</p><p>Whenever standing in an area of Dim light or darker, the Dagger may teleport to any other place that they can see, that is also within Dim light, so long as those two areas are connected by Dim or darker areas of light.</p>",
+      "featureLevel": 13,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Shadow Senses",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger of Dusk's senses have grown so used to the darkness that they are far sharper than most senses are in the light.</p><p>At 14th level, the Dagger of Dusk gains the following ability;</p><p>While within an area of Dim light or darker, the Dagger gains the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/t/true-seeing/'>True Seeing</a>. This only applies to other things that are also within Dim or darker areas of light.</p><p>Additionally, the Dagger may extend their senses all throughout the contiguous area of Dim light or darker which they currently inhabit as a Swift Action, as if using <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/c/clairaudience-clairvoyance/'>Clairaudience/Clairvoyance</a> but with the caveat of also sharing the True Seeing effect.</p>",
+      "featureLevel": 14,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Smothering Shadow",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Darkness is the Dagger of Dusk's domain, and none are safe once they cross the threshold into shadow.</p><p>At 15th level, the Dagger of Dusk gains the following ability;</p><p>When occupying an area of Dim light or darker, the Dagger may, as a Full-Round action, invoke any one of the following effects upon the contiguous area of shadow which they inhabit;</p><p><a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/s/silence/'>Silence</a>, extending through the entire area.</p><p><a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/b/black-tentacles/'>Black Tentacles</a>, CMB equal to (The Dagger's hit dice + The Dagger's Charisma Modifier +5), dealing (1d6 + The Dagger's Charisma Modifier) points of damage when grappling.</p><p><a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/g/grease/'>Grease</a>, on all surfaces and creatures within the area.</p><p><a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/d/deeper-darkness/'>Deeper Darkness</a>, Lowering the light level of the area by an additional two steps.</p><p><a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/w/wall-of-force/'>Wall of Force</a>, Applying to the border of the affected area and extending 10ft upwards, using the Dagger's hit dice as their effective caster level.</p><p>These effects last until the Dagger leaves the affected area of shadow, or until they dismiss it as a Free Action. The Dagger may choose to exempt themselves from any of these effects. The Dagger may use this feature multiple times within the same area, each time it is used must apply a different effect.</p>",
+      "featureLevel": 15,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Terror of the Void",
+      "featureType": "Su",
+      "featureDescription": "<p>The fear of Darkness is something primal, something that has been at the core of living creatures for all of history. The Dagger of Dusk shows creatures of today that such a fear is still greatly warranted.</p><p>At 16th level, the Dagger of Dusk gains the following abilities when transforming into a Beast of Shadow;</p><p>The Dagger is able to change their size category as a Free Action, the smallest they may be is Diminutive and the largest they may be is Gargantuan.</p><p >The Dagger gains an additional attack, as if from <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/h/haste/'>Haste</a>.</p><p>The Dagger's base land speed increases to 240ft if it is not already greater.</p><p>The Dagger may add a bonus to melee damage equal to their Charisma Modifier.</p><p>The Dagger's Miss Chance increases by an additional +15%.</p><p>As well as all benefits granted by the Beast of Shadow and Monster of the Black abilities.</p>",
+      "featureLevel": 16,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Grasping Shade",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger's weakness within the light is not unknown to them, and they seek to avoid this shortcoming by dragging their foes into the dark, kicking and screaming.</p><p>At 17th level, the Dagger of Dusk gains the following ability;</p><p>If the Dagger is within an area of Dim light or darker, and they can see an enemy who is within Normal or Bright light, they may attempt to invoke a Grasping Shade.</p><p>When invoking a Grasping Shade, the Dagger must make a melee touch attack against the seen enemy. This attack roll is modified depending on the illumination levels of the Dagger and the enemy.</p><p>If the Dagger is in Dim light, the attack receives no additional bonus.</p><p>If the Dagger is in Darkness, the attack receives a +10 bonus to hit.</p><p>If the Dagger is in Supernatural Darkness, the attack receives a +20 bonus to hit.</p><p>If the enemy is in Normal light, the attack receives no additional penalty.</p><p>If the enemy is in Bright light, the attack receives a -10 penalty to hit.</p><p>If the melee touch attack succeeds, the Grasping Shade may reposition the enemy within the shadow in which the Dagger is currently residing. The space which the enemy is placed in is determined by the Dagger. If there is no room for the enemy within the shadow, then they are placed in a square adjacent to the shadow.</p><p>The Dagger may add their Charisma Modifier as a bonus to hit on this melee touch attack.</p><p>A Grasping Shade is invoked as an attack.</p>",
+      "featureLevel": 17,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Alone in the Dark",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger has grown comfortable in the hostile and deadly environment that is the dark unknown stretches of shadow. No others are quite so lucky, especially with the Dagger's intervention.</p><p>At 18th level, the Dagger of Dusk gains the following ability;</p><p>At the beginning of each turn, if a creature starts their turn within an area of Dim light or darker that was either created by the Dagger, or is inhabited by the Dagger, the Dagger may choose to inflict 1 Temporary Negative Level upon the creature.</p><p>Whenever dealing damage to a creature within an area of Dim light or darker, the Dagger may choose to inflict 1 Permanent Negative Level upon the creature.</p><p>These Negative Levels can be applied to creatures which are normally immune to Negative Levels and Energy Drain.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Revealed at Last",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger has come to accept their vulnerability in the light, and have come to find ways to work around it.</p><p>At 19th level, the Dagger of Dusk gains the following ability;</p><p>While in an area of Normal light or brighter, the Dagger is under the effects of Sanctuary, with a DC equal to (20 + the hit dice of the Dagger + the Dagger's Charisma Modifier) so long as they make no attacks.</p><p>If the Dagger makes an attack while under the effects of Revealed at Last, the benefits of the ability cease for 1 minute.</p>",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Daeva of Darkness",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger is one with the Dark, and there is nothing that will separate them</p><p>At 20th level, the Dagger of Dusk gains the following ability;</p><p>As a Full-Round Action the Dagger may plunge everything into Supernatural Darkness.</p><p>All squares are part of the same contiguous area of Supernatural Darkness.</p><p>All attacks made by the Dagger during this event are considered Critical Hits.</p><p>Additional damage granted by the Dagger of Dusk class ability is now multiplied on Critical Hits.</p><p>When transforming into a Beast of Shadow, the Dagger gains the following additional benefits;</p><p>The Dagger is able to change their size category as a Free Action, the smallest they may be is Fine and the largest they may be is Colossal.</p><p>The Dagger gains an additional attack, as if from <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/h/haste/'>Haste</a>.</p><p>The Dagger's base land speed increases to 500ft if it is not already greater.</p><p>Astral bodies such as the Sun, Moon, and Stars are still visible, however they shed no light on the world below.</p><p>This event lasts until the Dagger dismisses it as a Free Action, or until the Dagger dies.</p>",
+      "featureLevel": 20,
+      "setInnerHtml": true
+    }
+  ],
+  "epicLevelClassFeatures": [
+    {
+      "featureName": "Total Darkness",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger has grown so accustomed to the dark that they have begun to produce it themselves.</p><p>At 21st level, the Dagger of Dusk gains the following ability;</p><p>The Dagger's space and threatened area is always one step darker than the environment normally would be, for example;&nbsp;</p><p>If the space would normally be Bright light, the Dagger's space and threatened area would be Normal light.</p>",
+      "featureLevel": 21,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Death's Shade",
+      "featureType": "Su",
+      "featureDescription": "<p>Suffused with supreme darkness, the Dagger's powers are beyond comprehension.</p><p>At 22nd level, the Dagger of Dusk gains the following abilities;</p><p>While within an area of Dim light or darker, the Dagger may not be detected by any means besides sight.</p><p>The number of Dark Doubles the Dagger may have is doubled.</p><p>The flight speeds gained from Raven's Flight are doubled.</p><p>The number of Negative Levels inflicted by Alone in the Dark are doubled.</p>",
+      "featureLevel": 22,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "One with the Dark",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger has recognized the strength of the Dark long ago, and now the Dark acknowledges them in turn.</p><p>At 23rd level, the Dagger of Dusk gains the following ability;</p><p>Creatures related to shadows (such as undead shadows, umbral dragons, shadow demons, etc) that are also mindless do not acknowledge the presence of the Dagger unless the Dagger wishes them to. If the Dagger wishes to be noticed, they may decide the attitude with which they will be treated by the mindless shadow creatures.</p><p >Intelligent shadow creatures must succeed a Will Save (DC 10 + the number of hit dice of the Dagger of Dusk + the Dagger's Charisma Modifier) or be forced to act in accordance with the Dagger's wishes.</p>",
+      "featureLevel": 23,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Absolute Darkness",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dark that pours forth from the Dagger of Dusk choking, suffocating, absolute.</p><p>At 24th level, the Dagger of Dusk gains the following ability;</p><p>The Dagger's space and threatened area is always two steps darker than the environment normally would be, for example;&nbsp;</p><p>If the space would normally be Bright light, the Dagger's space and threatened area would be Dim light.</p>",
+      "featureLevel": 24,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "The Black Beast",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger has gained the power to unleash the primal and vicious Darkness which inspired the primal fear that lives within us all.</p><p>When transforming into a Beast of Shadow at 25th level, the Dagger gains the following additional benefits;</p><p>The Dagger is able to change their size category as a Free Action, and there is no upper limit to the size the Dagger may take so long as it's contained within the shadow in which the Dagger is residing.</p><p>The Dagger gains an additional attack, as if from <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/h/haste/'>Haste</a>.</p><p >The Dagger's base land speed increases to 1000ft if it is not already greater.</p>",
+      "featureLevel": 25,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Dark Overlord",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger is capable of controlling the shadows within themselves with ease, and they have learned to suffuse the bodies of others with the same dark power.</p><p>At 26th level, the Dagger of Dusk gains the following ability;</p><p>Whenever an eligible creature is slain by the Dagger of Dusk, the Dagger may choose to raise it from the dead as a Shadow under their control, as if using <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/c/create-undead/'>Greater Create Undead</a> as a Free Action.</p>",
+      "featureLevel": 26,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Beyond Darkness",
+      "featureType": "Su",
+      "featureDescription": "<p>Nothing can escape the Dagger of Dusk, not even Light.</p><p>At 27th level, the Dagger of Dusk gains the following ability;</p><p>The Dagger's space and threatened area is always three steps darker than the environment normally would be, for example;&nbsp;</p><p>If the space would normally be Bright light, the Dagger's space and threatened area would be Darkness.</p>",
+      "featureLevel": 27,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Shade Mage",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Dagger is not a magician by trade, however their mastery of shadows make quick work of any arcane hurdles they would need to cross.</p><p>The Dagger is capable of utilizing <a target='_blank' href='https://www.d20pfsrd.com/magic/3rd-party-spells/rogue-genius-games-3rd-party-spells/shadow-conjuration-improved/''>Improved Shadow Conjuration</a> so long as they are within an area of Dim light or darker, except that the believability of the spells is altered depending on the current illumination level.</p><p>In Dim Light the spells are 50% likely to work against disbelievers and operate at 50% strength compared to the actual spells.</p><p>In Darkness the spells are 75% likely to work against disbelievers and operate at 75% strength compared to the actual spells.</p><p>In Supernatural Darkness the spells are 100% likely to work against disbelievers and operate at 100% strength compared to the actual spells.</p>",
+      "featureLevel": 28,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Bleeding Shadow",
+      "featureType": "Su",
+      "featureDescription": "<p>The line between the Dagger and the Darkness is thin and wavering, easily blurred.</p><p>At 29th level, the Dagger of Dusk gains the following ability;</p><p >Whenever the Dagger is within an area of Dim light or darker, they may choose to melt into the shadow, effectively removing your presence from combat. When a part of the shadow you may not be targeted by any effects unless the effect would apply to the entirety of the area of shadow which the Dagger has become one with.</p><p >While within the shadow the Dagger may choose to partially manifest for the purpose of taking actions or making attacks, while they do this they are vulnerable to held actions, however they may manifest in any square which the shadow, in which they have merged, occupies. This effectively extends their reach to the entirety of the shadowed area.</p><p >The Dagger may, as an Immediate or Free action, physically manifest in any of the squares which the shadow, in which they have merged, occupies.</p><p>If the entire shadow is removed simultaneously, such as by a bright light, the Dagger physically manifests in the square in which they occupied before they merged into the shadow.</p>",
+      "featureLevel": 29,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Unbound",
+      "featureType": "Su",
+      "featureDescription": "<p>The Dagger of Dusk is Darkness incarnate.</p><p>At 30th level, the Dagger of Dusk gains the following ability;</p><p>So long as the Dagger is in an area of Dim light or darker, they cannot be reduced below a single hit point.</p><p >Additionally, if the Dagger is to die, they rejuvenate 1 day later in a square of Dim light or darker of their choosing. If none exists, then the Dagger remains dead until a square of Dim light or darker forms.</p>",
+      "featureLevel": 30,
+      "setInnerHtml": true
+    }
+  ]
+}

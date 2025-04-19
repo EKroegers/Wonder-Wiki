@@ -5,6 +5,7 @@
   "hitDie": "",
   "startingWealth": "",
   "classSkills": "",
+  "skillRanks": 1,
   "maxLevel": 1,
   "baseAttackBonusType": "",
   "saveTypes": { "Fortitude": "", "Reflex": "", "Willpower": "" },
