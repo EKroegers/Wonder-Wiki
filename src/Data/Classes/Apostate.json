@@ -5,6 +5,7 @@
   "hitDie": "d10",
   "startingWealth": "5d6 x 10 gp (average 175 gp.)",
   "classSkills": "Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Knowledge (nobility) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int)",
+  "skillRanks": 2,
   "maxLevel": 20,
   "baseAttackBonusType": "Full",
   "saveTypes": { "Fortitude": "Good", "Reflex": "Bad", "Willpower": "Bad" },

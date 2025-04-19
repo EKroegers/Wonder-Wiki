@@ -1,0 +1,240 @@
+{
+  "name": "Astral Blade",
+  "role": "Blaster, Defender (Area Control), Striker (Damage), Support (Area Control)",
+  "alignment": "Any",
+  "hitDie": "d10",
+  "startingWealth": "5d6 x 10 gp (average 175 gp.)",
+  "classSkills": "Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Swim (Str)",
+  "skillRanks": 2,
+  "maxLevel": 20,
+  "baseAttackBonusType": "3/4",
+  "saveTypes": { "Fortitude": "Bad", "Reflex": "Good", "Willpower": "Good" },
+  "classFeatures": [
+    {
+      "featureName": "Starblade",
+      "featureType": "Su",
+      "featureDescription": "<p>The partial namesake of the practitioners, the Starblade is a weapon of unmatched precision, and infinite versatility.</p><p>As a swift action, the Astral Blade may manifest a one-handed slashing weapon. This weapon bypasses all damage reduction, so long as that damage reduction is lesser than the number of hit dice the Astral Blade possesses, and disappears if dropped or taken from the Astral Blade unwillingly.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "First Form - Comet",
+      "featureType": "Ex",
+      "featureDescription": "<p>The combat forms of the Astral Blade aspire to harness the might of the astral bodies high above them, and to focus that might into the sword in their hands.</p><p>At 1st level, the Astral Blade gains the following ability;</p><p>As a Standard Action, the Astral Blade may make an attack at their highest base attack bonus against any creature, wherein they travel in a straight line towards the target creature using their highest movement speed as if using the <a target='_blank' href='https://www.d20pfsrd.com/feats/general-feats/run/'>Run</a> action. When they reach the target creature they resolve the attack as normal and, if they deal damage to the creature, they may continue moving the creature and themselves in a straight line for the remainder of their movement.</p><p>The Astral Blade may move no more than five times their highest movement speed when using this Form.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Heaven-Sent",
+      "featureType": "Su",
+      "featureDescription": "<p>The ties an Astral Blade has to the heavens above go far beyond their swordsmanship. It is said in ancient texts that they were sent from the heavens, and that they would one day return when it was their time.</p><p>At 2nd level, the Astral Blade gains the following benefits;</p><p>During the Day, the Astral Blade's attacks deal 50% more damage, as if <a target='_blank' href='https://www.d20pfsrd.com/feats/metamagic-feats/empower-spell-metamagic/'>Empowered</a>.</p><p>During the Night, the Astral Blade has a 50% miss chance, as if from <a target='_blank' href='https://www.d20pfsrd.com/Gamemastering/combat/#TOC-Concealment'>Concealment</a>.</p><p>These benefits are only imparted to the Astral Blade if they are able to see the natural sky.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Second Form - Termination Shock",
+      "featureType": "Ex",
+      "featureDescription": "<p>Pulling at the threads of reality itself allows for the manipulation far more than warped space and the swift arc of a blade, and the Astral Blade embraces this truth.</p><p>At 3rd level, the Astral Blade gains the following ability;</p><p>As a Full Round Action, the Astral Blade may affect an area around them in a multitude of ways simultaneously.</p><p>They may apply the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/h/haste/'>Haste</a> to allies (including themself) within a 30ft radius centered on themselves.</p><p>They may apply the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/s/slow/'>Slow</a> to all enemies within a 60ft radius centered on themselves, however they may not apply this effect to any enemies within a 30ft radius of themselves.</p><p>They may <a target='_blank' href='https://www.d20pfsrd.com/gamemastering/Conditions/#stunned'>Stun</a> any enemies that are exactly 30ft away from them.</p><p>All of these effects last until the beginning of the Astral Blade's next turn.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Asterism",
+      "featureType": "Su",
+      "featureDescription": "<p>The mark of a true master is not just to learn the techniques of an art, but to change them, to modify them, to create them anew. The mark of a master Astral Blade is to add their star to the constellation of masters that came before them, and expand the tapestry of their art.</p><p>At 4th level, when using a Form, the Astral Blade may use another Form they know as a nonaction by taking an amount of nonlethal damage equal to their hit dice. They may string together a number of additional Forms in this way equal to their hit dice divided by five.</p>",
+      "featureLevel": 4,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Third Form - The Quiet Sun",
+      "featureType": "Ex",
+      "featureDescription": "<p>Combat is very rarely solely defined by violent resolutions. Far more important are the ways that a warrior may subvert combat, or more specifically in the case of the Astral Blade, subvert resistance.</p><p>At 5th level, the Astral Blade gains the following ability;</p><p>As a Standard Action, the Astral Blade may render themselves <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/i/invisibility/'>Invisible</a>, <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/s/silence/'>Silenced</a>, and <a target='_blank' href='https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-rules/#incorporeal_ex'>Incorporeal</a> with a fly speed equal to 30ft or their own fly speed, whichever is higher.</p><p>These benefits last until the Astral Blade attacks any creature, or until the beginning of the Astral Blade's next turn, whichever comes first.</p>",
+      "featureLevel": 5,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Terminus Velocity",
+      "featureType": "Su",
+      "featureDescription": "<p>The hand of the Astral Blade remains forever outstretched towards the stars above, and their dedication to their training will be rewarded, as their fingers will one day brush against the twinkling facade far above.</p><p>At 6th level, the Astral Blade becomes immune to fall damage. Additionally, they no longer have a terminal velocity, meaning they are able to decide exactly how quickly they descend in any given round. Furthermore, they gain a fly speed of 60ft with perfect maneuverability.</p>",
+      "featureLevel": 6,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fourth Form - Strange Matter",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade must be a master scholar in addition to a master swordsman. To leave oneself without the complete knowledge of their field is to cheat oneself out of power. The Astral Blade pushes the bounds of the known universe both to sate their academic curiosity, as well as to indulge themselves in the development of new swordsmanship techniques.</p><p>As an Immediate Action, whenever the Astral Blade would receive precision damage, such as from a critical hit or sneak attack, they may negate the damage from that attack by temporarily converting their biological makeup into Strange Matter.</p><p>Due to the lack of stability of Strange Matter at non-critical pressure, the benefits of this ability only last for the attack it negates.</p>",
+      "featureLevel": 7,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Starborn",
+      "featureType": "Su",
+      "featureDescription": "<p>The Astral Blade prays to the heavens for guidance and safe passage. Now, their prayers are answered.</p><p>At 8th level, the Astral Blade gains immunity to Cold, Dazzled, and Blindness, and can see perfectly in natural or supernatural darkness. Additionally, they gain Fast Healing equal to their Wisdom Modifier if they are able to see the natural sky, and this Fast Healing also heals an equal amount of Non Lethal Hit Points every round. Furthermore, the Astral Blade no longer needs to breathe.</p>",
+      "featureLevel": 8,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Fifth Form - Core Collapse",
+      "featureType": "Ex",
+      "featureDescription": "<p>Most tend to focus on the marvels of creation found in the vast reaches of the stars. The myriad of infinite possibilities laid out in a grand tapestry of unparalleled beauty. The Astral Blade knows that destruction is present in equal part to creation in that tapestry, and that there is beauty in that destruction.</p><p>At 9th level, the Astral Blade gains the following ability;</p><p>As a Standard Action, you may select a target that you can see to become the center of a Core Collapse. All creatures and objects within 60ft of the Core Collapse are drawn towards the center at high speeds. The Astral Blade may select particular creatures and objects within the affected range that are exempt from this gravitational effect.</p><p>The Astral Blade must succeed on an attack roll to hit the target with the affected creatures and objects, using their highest Base Attack Bonus + their Wisdom Modifier. Weapons cause standard damage (with no Strength bonus; note that arrows or bolts deal damage as daggers of their size when used in this manner). Other objects cause damage ranging from 1 point per 25 pounds (for less dangerous objects) to 1d6 points of damage per 25 pounds (for hard, dense objects). Creatures drawn towards the center of the Core Collapse take damage as if they had fallen towards the center, 1d6 points of damage per 10ft.</p>",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Liminal Edge",
+      "featureType": "Su",
+      "featureDescription": "<p>In a life of indulging in equal measures of bladework and study, the Astral Blade has brought these areas of study into the realm of application.</p><p>At 10th level, the Astral Blade gains the following benefits;</p><p>When summoning a one-handed slashing weapon with the Starblade feature, the Astral Blade may instead summon two light one-handed slashing weapons, or one two-handed slashing weapon.</p><p>Additionally, weapons summoned with the Starblade feature gain an enhancement bonus equal to ½ of the Astral Blade's level.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Circadian Alignment",
+      "featureType": "Su",
+      "featureDescription": "<p>The Astral Blade endeavors to become one with the sky above. To truly embrace the awe-inspiring might of the heavens allows the Astral Blade to share in its strength.</p><p>At 10th level, the Astral Blade gains the following benefits;</p><p>For one minute at Noon, all attacks made by the Astral Blade are critical hits.</p><p>For one minute at Midnight, the Astral Blade has a 100% miss chance.</p><p>These benefits are only imparted to the Astral Blade if they are able to see the natural sky.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Sixth Form - Asteroid Belt",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade begins to change, the time spent studying the astral bodies above and incorporating their form into bladework has begun to step beyond the bounds of swordsmanship alone, and become an art unto itself.</p><p>At 11th level, the Astral Blade gains the following ability;</p><p>As a Full-Round Action the Astral Blade may pull debris from the surrounding environment into orbit around them.&nbsp;</p><p>This orbit grants concealment (20% miss chance) to all creatures and objects of the Astral Blade's choosing within a 20ft radius.</p><p>This orbit is considered difficult terrain for all creatures of the Astral Blade's choosing, and at the beginning of their turn the Astral Blade may make a free Trip attempt against them using their Wisdom Modifier.</p><p>Additionally, while in effect, the debris grants temporary hit points to the Astral Blade equal to five times their hit dice.</p><p>This orbit persists until the Astral Blade dismisses it as a Free Action, or the hit points of the debris are depleted.</p><p>At 14th level, the area of effect of this form is equal to the area influenced by Lagrange Point.</p>",
+      "featureLevel": 11,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Orbit",
+      "featureType": "Su",
+      "featureDescription": "<p>The journey of the Astral Blade was always one intent on becoming more like the stars above. This intent has shaped them into something unknowably powerful, and unthinkably dangerous.</p><p>At 12th level, the Astral Blade gains the following benefits;</p><p>The Astral Blade is immune to any attack from thrown or hurled weapons, arrows, bolts, bullets, and projectile spells (except for Magic Missile) so long as the projectile has a size less than their own.</p><p>Any such ranged attack against the Astral Blade automatically fails and the weapon is pulled into orbit around them. Captured projectiles orbit the Astral Blade as long as they desire, and they can release one such projectile each round as an Immediate Action using the attack bonus it originally had when it was directed at them, and the damage for the attack is rolled by the original attacker.</p>",
+      "featureLevel": 12,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Seventh Form - Blade Resonance",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has become familiar with the curvature of space, the way it folds and bends in order to maintain fragile cosmic balance. They have taken the time to learn this power, though in using it, cosmic balance is the furthest thing from their mind.</p><p>At 13th level, the Astral Blade gains the following ability;</p><p>With a melee touch attack, the Astral Blade may inflict a creature or object, no greater than Colossal in size, with Resonance.</p><p>Whenever anything inflicted with Resonance has a change in hit points, all other things inflicted with Resonance have an identical change in hit points.</p><p>The Astral Blade may have a number of creatures equal to their Wisdom Modifier inflicted with Resonance simultaneously.</p><p>Resonance is ended whenever the Astral Blade takes a Long Rest, or whenever they dismiss it as a Free Action.</p>",
+      "featureLevel": 13,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Lagrange Point",
+      "featureType": "Do",
+      "featureDescription": "<p>The Astral Blade blends masterful swordsmanship with the towering infinite potential of the heavens above, all to deadly effect. They aim to harness the might of the stars, and, in time, surpass them.</p><p>At 14th level, the Astral Blade gains the following benefits;</p><p>The Astral Blade generates their own gravitational field.&nbsp;</p><p>This functions as a <i>Standard-Radius Barrierless Non-Distributive </i><a target='_blank' href='#/player-homebrew/domains'>Domain</a> with an Innate Spell of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/g/gravity-sphere/'>Gravity Sphere</a>, and uses Wisdom as its key ability score.&nbsp;</p><p>The Astral Blade may change the effect of the <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/g/gravity-sphere/'>Gravity Sphere</a> as an Immediate Action, and they may also change the direction of the effect as well.</p><p>Additionally, when attacking, they may attempt a reposition combat maneuver as a Free Action to move the enemy to any square within their gravitational field when the attack is resolved.</p><p>Furthermore, the Astral Blade becomes immune to effects that concern their mass, and gravity effects.</p><p>Lastly, the Astral Blade is always considered to have <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/f/freedom-of-movement'>Freedom of Movement</a>.</p>",
+      "featureLevel": 14,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Eighth Form - Accretion Disk",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has grown powerful enough to begin to tap into the nightmarish strength of the things the heavens themselves fear, and they push further still.</p><p>At 15th level, the Astral Blade gains the following ability;</p><p>As Standard Action, the Astral Blade may roll a full attack. The Astral Blade then selects one of the attack rolls they have made and applies this roll to the AC of all things within the radius of Lagrange Point with the exception of those the Astral Blade specifically chooses to exempt.&nbsp;</p><p>If the attack roll exceeds the AC of a target, then damage for all attacks within the full attack is applied to them.</p>",
+      "featureLevel": 15,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Eclipse",
+      "featureType": "Su",
+      "featureDescription": "<p>The Astral Blade's ability to infringe upon the heavens has grown to an godlike level.</p><p>At 16th level, the Astral Blade gains the following ability;</p><p>Once per week, the Astral Blade may force an Eclipse to occur as a Full-Round Action.&nbsp;</p><p>If used at night, a lunar eclipse occurs.</p><p>If used during the day, a solar eclipse occurs.</p><p>This eclipse lasts for the remainder of the day or night in which it was used. During this time, the Astral Blade gains benefits as if it were both day and night simultaneously. Likewise, Noon and Midnight are also treated as occurring simultaneously.</p><p>A natural eclipse also imparts this benefit.</p>",
+      "featureLevel": 16,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Ninth Form - Hypernova",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has come to wield the very forces of creation within their grasp, and with the power to create, comes the power to destroy.</p><p>At 17th level, the Astral Blade gains the following ability;</p><p>As a Full-Round Action the Astral Blade may make a single attack against a target within range.</p><p>This attack has a variety of effects depending on the current HP of the target.</p><p>If the target's HP is between 75% and 100% of its maximum, then the target's maximum HP is halved until the dawn of the next day.</p><p>If the target's HP is between 50% and 75% of its maximum, then the target's current HP is halved and the target is staggered.</p><p>If the target's HP is between 25% and 50% of its maximum, the target is reduced to a single hit point and Stunned.</p><p>If the target's HP is between 0% and 25% of its maximum, the target is obliterated from existence, and only a miracle or carefully worded wish may bring it back.</p><p>If a target's HP is exactly on one of these thresholds, the Astral Blade may select which effect the attack will have.</p><p>After a target is attacked with Hypernova, they are rendered immune to it until the Astral Blade completes a long rest.</p>",
+      "featureLevel": 17,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Touch of the Void",
+      "featureType": "Su",
+      "featureDescription": "<p>If one's focus is the heavens above, many first look to study the stars and the heavenly bodies. The Astral Blade knows not to neglect the black between the stars, as the oft-neglected space is a source of immense power.</p><p>At 18th level, as a Standard Action, the Astral Blade may alter their gravitational field to more closely emulate the black void of space.</p><p>This removes all air from the area, covers the area in supernatural darkness, and affects the area as per the spell <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/p/polar-midnight/'>Polar Midnight</a>.</p><p>This effect lasts for one round per hit die the Astral Blade possesses, and only affects the area that their gravitational field occupies.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Tenth Form - Event Horizon",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has glimpsed the face of infinity. At the end of everything is everything once more, and this infinite recursion finds its way into the hands of the Astral Blade, who now knows exactly how to use it.</p><p>At 19th level, the Astral Blade gains the following ability;</p><p>The Astral Blade may make a single attack at their highest base attack bonus against a target within range as a Full-Round Action. If this attack is successful, then the Astral Blade may make an additional attack at the same base attack bonus, albeit at a -1 penalty. This continues until the Astral Blade fails to damage a target.</p><p>If the Astral Blade scores a critical hit, then they may apply a bonus to hit to all attacks made on this turn equal to their Wisdom Modifier. This bonus stacks with itself.</p>",
+      "featureLevel": 19,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Eleventh Form - Big Bang",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade understands the absolute truth of the universe; The heavens are in a constant war, tearing themselves asunder as we coast in the eye of it all. The Astral Blade has willingly joined that war, and their power is without limit.</p><p>The Astral Blade gains two abilities at level 20;</p><p>The Power to Create.</p><p>The Astral Blade may remake a part of the universe in their image. They may select an area that Lagrange Point can influence, and reshape the area within in any way they wish. The only things the Astral Blade is incapable of creating are things of equal or greater power than themselves, or impossibilities.</p><p>The Power to Destroy.</p><p>The Astral Blade may obliterate a part of the universe as they wish. They may select an area that Lagrange Point can influence, and remove that area from existence. Nothing is capable of bringing back that which the Astral Blade has unmade unless the Astral Blade themselves chooses it, or a being of greater power wills it so.</p><p>These abilities require a Standard Action to perform.</p><p>When performing either of these abilities, the Astral Blade's current hit points are reduced by one less than their maximum hit points.</p>",
+      "featureLevel": 20,
+      "setInnerHtml": true
+    }
+  ],
+  "epicLevelClassFeatures": [
+    {
+      "featureName": "Godspeed",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has begun to shed their mortal limits, and first and foremost holding them back, is their speed.</p><p>The Astral Blade's land speed is multiplied by their Wisdom Modifier.</p><p>Additionally, their fly speed is equal to their land speed, if it is not already greater.</p>",
+      "featureLevel": 21,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "One with the Stars",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade can survive in the deep vacuum of space, as that is home for the stars.</p><p>The Astral Blade heals any damage taken from Cold and Fire damage.&nbsp;</p><p>Additionally they do not suffer any penalties or damage from decompression or any hazards incurred from being in a vacuum.</p><p>Furthermore the Astral Blade is treated as being under an eclipse if they are in space.</p>",
+      "featureLevel": 22,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Binary System",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has grasped the idyllic balance of a binary star system, and aligned themselves to become one with the power of it all.</p><p>The Astral Blade may now have two turns in Initiative.</p><p>Additionally the Astral Blade may add their Wisdom Modifier to Initiative.</p>",
+      "featureLevel": 23,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Spaces Between",
+      "featureType": "Su",
+      "featureDescription": "<p>The Astral Blade is one with what is and what is not, and can pass between them seamlessly.</p><p>The Astral Blade may cast Dimension Door at will, using their Astral Blade level as their Caster Level.</p><p>Additionally, the Astral Blade gains <a target='_blank' href='https://docs.google.com/document/d/1luGmri8CEUqqc-JS_givSmHVQR6KBtah2BJ0mBsaZ-w/edit#heading=h.gjt07yuavisj'>Dimensional Agility</a> feat as a bonus feat.</p>",
+      "featureLevel": 24,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Edge of the Universe",
+      "featureType": "Su",
+      "featureDescription": "<p>The Astral Blade can manifest a shard of existence itself, there is no manmade sword that may be its equal, and this is only the beginning of the Astral Blade's new prowess.</p><p>The weapons manifested by the Starblade ability now have an enhancement bonus equal to the Astral Blade's hit dice. This bonus may be distributed as any combination of special bonuses or numerical bonuses at the time of manifestation.</p>",
+      "featureLevel": 25,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Biosphere",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade takes hold of the last part of the universe they have yet to claim; Life.</p><p>The Astral Blade has complete control over the atmosphere within the area of Lagrange Point, and regardless of the hostile conditions outside of it, can make it habitable and comfortable for beings within, and vice versa.</p>",
+      "featureLevel": 26,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Starfaring",
+      "featureType": "Sp",
+      "featureDescription": "<p>The Astral Blade can traverse the heavens as easily as they traverse the lands beneath.</p><p>The Astral Blade may cast <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/i/interplanetary-teleport/'>Interplanetary Teleport</a> at will, with no restrictions.</p>",
+      "featureLevel": 27,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Trinary System",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has harnessed the chain of impossibly balanced power of a trinary star system, and become one with the impossibility.</p><p>The Astral Blade may now have three turns in Initiative.</p>",
+      "featureLevel": 28,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Paragon of the Blade",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade has not left the practice of swordsmanship behind in their pursuit of the stars, in fact, they have elevated the practice to a transcendent new reality.</p><p>The Astral Blade becomes immune to all slashing damage, and all non-epic weapon damage, and any creature that is wielding a sword is considered flat-footed against the Astral Blade.</p>",
+      "featureLevel": 29,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "God Particle",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Astral Blade is all. There is no longer a line between themselves and reality itself.</p><p>The Astral Blade no longer pays any costs when utilizing Big Bang.</p>",
+      "featureLevel": 30,
+      "setInnerHtml": true
+    }
+  ]
+}

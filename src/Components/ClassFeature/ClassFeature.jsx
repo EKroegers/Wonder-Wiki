@@ -17,7 +17,7 @@ export default function ClassFeature({
           }}
         />
         <div className="Class-Feature-Body">
-          <p dangerouslySetInnerHTML={{ __html: `${featureDescription}` }} />
+          <div dangerouslySetInnerHTML={{ __html: `${featureDescription}` }} />
         </div>
       </div>
     );

@@ -1,0 +1,57 @@
+{
+  "name": "",
+  "role": "",
+  "alignment": "",
+  "hitDie": "",
+  "startingWealth": "",
+  "classSkills": "",
+  "maxLevel": 1,
+  "baseAttackBonusType": "",
+  "saveTypes": { "Fortitude": "", "Reflex": "", "Willpower": "" },
+  "classFeatures": [
+    {
+      "featureName": "",
+      "featureType": "",
+      "featureDescription": "",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "",
+      "featureType": "",
+      "featureDescription": "",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "",
+      "featureType": "",
+      "featureDescription": "",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    }
+  ],
+  "epicLevelClassFeatures": [
+    {
+      "featureName": "",
+      "featureType": "",
+      "featureDescription": "",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "",
+      "featureType": "",
+      "featureDescription": "",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "",
+      "featureType": "",
+      "featureDescription": "",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    }
+  ]
+}

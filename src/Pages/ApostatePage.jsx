@@ -105,6 +105,8 @@ export function ApostatePage() {
           <i>
             This is a replacement for the Apostate's <b>Apotheosis</b> ability
           </i>
+          <br />
+          <br />
         </section>
       }
     />

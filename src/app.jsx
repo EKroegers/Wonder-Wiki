@@ -18,6 +18,7 @@ import { TrainingSystem } from './Pages/TrainingSystem.jsx';
 import { PlayerHomebrew } from './Pages/PlayerHomebrew.jsx';
 import { CustomClasses } from './Pages/CustomClasses.jsx';
 import { ApostatePage } from './Pages/ApostatePage.jsx';
+import { AstralBladePage } from './Pages/AstralBladePage.jsx';
 import { Domains } from './Pages/Domains.jsx';
 import { HomebrewFeats } from './Pages/HomebrewFeats.jsx';
 
@@ -49,7 +50,7 @@ export default function App() {
             <Route path="custom-classes">
               <Route index element={<CustomClasses />} />
               <Route path="apostate" element={<ApostatePage />} />
-              <Route path="astral-blade" element={<div />} />
+              <Route path="astral-blade" element={<AstralBladePage />} />
               <Route path="dagger-of-dusk" element={<div />} />
               <Route path="fateweaver" element={<div />} />
               <Route path="mutant-mercenary" element={<div />} />

@@ -12,6 +12,7 @@ export default function CustomClassPage({
   hitDie,
   startingWealth,
   classSkills,
+  skillRanks,
   maxLevel,
   baseAttackBonusType,
   saveTypes,
@@ -43,6 +44,10 @@ export default function CustomClassPage({
       <h2>Class Skills</h2>
       <p>
         The {name}'s class skills are {classSkills}
+      </p>
+      <p>
+        <b>Skill Ranks Per Level: </b>
+        {skillRanks} + Int modifier
       </p>
       <ClassTable
         maxLevel={maxLevel}
