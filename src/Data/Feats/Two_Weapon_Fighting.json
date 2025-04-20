@@ -1,0 +1,28 @@
+{
+  "name": "Two Weapon Fighting",
+  "flavor": "When armed with two weapons, you fight with two weapons rather than picking and choosing and fighting with only one. Kind of obvious in retrospect",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+0",
+      "benefit": "You suffer no penalty for doing things with your off-hand. When you make an attack or full-attack action, you may make a number of attacks with your off-hand weapon equal to the number of attacks you are afforded with your primary weapon. Off-hand weapons only deal half your Strength bonus in damage."
+    },
+    {
+      "step": "+1",
+      "benefit": "While armed with two weapons, you gain an extra Attack of Opportunity each round for each attack you would normally be allowed, these extra attacks of opportunity must be made with your off-hand."
+    },
+    {
+      "step": "+6",
+      "benefit": "You gain a +2 to your Shield Bonus to your armor class when fighting with two weapons."
+    },
+    {
+      "step": "+11",
+      "benefit": "You may Feint as a Swift action while fighting with two weapons."
+    },
+    {
+      "step": "+16",
+      "benefit": "While fighting with two weapons you may add the enhancement bonus of either your primary or your off-hand weapon to your Shield Bonus to AC."
+    }
+  ]
+}

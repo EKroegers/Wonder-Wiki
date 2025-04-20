@@ -1,0 +1,37 @@
+{
+  "name": "Elemental Aptitude",
+  "flavor": "You are attuned to the elemental magics of this reality",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "Select an elemental damage type from the following; Fire, Cold, Acid, or Electricity. All weapon attacks may deal an additional die of elemental damage of the selected damage type. Additionally whenever dealing damage with the selected elemental damage type, you may deal an additional +1 damage per die of elemental damage rolled. "
+    },
+    {
+      "step": "+6",
+      "benefit": "You gain an additional movement type based upon the elemental type you have selected. Fire grants you an additional 30ft climb speed. Cold grants you a 30ft swim speed. Acid grants you a 30ft burrow speed. Electricity grants you a 30ft fly speed. Additionally whenever dealing damage with the selected elemental damage type, you may now deal an additional +2 damage per die of elemental damage rolled and all weapon attacks may now deal two additional dice of elemental damage of the selected damage type. "
+    },
+    {
+      "step": "+11",
+      "benefit": "You gain immunity to your selected damage type. Additionally whenever dealing damage with the selected elemental damage type, you may now deal an additional +3 damage per die of elemental damage rolled and all weapon attacks may now deal three additional dice of elemental damage of the selected damage type. "
+    },
+    {
+      "step": "+16",
+      "benefit": " The movement speed you gain from this feat is doubled. Additionally, elemental damage dealt of the selected damage type bypasses resistances. Furthermore, whenever dealing damage with the selected elemental damage type, you may now deal an additional +4 damage per die of elemental damage rolled and all weapon attacks may now deal four additional dice of elemental damage of the selected damage type. "
+    },
+    {
+      "step": "+21",
+      "benefit": "Elemental damage dealt of the selected damage type bypasses immunity. Additionally whenever dealing damage with the selected elemental damage type, you may now deal an additional +5 damage per die of elemental damage rolled and all weapon attacks may now deal five additional dice of elemental damage of the selected damage type. "
+    },
+    {
+      "step": "+26",
+      "benefit": "You may radiate an aura of your selected elemental damage type, dealing the amount of typical damage you would add to a weapon attack to all within range, using d12’s, without a save. This aura may be activated and deactivated as a Free Action. Additionally whenever dealing damage with the selected elemental damage type, you may now deal an additional +6 damage per die of elemental damage rolled and all weapon attacks may now deal six additional dice of elemental damage of the selected damage type. "
+    },
+    {
+      "step": "+30",
+      "benefit": "When taking damage of your selected elemental type, you instead heal an amount equal to the elemental damage from that attack. Additionally whenever dealing damage with the selected elemental damage type, you may now deal an additional +7 damage per die of elemental damage rolled and all weapon attacks may now deal seven additional dice of elemental damage of the selected damage type. "
+    }
+  ]
+}

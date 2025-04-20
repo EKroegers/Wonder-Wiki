@@ -1,0 +1,33 @@
+{
+  "name": "Vital Strike",
+  "flavor": "You make a single attack that deals significantly more damage than normal",
+  "prerequisites": "BAB +6",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+6",
+      "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon’s damage dice for the attack twice and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. Vital Strike attacks deal an additional one point of damage per die. In addition the critical modifier of the weapon used in the Vital Strike is doubled. Any critical hits made with a Vital Strike attack deals 2d6 Con damage. "
+    },
+    {
+      "step": "+11",
+      "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon’s damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. Vital Strike attacks deal an additional two points of damage per die. In addition the critical modifier of the weapon used in the Vital Strike is tripled. Any critical hits made with a Vital Strike attack deals 3d6 Con damage. "
+    },
+    {
+      "step": "+16",
+      "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon’s damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision based damage, and other damage bonuses. Vital Strike attacks deal an additional three points of damage per die. In addition the critical modifier of the weapon used in the Vital Strike is quadrupled. Any critical hits made with a Vital Strike attack deals 4d6 Con damage. "
+    },
+    {
+      "step": "+21",
+      "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon’s damage dice for the attack five times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision-based damage, and other damage bonuses. Vital Strike attacks deal an additional five points of damage per die. In addition the critical modifier of the weapon used in the Vital Strike is quintupled. Any critical hits made with a Vital Strike attack deals 5d8 Con drain. "
+    },
+    {
+      "step": "+26",
+      "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon’s damage dice for the attack six times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision based damage, and other damage bonuses. Vital Strike attacks deal an additional six points of damage per die. In addition the critical modifier of the weapon used in the Vital Strike is sextupled. Any critical hits made with a Vital Strike attack deals 6d10 Con drain. "
+    },
+    {
+      "step": "+30",
+      "benefit": "When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon’s damage dice for the attack seven times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision based damage, and other damage bonuses. Vital Strike attacks deal an additional seven points of damage per die. In addition the critical modifier of the weapon used in the Vital Strike is septupled. Any critical hits made with a Vital Strike attack deals 7d12 Con drain. "
+    }
+  ]
+}

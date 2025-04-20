@@ -1,0 +1,24 @@
+{
+  "name": "Weapon Finesse",
+  "flavor": "You are incredibly deft with a blade",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+0",
+      "benefit": "You may use your Dexterity Modifier instead of your Strength modifier for calculating your melee attack bonus."
+    },
+    {
+      "step": "+1",
+      "benefit": "You may use your Dexterity modifier in place of your Strength modifier for calculating your melee damage."
+    },
+    {
+      "step": "+6",
+      "benefit": "You may use your Dexterity modifier in place of your Strength modifier when attempting a combat maneuver."
+    },
+    {
+      "step": "+11",
+      "benefit": "Once per turn, when an opponent is struck, you may take an attack of opportunity on that opponent."
+    }
+  ]
+}

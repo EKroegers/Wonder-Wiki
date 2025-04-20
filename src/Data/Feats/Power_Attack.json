@@ -1,0 +1,7 @@
+{
+  "name": "Power Attack",
+  "flavor": "You leverage your combat skill into devastating attacks at the expense of accuracy.",
+  "prerequisites": "BAB +1",
+  "benefits": "Before making an attack roll, you may voluntarily take an attack penalty of up to your BAB, and inflict two times that amount in extra damage with that attack. You may take this option on any or all of your attacks if you wish.",
+  "special": "When wielding a weapon in two hands, you may inflict additional damage equal to three times the voluntary penalty you take when attacking."
+}

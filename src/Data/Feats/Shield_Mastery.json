@@ -1,0 +1,37 @@
+{
+  "name": "Shield Mastery",
+  "flavor": "You are skilled at deflecting blows with your shield",
+  "prerequisites": "Shield Proficiency",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1",
+      "benefit": "Increase the AC bonus granted by any shield you are using by one fifth your BAB (minimum 1). If a character has a shield stowed on their back, they may gain the AC bonus without wielding it. This bonus can only be gained for a single shield "
+    },
+    {
+      "step": "6",
+      "benefit": "You reduce the armor check penalty of any shield you are using by one half your BAB. Additionally, shields may impart the benefits of special material composition as if they were armor instead of weapons. Light Shields (such as bucklers or light wooden shields) count as light armor, Heavy Shields (such as heavy steel shields or snarlshields) count as medium armor, and Tower Shields count as Heavy Armor."
+    },
+    {
+      "step": "11",
+      "benefit": "Your shield may block attacks as a nonaction. This can be performed a number of times per day equal to your total Shield Bonus to AC."
+    },
+    {
+      "step": "16",
+      "benefit": "You can throw your shield, performing any combat maneuver with a range increment of 60'."
+    },
+    {
+      "step": "21",
+      "benefit": "So long as you are wielding a shield, you are always considered to have Improved Cover (+8 to AC, +4 to Reflex Saves, +10 to Stealth Checks, Improved Evasion, and Immunity to Attacks of Opportunity)."
+    },
+    {
+      "step": "26",
+      "benefit": "Your Shield bonus to AC applies against Touch Attacks."
+    },
+    {
+      "step": "30",
+      "benefit": "When taking a Total Defense action, you may become Immune to all damage until the beginning of your next turn."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Expertise",
+  "flavor": "You leverage your combat skill into defense rather than offense.",
+  "prerequisites": "BAB +1",
+  "benefits": "Before making an attack roll, you may take an attack penalty of up to your BAB on this attack and all further attacks until your next turn, and gain an equal Dodge Bonus to AC. You may only use this option once per turn."
+}
