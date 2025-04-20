@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Sword Cane)",
+  "flavor": "You can effortlessly balance etiquette with execution",
+  "prerequisites": "BAB +1, Proficiency with sword canes",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "You may add the enhancement bonus of your sword cane to the following; Initiative rolls, Bluff checks, Disguise checks, and Diplomacy Checks. Additionally, the sword cane cannot be detected as a weapon unless revealed or viewed in a way that can see through the external material of the cane into the interior. Furthermore even a magically imbued sword cane bears no aura. "
+    },
+    {
+      "step": "+6",
+      "benefit": "On your turn while wielding a sword cane, you may elect not to take one of your attacks. At any time before your next turn, you may attempt to parry an attack against you or an adjacent ally as an immediate action. To parry the attack, you make an attack roll, using the same bonuses as the attack you chose to forego during your previous action. If your attack roll is greater than the roll of the attacking creature, the attack automatically misses. You must declare the use of this ability after the attack is announced, but before the roll is made. "
+    },
+    {
+      "step": "+11",
+      "benefit": " The first attack made with a sword cane that was previously concealed is considered a critical threat if it successfully hits. This ability may be used once per combat. "
+    },
+    {
+      "step": "+16",
+      "benefit": "You may choose to forgo any number of attacks on your turn for the sake of parrying, expending Attacks of Opportunity instead of Immediate Actions to parry attacks. Additionally, sword canes that you wield now have a critical threat range of 19-20 with a critical multiplier of x3. "
+    },
+    {
+      "step": "+21",
+      "benefit": " A number of times per day equal to your dexterity modifier, you may attempt to feint or disarm a creature with a lower BAB bonus than you as a free action. You must be wielding a sword cane in order to take this action. Additionally, the first round in which a sword cane is revealed to be a weapon, all successful attacks are considered critical hits. This ability may be used once per combat. "
+    },
+    {
+      "step": "+26",
+      "benefit": "All precision damage dealt with a sword cane is maximized. Additionally, sword canes that you wield now have a critical threat range of 18-20 with a critical multiplier of x4. "
+    },
+    {
+      "step": "+30",
+      "benefit": "All attacks against creatures who were fooled by the sword cane's appearance are considered critical hits, which ignore all defensive abilities. Additionally, whenever your sword cane deals damage to an enemy, that enemy is subject to a targeted dispel check, as if using Dispel Magic, using the damage dealt as the dispel check. Furthermore, all precision damage dealt with a sword cane is doubled. "
+    }
+  ]
+}

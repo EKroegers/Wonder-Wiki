@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Spiked Chain)",
+  "flavor": "Your deftness with a chain is unmatched",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "You treat a spiked chain as a one-handed martial weapon for all purposes. You can still choose to wield a spiked chain as a two-handed weapon, and if you do so, your foes are denied their Dexterity bonus to their CMD against your trip or grapple checks. Additionally, you may attach a weapon to the end of your spiked chain, and act as if you are wielding the attached weapon, but using the reach of the spiked chain. When using the chain in this way, you lose the ability to make combat maneuvers with the chain unless the attached weapon may also make those combat maneuvers. Furthermore, the reach of spiked chains you wield increases by 10ft. The reach of a spiked chain is still limited by the total length of the chain. "
+    },
+    {
+      "step": "+6",
+      "benefit": "When wielding a spiked chain, you may add its enhancement bonus to your AC as a shield bonus. When taking a total defense action, you may double this bonus. Additionally, you can use the spiked chain to grasp onto a point within its reach, using 5 feet of your chain as if it were a grappling hook, allowing you to use the rest of your chain to swing on. Furthermore, the reach of spiked chains you wield increases by 10ft. "
+    },
+    {
+      "step": "+11",
+      "benefit": "When making attacks with your spiked chain, you may treat it as if you are making an unarmed strike for the purposes of effects that require you to deliver them through unarmed strikes (such as Stunning Fist). Additionally, when making an attack with a spiked chain, you may choose to take an amount of nonlethal damage in order to impose a penalty on concentration checks for the creature you hit with the chain equal to the amount of nonlethal damage taken. If you are immune to nonlethal damage, you take lethal damage instead. The penalty is a pain effect. Furthermore, the reach of spiked chains you wield increases by 25ft. "
+    },
+    {
+      "step": "+16",
+      "benefit": "When wielding a spiked chain, you cannot be disarmed, and the chain cannot be sundered. Additionally, spiked chains that you wield now have a critical threat range of 19-20 with a critical multiplier of x3. Furthermore, the reach of spiked chains you wield increases by 50ft. "
+    },
+    {
+      "step": "+21",
+      "benefit": "When wielding a spiked chain, you may make a combat maneuver against creatures you successfully damage with the chain as a free action. Additionally, you automatically succeed any checks related to repositioning yourself using the spiked chain. Furthermore, the reach of spiked chains you wield increases by 100ft. "
+    },
+    {
+      "step": "+26",
+      "benefit": "Ranged attacks passing through your threatened area provoke Attacks of Opportunity. If you successfully exceed the attack roll of the ranged attack you may catch the projectile, stopping the attack. As a free action, you may then throw the projectile back at its place of origin, making an attack roll with your spiked chain in place of the ranged attack roll. The damage dealt by this attack is equal to the damage of the projectile plus your Dexterity modifier. Additionally, spiked chains that you wield now have a critical threat range of 18-20 with a critical multiplier of x4. Furthermore, the reach of spiked chains you wield increases by 300ft. "
+    },
+    {
+      "step": "+30",
+      "benefit": "Spells passing through your threatened area provoke Attacks of Opportunity. If your attack roll exceeds the opposed spellcraft check from the caster, you may attack and dispel the spell. Alternatively, you may throw the spell back, as if using Spell Turning. Furthermore, the reach of spiked chains you wield is only limited by the length of the chain. "
+    }
+  ]
+}

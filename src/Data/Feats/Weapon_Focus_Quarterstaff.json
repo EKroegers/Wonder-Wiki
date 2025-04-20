@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Quarterstaff)",
+  "flavor": "Your skill with a quarterstaff is legendary",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "When wielding a quarterstaff, the damage when used in an off hand is identical to the damage when used in the main hand. Additionally, whenever damaging anything with a quarterstaff, you may cause an equivalent amount of knockback to the damage dealt. Furthermore, your reach with quarterstaves increases by 5ft."
+    },
+    {
+      "step": "+6",
+      "benefit": "Once per round, as a free action, you may use the quarterstaff to make an acrobatics check, applying its enhancement bonus to the roll, and can move a number of feet in a direction of your choosing equal to the result of the roll. Additionally, whenever dealing damage with a quarterstaff, you may make a trip attempt as a free action. Furthermore, your reach with quarterstaves increases by 5ft."
+    },
+    {
+      "step": "+11",
+      "benefit": "For each attack you would normally be able to make with a quarterstaff, you are able to make one additional attack with the same attack bonus. Additionally, whenever causing knockback with a quarterstaff, you may move with the victim of the knockback as a free action. Furthermore, your reach with quarterstaves increases by 5ft."
+    },
+    {
+      "step": "+16",
+      "benefit": "Whenever targeted with a ranged attack, you may make an attack as an immediate action. If this attack exceeds the attack roll from the ranged attack, you may redirect the ranged attack to anywhere within the total attack range of the ranged attack. Additionally, quarterstaves that you wield now have a critical threat range of 19-20 with a critical multiplier of x3. Furthermore, your reach with quarterstaves increases by 5ft."
+    },
+    {
+      "step": "+21",
+      "benefit": "For each attack you would normally be able to make with a quarterstaff, you are now able to make one more additional attack with the same attack bonus, to a total of two additional attacks per attack with this feat. Additionally, whenever forcing a creature to impact a wall or floor with knockback using a quarterstaff, the creature must make a fortitude save (DC equals total knockback dealt) or be stunned for one round. Usage of this ability on an already stunned creature extends the duration of the stun by another round in the event that they fail their save. Furthermore, your reach with quarterstaves increases by 5ft."
+    },
+    {
+      "step": "+26",
+      "benefit": "Whenever targeted with a spell, you may make an attack as an immediate action. If this attack exceeds the attack roll from the spell, or the save DC for the spell, the spell is affected as if by spell turning. Additionally, quarterstaves that you wield now have a critical threat range of 18-20 with a critical multiplier of x4. Furthermore, your reach with quarterstaves increases by 5ft."
+    },
+    {
+      "step": "+30",
+      "benefit": "Whenever your quarterstaff deals damage to an enemy, that enemy is subject to a targeted dispel check, as if using Dispel Magic, using the damage dealt as the dispel check. Additionally, all knockback dealt by your quarterstaves are doubled. Furthermore, your reach with quarterstaves increases by 15ft."
+    }
+  ]
+}

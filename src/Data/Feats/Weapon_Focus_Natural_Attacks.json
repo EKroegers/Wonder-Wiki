@@ -1,0 +1,38 @@
+{
+  "name": "Weapon Focus (Natural Attacks)",
+  "flavor": "Be it claws, teeth, or tail; you are a deadly beast",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "special": "This feat can be taken multiple times. Each time it is taken, it applies to a new natural attack.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "Damage dealt by your selected natural attack deals an additional point of bleed damage. Additionally, you increase the damage dice of your natural attack by one step. Additionally, your selected natural attacks now have a critical threat range of 19-20 with a critical multiplier of x3."
+    },
+    {
+      "step": "+6",
+      "benefit": "Whenever using your selected natural attack, you may make an additional attack for each attack you would normally be capable of. Additionally, you increase the damage dice of your natural attack by one step. Furthermore, if they are not already, the selected natural attack becomes a primary natural attack."
+    },
+    {
+      "step": "+11",
+      "benefit": "Whenever using your selected natural attack, you gain the pounce ability. Additionally, you increase the damage dice of your natural attack by one step. Additionally, your selected natural attacks now have a critical threat range of 18-20 with a critical multiplier of x4."
+    },
+    {
+      "step": "+16",
+      "benefit": "Your selected natural attack gains the rend ability. Additionally, your selected natural attacks now have a critical threat range of 17-20 with a critical multiplier of x5. Furthermore, you increase the damage dice of your natural attack by one step."
+    },
+    {
+      "step": "+21",
+      "benefit": "The bleed damage dealt by your selected natural attacks is now equal to the damage dealt by the natural attack. Additionally, you increase the damage dice of your natural attack by one step. Furthermore, whenever activating the rend ability with your selected natural attack, you may gain an additional attack as if using the rake ability."
+    },
+    {
+      "step": "+26",
+      "benefit": "Whenever using your selected natural attack, you may make an additional attack for each attack you would normally be capable of. Additionally, your selected natural attacks now have a critical threat range of 16-20 with a critical multiplier of x6. Furthermore, you increase the damage dice of your natural attack by one step."
+    },
+    {
+      "step": "+30",
+      "benefit": "Whenever your selected natural attack deals damage to an enemy, that enemy is subject to a targeted dispel check, as if using Dispel Magic, using the damage dealt as the dispel check. Additionally, you increase the damage dice of your natural attack by two steps. Furthermore, your selected natural attacks now have a critical threat range of 15-20 with a critical multiplier of x7."
+    }
+  ]
+}

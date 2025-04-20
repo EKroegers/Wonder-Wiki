@@ -1,0 +1,6 @@
+{
+  "name": "Deific / Demonic Obedience",
+  "prerequisites": "Alignment within one step of your worshiped deity",
+  "benefits": "If you perform an action that pleases your patron, you gain a permanent +1 Divine or Profane bonus to an ability score of your choosing. Every time you receive this bonus, the requirements for getting another become more difficult. The patron may revoke this boon at any time.",
+  "special": "A Polytheist Paladin may select this feat multiple times, each time selecting a new patron it applies to."
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Improvised Weapon)",
+  "flavor": "You are extremely skilled in wielding whatever you can find",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "You do not suffer any penalties for using an improvised melee weapon. The improvised weapon has a critical threat range of 19–20, with a critical multiplier of ×2. Additionally, improvised weapons deal damage as if they were one size category larger."
+    },
+    {
+      "step": "+6",
+      "benefit": "You may deal one point of hit point damage to the improvised weapon as a swift action, changing its damage type and adding an additional die to its damage. The damage type changes in the following pattern; Bludgeoning to Slashing, Slashing to Piercing, and Piercing to Bludgeoning. The additional damage dice gained in this process are lost if the weapon is ever repaired. Additionally, improvised weapons you wield are treated as having double the normal number of hit points. Furthermore, improvised weapons deal damage as if they were another one size category larger."
+    },
+    {
+      "step": "+11",
+      "benefit": "Improvised weapons are considered magical for the purposes of overcoming damage reduction, and picking things up during combat is now a nonaction. Additionally, improvised weapons now have a critical threat range of 18-20 and a critical multiplier of x3. Furthermore, improvised weapons deal damage as if they were another one size category larger."
+    },
+    {
+      "step": "+16",
+      "benefit": "When successfully hitting an enemy, you may decide to break your weapon to deal additional damage. In exchange for giving the improvised weapon the broken condition, you may make the attack a critical hit. This cannot be done with weapons that already have the broken condition. Additionally, improvised weapons deal damage as if they were another one size category larger."
+    },
+    {
+      "step": "+21",
+      "benefit": "You may remove the broken condition from an improvised weapon as a swift action, restoring it to its full hit points as if casting Make Whole. Additionally, improvised weapons you wield are treated as having triple the normal number of hit points. Furthermore, improvised weapons deal damage as if they were another one size category larger."
+    },
+    {
+      "step": "+26",
+      "benefit": "Attacks made with improvised weapons are considered Epic for the purpose of overcoming damage reduction. Additionally, improvised weapons now have a critical threat range of 17-20 and a critical multiplier of x4. Furthermore, improvised weapons deal damage as if they were another one size category larger."
+    },
+    {
+      "step": "+30",
+      "benefit": "When breaking the improvised weapon in order to force a critical hit, you may add all of the improvised weapon’s remaining hit points to the damage of the attack as a competence bonus. Additionally, improvised weapons now have a critical threat range of 16-20 and a critical multiplier of x5. Furthermore, improvised weapons deal damage as if they were another two size categories larger."
+    }
+  ]
+}

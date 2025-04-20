@@ -1,0 +1,29 @@
+{
+  "name": "Skill Focus (Heal)",
+  "flavor": "You are an incredibly skilled healer",
+  "prerequisites": "Heal (1 rank)",
+  "benefits": "This is a skill feat that scales with your ranks in Heal",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 rank",
+      "benefit": "Whenever making a Heal check, you may restore a number of hit points to the subject of the Heal check equal to half of the result. Additionally, if it is not already, Heal becomes a class skill."
+    },
+    {
+      "step": "4 ranks",
+      "benefit": "Whenever making a Heal check, if the check exceeds 20, the target of the Heal check gains Fast Healing 1 until their hit points are above half of their hit point maximum."
+    },
+    {
+      "step": "9 ranks",
+      "benefit": "Whenever making a Heal check, you may restore a number of hit points to the subject of the Heal check equal to the result."
+    },
+    {
+      "step": "14 ranks",
+      "benefit": "Whenever making a Heal check, you may end any ongoing ailments or spell effects if your Heal check exceeds the save DC of the effect. Additionally, you may take a 10 on Heal checks at any time."
+    },
+    {
+      "step": "19 ranks",
+      "benefit": "Whenever making a Heal check, if the check exceeds 20, the target of the Heal check gains Fast Healing 1 until their hit points are at their maximum. If the check exceeds 10, the target of the Heal check gains Fast Healing 1 until their hit points are above half of their hit point maximum."
+    }
+  ]
+}

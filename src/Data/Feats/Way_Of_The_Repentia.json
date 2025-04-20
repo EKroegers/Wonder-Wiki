@@ -1,0 +1,38 @@
+{
+  "name": "Way of the Repentia",
+  "flavor": "Divine Ordinance has eschewed your need for armor",
+  "prerequisites": "Cha 20, Worshiper of Allura, Delmae, or Leonni",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "special": "Anyone who does not find you attractive may ignore these effects, as do creatures with an Intelligence of less than 3. For the purposes of this feat, you are considered attracted to yourself.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "You gain a luck bonus to your AC equal to your Charisma bonus when not wearing armor."
+    },
+    {
+      "step": "+6",
+      "benefit": "Your Charisma bonus is treated as double against creatures that find you attractive."
+    },
+    {
+      "step": "+11",
+      "benefit": "You gain DR /— equal to your Charisma bonus."
+    },
+    {
+      "step": "+16",
+      "benefit": "Your Charisma bonus is treated as triple against creatures that find you attractive."
+    },
+    {
+      "step": "+21",
+      "benefit": "You gain Fast Healing equal to your Charisma bonus."
+    },
+    {
+      "step": "+26",
+      "benefit": "Your Charisma bonus is treated as quadruple against creatures that find you attractive."
+    },
+    {
+      "step": "+30",
+      "benefit": "Your Charisma bonus is treated as quintuple against creatures that find you attractive. Additionally, all creatures of a lesser BAB than you are considered attracted to you."
+    }
+  ]
+}

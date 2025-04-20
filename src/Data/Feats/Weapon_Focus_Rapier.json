@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Rapier)",
+  "flavor": "You are extremely skilled in wielding a rapier",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "You may add the enhancement bonus of your rapier to the following; Initiative rolls, Reflex saves, Bluff checks, and Dodge bonus to AC."
+    },
+    {
+      "step": "+6",
+      "benefit": "On your turn while wielding a rapier, you may elect not to take one of your attacks. At any time before your next turn, you may attempt to parry an attack against you or an adjacent ally as an immediate action. To parry the attack, you make an attack roll, using the same bonuses as the attack you chose to forego during your previous action. If your attack roll is greater than the roll of the attacking creature, the attack automatically misses. You must declare the use of this ability after the attack is announced, but before the roll is made."
+    },
+    {
+      "step": "+11",
+      "benefit": "You may make an attack of opportunity with a rapier against any creature whose attack you have successfully parried, so long as the creature you are attacking is within reach. Additionally any precision damage dealt with your rapier is doubled."
+    },
+    {
+      "step": "+16",
+      "benefit": "You may choose to forgo any number of attacks on your turn for the sake of parrying, expending Attacks of Opportunity instead of Immediate Actions to parry attacks. Additionally, rapiers that you wield now have a critical threat range of 17-20 with a critical multiplier of x3"
+    },
+    {
+      "step": "+21",
+      "benefit": " A number of times per day equal to your dexterity modifier, you may feint or disarm a creature with a lower BAB bonus than you as a swift action. You must be wielding a rapier in order to take this action."
+    },
+    {
+      "step": "+26",
+      "benefit": " If your parry roll fails to exceed the contesting roll, you may roll damage for your rapier attack and subtract that damage from the damage the creature deals with their attack (to a minimum of 0). Additionally, rapiers that you wield now have a critical threat range of 16-20 with a critical multiplier of x4."
+    },
+    {
+      "step": "+30",
+      "benefit": "Attacks made with your rapier are made against Touch AC. Additionally, any precision damage dealt with your rapier is tripled."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Skill Focus (Profession)",
+  "flavor": "You're a professional, and professionals have standards",
+  "prerequisites": "Profession (1 rank)",
+  "benefits": "This is a skill feat that scales with your ranks in Profession",
+  "special": "This feat may be taken more than once. Each time it is taken, it applies to a different profession.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 rank",
+      "benefit": "Whenever making a Profession check, you gain a number of gold pieces from the Profession check equal to half of the result from working for a day."
+    },
+    {
+      "step": "4 ranks",
+      "benefit": "If applicable, you may substitute a Profession check for any other skill check where your background in your profession could conceivably help you."
+    },
+    {
+      "step": "9 ranks",
+      "benefit": "Whenever making a Profession check, you gain a number of gold pieces from the Profession check equal to the result from working for a day."
+    },
+    {
+      "step": "14 ranks",
+      "benefit": "You are able to identify other workers of your profession with no check necessary, and their attitude towards you always starts off as Friendly if you have had no previous interactions. Additionally, you are able to take a 10 at any time on Profession Checks at any time."
+    },
+    {
+      "step": "19 ranks",
+      "benefit": "Whenever making a Profession check, you gain a number of gold pieces from the Profession check equal to ten times the result from working for a day."
+    }
+  ]
+}

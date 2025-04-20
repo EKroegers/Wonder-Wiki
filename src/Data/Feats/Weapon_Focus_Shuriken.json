@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Shuriken)",
+  "flavor": "You are extremely skilled in wielding shuriken",
+  "prerequisites": "BAB +1",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "When wielding shuriken, you may make an additional attack for every attack you may normally be allowed, so long as that attack is with a shuriken. Additionally, If you hit an enemy with a shuriken, you deal damage normally and can make a second attack at the same base attack bonus against a target within one range increment of the first. You determine cover for this attack from the first target's space instead of your space. You may only ricochet your attack once, and you cannot deal damage to an enemy more than once with the same shuriken. Furthermore, shuriken you wield now deal 5 base damage (instead of 1d2), and have a range increment of 30ft."
+    },
+    {
+      "step": "+6",
+      "benefit": "You may ricochet your attacks any number of times, so long as the targets are within one range increment of the previous enemy. You still may not damage an enemy more than once with the same shuriken. Additionally, you may choose to embed your shuriken in an enemy instead of letting them ricochet, and each shuriken embedded in this way causes 1 point of bleed damage per round until removed. Furthermore, shuriken you wield now deal 7 base damage, and have a range increment of 60ft."
+    },
+    {
+      "step": "+11",
+      "benefit": "When wielding shuriken, you may now make two additional attacks for every attack you are normally allowed, so long as those attacks are with shuriken. Additionally, your attacks with shuriken ignore cover. Furthermore, shuriken you wield now deal 10 base damage, and have a range increment of 120ft."
+    },
+    {
+      "step": "+16",
+      "benefit": "Any precision-based dice damage dealt in addition to the shuriken's damage is maximized. Additionally, shuriken you wield now deal 13 base damage damage, and have a range increment of 240ft. Furthermore, shuriken that you wield now have a critical threat range of 19-20 with a critical multiplier of x3."
+    },
+    {
+      "step": "+21",
+      "benefit": "When wielding shuriken, you may now make three additional attacks for every attack you are normally allowed, so long as those attacks are with shuriken. Additionally, the bleed damage caused by embedded shuriken increases to 5. Furthermore, shuriken you wield now deal 16 base damage, and have a range increment of 360ft."
+    },
+    {
+      "step": "+26",
+      "benefit": "When wielding shuriken, you may now make four additional attacks for every attack you are normally allowed, so long as those attacks are with shuriken. Additionally, embedded shuriken reduce all movement speeds of the enemy by 5ft each. Furthermore, shuriken you wield now deal 20 base damage, and have a range increment of 480ft. Lastly, shuriken that you wield now have a critical threat range of 18-20 with a critical multiplier of x4. "
+    },
+    {
+      "step": "+30",
+      "benefit": "When wielding shuriken, you may now make five additional attacks for every attack you are normally allowed, so long as those attacks are with shuriken. Additionally, whenever a shuriken deals damage to an enemy, that enemy is subject to a targeted dispel check, as if using Dispel Magic, using the damage dealt as the dispel check. Furthermore, any precision damage dealt in addition to the shuriken's damage is doubled. Lastly, shuriken you wield now deal 25 base damage, and have a range increment of 1000ft. "
+    }
+  ]
+}

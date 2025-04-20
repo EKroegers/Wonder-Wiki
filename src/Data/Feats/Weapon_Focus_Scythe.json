@@ -1,0 +1,37 @@
+{
+  "name": "Weapon Focus (Scythe)",
+  "flavor": "You are extremely skilled in wielding a scythe",
+  "prerequisites": "BAB +1, Proficiency with scythes",
+  "benefits": "This is a combat feat that scales with your Base Attack Bonus.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "+1",
+      "benefit": "When you kill an opponent, your movement speeds increase by 10ft, and you gain an additional attack at your highest Base Attack Bonus for the rest of your turn. Additionally, you may perform a coup de grace as a swift action."
+    },
+    {
+      "step": "+6",
+      "benefit": "When wielding a scythe, you no longer take a penalty to attack rolls when using Power Attack. Additionally, you may increase your reach with scythes by 5ft. Furthermore, you become immune to effects that deal with souls, and gain resistance to Negative Energy damage equal to your Base Attack Bonus. Lastly, you no longer provoke attacks of opportunity when performing a coup de grace."
+    },
+    {
+      "step": "+11",
+      "benefit": "Whenever you deal damage to an opponent using Power Attack with a scythe, you deal bleed damage equal to your Base Attack Bonus. Additionally, you now gain a 20ft increase to all of your speeds when you kill an opponent, and you gain two additional attacks at your highest Base Attack Bonus for the rest of your turn."
+    },
+    {
+      "step": "+16",
+      "benefit": "Whenever you kill an opponent, you add their remaining lifespan to your own, extending the point at which you would die from old age by the remaining time the opponent had left. Additionally, you may increase your reach with scythes by an additional 5ft. Furthermore, scythes that you wield now have a critical threat range of 19-20 with a critical multiplier of x5. Lastly, you gain immunity to Negative Energy damage."
+    },
+    {
+      "step": "+21",
+      "benefit": "Whenever killing an opponent, you gain temporary hit points equal to the amount of damage they took in excess of the amount required to kill them. These temporary hit points stack with themselves but not with temporary hit points from other sources. Additionally, you now gain a 30ft increase to all of your speeds when you kill an opponent, and you gain three additional attacks at your highest Base Attack Bonus for the rest of your turn. Furthermore, when killing an opponent, you radiate an aura similar to an antimagic field, with a caster level equal to your Base Attack bonus. This aura lasts for one round, however the duration of this effect may be extended by killing more opponents. This effect does not affect you or the items you are holding. Lastly, you gain immunity to Negative Levels and are treated as an Undead for the purposes of taking Negative Energy damage."
+    },
+    {
+      "step": "+26",
+      "benefit": "Whenever you kill an opponent, you gain a permanent +1 to hit and damage with scythes. You lose your current bonus if you ever die. Additionally, scythes that you wield now have a critical threat range of 18-20 with a critical multiplier of x6. Furthermore, you increase your reach with scythes by an additional 10ft. Lastly, you gain a fly speed of 120ft. If you already have a fly speed that is slower, increase that fly speed to 120ft. "
+    },
+    {
+      "step": "+30",
+      "benefit": "Whenever killing an opponent, you now gain temporary hit points equal to their maximum health. These temporary hit points stack with themselves but not with temporary hit points from other sources. Additionally, you now gain an increase to all of your speeds equal to your highest movement speed when you kill an opponent, and you gain six additional attacks at your highest Base Attack Bonus for the rest of your turn. Furthermore, you gain the ability to use the Shinigami’s Destroy Soul ability as a free action at will. Lastly, your critical multiplier with scythes increases to x7."
+    }
+  ]
+}

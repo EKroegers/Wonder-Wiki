@@ -1,0 +1,29 @@
+{
+  "name": "Master Alchemist",
+  "flavor": "Your resourcefulness is unmatched",
+  "prerequisites": "Craft (Alchemy) (1 rank)",
+  "benefits": "This is a skill feat that scales with your ranks in Craft (Alchemy).",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 rank",
+      "benefit": "The Save DC's for Alchemical Items you use are equal to 10 + your Ranks in Craft (Alchemy) + your Int modifier. Additionally you Craft Alchemical Items ten times faster."
+    },
+    {
+      "step": "4 ranks",
+      "benefit": "When using an Alchemical Item, you may now use an additional Alchemical Item with the same action, such as bundling together a Tanglefoot Bag and a Burst Jar into one thrown attack."
+    },
+    {
+      "step": "9 ranks",
+      "benefit": "You may add your Intelligence modifier to die rolls associated with Alchemical Items. Additionally you may craft mundane Alchemical Items as a standard action."
+    },
+    {
+      "step": "14 ranks",
+      "benefit": "When using an Alchemical Item, you may now use two additional Alchemical Items with the same action, such as bundling together a Tanglefoot Bag, an Alchemist's Fire and a Burst Jar into one thrown attack."
+    },
+    {
+      "step": "19 ranks",
+      "benefit": "All numerical aspects of Alchemical Items you use are maximized. Additionally, you may craft any Alchemical Item as a swift action."
+    }
+  ]
+}

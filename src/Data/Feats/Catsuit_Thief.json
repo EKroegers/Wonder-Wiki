@@ -1,0 +1,24 @@
+{
+  "name": "Catsuit Thief",
+  "prerequisites": "Stealth (1 rank), Charisma score of 13 or more.",
+  "benefits": "This is a skill feat that scales with your ranks in Stealth",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 rank",
+      "benefit": "You gain a masterwork reinforced jumpsuit for free, any mundane modification (such as material or item template) you make on it is at half price and you gain a 20% discount on enhancing it. You gain exotic armor proficiency with it and can don and undon it as move action. If it is ever lost or destroyed you can reacquire it by spending 8 hours crafting, searching or doing other stuff relevant to the situation, doing so cost 100 gold pieces in material and resource used. You may treat the jumpsuit as non-armor if it is beneficial to you."
+    },
+    {
+      "step": "3 ranks",
+      "benefit": "You are quite the extraordinary thief, while wearing your suit you do not leave any track as pass without trace and you are under the effect of spider climb as a constant ability, you can resume or suppress both ability as a free action"
+    },
+    {
+      "step": "8 ranks",
+      "benefit": "You have a powerful thief sense, you can use locate object as spell-like ability at will on an object you researched for at least 8 hours. Additionally your suit's magical ability increases, you can use passwall as a spell-like ability 2/day with the exception that you do not leave a 'door' behind, making the duration effectively instantaneous."
+    },
+    {
+      "step": "15 ranks",
+      "benefit": "You are a master thief no matter the clothes, magical effects are unable to perceive you, so a contingent effect such as a glyph of warding will not activate in your presence. Additionally you gain an automatic find the path for 24 hours effect on any objects you successfully used your locate object spell-like ability on."
+    }
+  ]
+}

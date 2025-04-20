@@ -1,0 +1,30 @@
+{
+  "name": "Platformer",
+  "flavor": "All those years of saving the princess finally paid off. Too bad that the princess was always in another castle",
+  "prerequisites": "Acrobatics (1 rank)",
+  "benefits": "This is a skill feat that scales with your ranks in Acrobatics",
+  "special": "All of these abilities are extraordinary abilities.",
+  "isScalable": true,
+  "scaleBenefits": [
+    {
+      "step": "1 rank",
+      "benefit": "You may use Dexterity or Strength for Acrobatics checks instead of only Dexterity. You gain the Acrobatics skill as a class skill for all your classes if you don't have it. Your land speed does not hinder your Acrobatics checks."
+    },
+    {
+      "step": "4 ranks",
+      "benefit": " You gain the Hyperjump ability and the distance you can cover with your jumps is double your land speed."
+    },
+    {
+      "step": "9 ranks",
+      "benefit": "You gain the ability to wall-jump. You may jump on a wall and use it as a platform to make another jump which moves you away from the wall. You chain these jumps to climb up, or descend, two near enough walls. You also gain the ability to wall-run. So long as you end your turn on a valid surface that can support you, you are able to run along walls as if they were normal ground."
+    },
+    {
+      "step": "14 ranks",
+      "benefit": "You gain the Double Jump ability. You make the second jump as a swift action. Your ability to wall-jump allows you to recover your double jump. The distance you cover with your jump is not limited anymore by your land speed. You also inflict 1d6 of extra damage per each 10 points of the Acrobatics check result on the first attack you make landing after a jump."
+    },
+    {
+      "step": "19 ranks",
+      "benefit": "You gain a Jump Speed equal to your land speed (or swim speed, if higher). All the limitations above mentioned apply to your jump speed."
+    }
+  ]
+}
