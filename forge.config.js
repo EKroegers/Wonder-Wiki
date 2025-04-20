@@ -12,6 +12,17 @@ module.exports = {
       platforms: ['darwin', 'linux', 'win32'],
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'EKroegers',
+          name: 'Wonder-Wiki',
+        },
+      },
+    },
+  ],
   plugins: [
     {
       name: '@electron-forge/plugin-auto-unpack-natives',
