@@ -23,6 +23,7 @@ import { DaggerOfDusk } from './Pages/DaggerOfDuskPage.jsx';
 import { FateweaverPage } from './Pages/FateweaverPage.jsx';
 import { MutantMercenaryPage } from './Pages/MutantMercenaryPage.jsx';
 import { SaiyanWarriorPage } from './Pages/SaiyanWarriorPage.jsx';
+import { UnderdogPage } from './Pages/UnderdogPage.jsx';
 import { Domains } from './Pages/Domains.jsx';
 import { HomebrewFeats } from './Pages/HomebrewFeats.jsx';
 import { HomebrewTraits } from './Pages/HomebrewTraits.jsx';
@@ -66,7 +67,7 @@ export default function App() {
                 element={<MutantMercenaryPage />}
               />
               <Route path="saiyan-warrior" element={<SaiyanWarriorPage />} />
-              <Route path="underdog" element={<div />} />
+              <Route path="underdog" element={<UnderdogPage />} />
             </Route>
             <Route path="domains" element={<Domains />} />
             <Route path="homebrew-feats" element={<HomebrewFeats />} />

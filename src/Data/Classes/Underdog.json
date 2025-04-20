@@ -1,0 +1,235 @@
+{
+  "name": "Underdog",
+  "role": "Defender (Taunt/Threat), Striker (Disable), Support (Debuff)",
+  "alignment": "Any",
+  "hitDie": "d12",
+  "startingWealth": "5d6 x 10 gp (average 175 gp.)",
+  "classSkills": "Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (local) (Int), Knowledge (history) (Int), Profession (Wis), Ride (Dex), Survival (Wis), and Swim (Str)",
+  "skillRanks": 2,
+  "maxLevel": 20,
+  "baseAttackBonusType": "Full",
+  "saveTypes": { "Fortitude": "Good", "Reflex": "Good", "Willpower": "Bad" },
+  "classFeatures": [
+    {
+      "featureName": "Old Reliable",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Underdog may substitute weapon critical range for Unarmed Strikes, Gauntlets, Handwraps, Brass Knuckles, and Punching Daggers with their Underdog Critical Range. Additionally, when performing a critical hit with one of these weapons, the Underdog may inflict a status effect upon the enemy for one round. Underdogs improve this ability as they level up, as shown on <b>Table: Underdog - Old Reliable</b></p><table class=' table-responsive-sm table-responsive-xs table-text-align-center table-bordered'><tbody><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'><b>Level</b></td><td style='height: 28px; width: 89.6px;'><b>Crit Range</b></td><td style='height: 28px; width: 84.3167px;'><b>Status</b></td></tr><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'>1st-3rd</td><td style='height: 28px; width: 89.6px;'>20</td><td style='height: 28px; width: 84.3167px;'>Dazzled</td></tr><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'>4th-7th</td><td style='height: 28px; width: 89.6px;'>19-20</td><td style='height: 28px; width: 84.3167px;'>Fatigued</td></tr><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'>8th-11th</td><td style='height: 28px; width: 89.6px;'>18-20</td><td style='height: 28px; width: 84.3167px;'>Exhausted</td></tr><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'>12th-15th</td><td style='height: 28px; width: 89.6px;'>17-20</td><td style='height: 28px; width: 84.3167px;'>Staggered</td></tr><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'>16th-19th</td><td style='height: 28px; width: 89.6px;'>16-20</td><td style='height: 28px; width: 84.3167px;'>Dazed</td></tr><tr style='height: 28px;'><td style='height: 28px; width: 81.7px;'>20th</td><td style='height: 28px; width: 89.6px;'>15-20</td><td style='height: 28px; width: 84.3167px;'>Stunned</td></tr></tbody></table>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Combo",
+      "featureType": "Ex",
+      "featureDescription": "<p>An Underdog gains <a target='_blank' href='#/player-homebrew/homebrew-feats'>Two Weapon Fighting</a> as a bonus feat at 1st level. This ability only functions with weapons mentioned in the Underdog's Old Reliable feature.</p>",
+      "featureLevel": 1,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Taunt",
+      "featureType": "Ex",
+      "featureDescription": "<p>Any good Underdog knows how to get their opponent's attention, even if it might be a bad idea. At second level an Underdog may spend a standard action to Taunt any opponent that can see or hear them, and that opponent then gains the <a target='_blank' href='https://www.d20pfsrd.com/gamemastering/Conditions/#antagonized3pp'>Antagonized</a> condition.&nbsp;</p><p>The DC for the opponent's Sense Motive checks is equal to 10 + the Underdog's level + the Underdog's Constitution Modifier.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "That All?",
+      "featureType": "Ex",
+      "featureDescription": "<p>Most of the time, being able to take hits is more important than being able to dish them out, and an Underdog knows how to go the distance.&nbsp;</p><p>At level 2 the Underdog gains the following ability;&nbsp;</p><p>a single source of hit point damage cannot deal more damage to the Underdog than double their number of hit dice.&nbsp;</p><p>Multiple attacks or spells from the same creature count as different sources of hitpoint damage, each individual hit may only deal up to the maximum outlined.</p><p>This reduction is applied to the damage taken before Damage Reduction, Resistance, or Vulnerability is applied.</p>",
+      "featureLevel": 2,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Style",
+      "featureType": "Ex",
+      "featureDescription": "<p>Throughout the hundreds of years of Boxing it has been determined that there are generally four distinct ways to beat another man unconscious; These being In-Fighter, Out-Fighter, Slugger, and Boxer-Puncher.</p><p>The Underdog is able to embrace a Style as a swift action on their turn, gaining all of the benefits of that style until they change to a different Style.</p>",
+      "featureLevel": 3,
+      "hideInTable": true,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "In-Fighter - Crippling Strike",
+      "featureType": "Ex",
+      "featureDescription": "<p>The goal of an In-Fighter is to pressure the opponent the only way they know how, punching them until they break something.</p><p>At 3rd level the In-Fighter gains the following ability;&nbsp;</p><p>a number of times per day equal to their character level, an In-Fighter may make a Crippling Strike. A Crippling strike must be declared before the attack roll is made, and a miss wastes the ability. If a Crippling Strike lands, all of the foe's speeds are reduced to 0ft, however the In-Fighter's land speed is reduced to 10ft.&nbsp;</p><p>This effect lasts until the beginning of the In-Fighter's next turn.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Out-Fighter - Ringcraft",
+      "featureType": "Ex",
+      "featureDescription": "<p>The goal of an Out-Fighter is to maintain dominance through positioning, moving themselves when they need to, and their opponent whenever they can.</p><p>At 3rd level the Out-Fighter gains the following ability;&nbsp;</p><p>when hitting an enemy they may also move them in any direction a number of feet equal to the damage dealt (rounding down to the nearest 5ft increment). This includes up. They can only send their opponent downwards if they are currently prone, or airborne.&nbsp;</p><p>The Out-Fighter may move with their opponent, keeping your relative positioning. If the opponent's movement is stopped prematurely by terrain then they take damage equal to the number of feet they have yet to travel, and are knocked prone.</p>",
+      "featureLevel": 3,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Slugger - Punching Zones",
+      "featureType": "Ex",
+      "featureDescription": "<p>The goal of a Slugger is to decimate their opponents with overwhelming brutality.</p><p>At 4th level the Slugger gains the following ability;&nbsp;</p><p>when making an attack using any weapons mentioned in the Old Reliable class feature, they may hit all enemies within either a 10ft Cone, 5ft Radius, or a 20ft Line.</p><p>When the attack is made, the attack roll is made, then the area of effect is decided, and then that attack roll is applied to all enemies within that area of effect. Damage is rolled once and applied to all enemies hit within that area of effect.</p>",
+      "featureLevel": 4,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Boxer-Puncher - Ring the Bell",
+      "featureType": "Su",
+      "featureDescription": "<p>Within the sport of boxing there is something of a rock-paper-scissors theory. Sluggers have difficulty dealing with the mobility of Out-Boxers. Out-Boxers find it hard to handle having to initiate within the range of In-Fighters. In-Fighters can rarely handle the brutal assaults of Sluggers. Boxer-Punchers rebuke this theory, leveraging their unpredictability and versatility in order to throw opponents off their rhythm, guiding them to a decisive victory.</p><p>At 5th level the Boxer-Puncher gains the following ability;&nbsp;</p><p>when they successfully hit an opponent with a melee attack, they may inflict the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/c/confusion/'>Confusion</a> on them for one round.</p><p>The melee attack must have been with a weapon listed in the Old Reliable class feature.</p>",
+      "featureLevel": 5,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Title Bout",
+      "featureType": "Ex",
+      "featureDescription": "<p>Most underdogs spend their lives in search of the toughest opponent they can find, not many give too much thought as to what happens after, though.&nbsp;</p><p>At 7th level, the Underdog gains the following feature;&nbsp;</p><p>When facing an opponent with a number of Hit Dice equal to or greater than the Underdog's in a serious combative situation, they grow from the experience. If the Underdog either wins or loses the encounter, they gain +1 to one ability score of their choosing. If the encounter ends in a draw, they gain +1 to all of their ability scores.</p><p>This ability can typically only be used once per opponent, but can be used on the same opponent if both the opponent and the Underdog have undergone significant growth since their last encounter.</p>",
+      "featureLevel": 7,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "In-Fighter - Breach",
+      "featureType": "Ex",
+      "featureDescription": "<p>Being an In-Fighter is all about finding openings in your opponent's assault. When none exist, the In-Fighter makes one of their own.</p><p>At 8th level the In-Fighter gains an additional immediate/Swift action they can use every round. Additionally, they gain an additional number of attacks of opportunity equal to their constitution modifier.</p>",
+      "featureLevel": 8,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Out-Fighter - Fancy Footwork",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Out-Fighter is most characterized by their ability to stay out of their opponent's reach, but when that gap is closed, they're fast enough on their feet to more than make up the difference.</p><p>An 8th level Out-Fighter gains the ability to increase their Miss Chance against an opponent they strike. For every attack successfully landed against an opponent, the Underdog's Miss Chance for that opponent's attacks increases by +10%.</p><p>This bonus lasts until the beginning of the Underdog's next turn.</p><p>Additionally, the Out-Fighter's reach with all weapons mentioned in the Old Reliable class feature are increased by +5ft.</p>",
+      "featureLevel": 8,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Slugger - Battering Ram",
+      "featureType": "Ex",
+      "featureDescription": "<p>Any good Slugger knows that breaking an opponent's guard is much like opening a door; if it won't open, just keep knocking.</p><p>At 9th level the Slugger may apply a penalty to the AC of any creature they damage equal to their own constitution modifier.</p><p>This penalty can be applied once per round, and lasts until the penalized creature takes a long rest.</p>",
+      "featureLevel": 9,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Boxer-Puncher - Blackout",
+      "featureType": "Ex",
+      "featureDescription": "<p>A seasoned Boxer-Puncher knows that opponents come in all shapes and sizes, and while mountains of muscle go down when met with force, the magically inclined require a more strategic touch</p><p>At 10th level the Boxer-Puncher may inflict the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/m/mindwipe/'>Mindwipe</a> upon an opponent they have successfully hit with a melee attack, using any weapon listed in the Old Reliable class feature.</p><p>The Boxer-Puncher uses their Hit Dice as their Caster Level for this attack.</p>",
+      "featureLevel": 10,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Spell Shattering Strike",
+      "featureType": "Su",
+      "featureDescription": "At 12th level the Underdog has found that oftentimes the best defense is a good offense. When targeted by a spell, the Underdog may make an attack roll as an immediate action. If this attack roll exceeds the caster’s opposed spellcraft check, the Underdog may destroy the attacking spell, functioning exactly as dispel magic.",
+      "featureLevel": 12
+    },
+    {
+      "featureName": "In-Fighter - Counterpunch",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 13th level, the In-Fighter has mastered the art of retaliation.</p><p>If the In-Fighter takes Precision damage from an opponent's melee attack, they may use an immediate action to Counterpunch the opponent. If the Counterpunch successfully hits its target, it is considered a critical threat.</p><p>Additionally, Crippling Strikes no longer reduce the movement speeds of the Underdog when used.</p>",
+      "featureLevel": 13,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Out-Fighter - Warpstrike",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Out Fighter is known as an expert of mobility and positioning, and in a world of high magic, such a title doesn't come easy.</p><p>At 13th level the Out-Fighter gains the ability to cast Dimension Door at will, as a move action, using their Hit Dice as their Caster Level.&nbsp;</p><p>They are unable to bring anybody else with them when using Warpstrike.</p><p>This ability is considered non-magical.</p>",
+      "featureLevel": 13,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Slugger - All at Once",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 14th the Slugger has become adept at managing crowds of opponents.</p><p>When the Slugger successfully damages a creature with an attack, they may subject that creature to their Taunt class ability.</p><p>Additionally, the areas of effect for the Slugger's Old Reliable attacks increase to a 20ft cone, 10ft radius, or 50ft line.</p>",
+      "featureLevel": 14,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Boxer-Puncher - Obliterate",
+      "featureType": "Su",
+      "featureDescription": "<p>At 15th level the Boxer-Puncher knows that sometimes monsters are the least of your problems, and that most complicated problems tend to have simple solutions.</p><p>The Boxer-Puncher may inflict the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/d/disintegrate/'>Disintegrate</a> upon any object they have successfully hit, using their Hit Dice as their Caster Level.</p>",
+      "featureLevel": 15,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Return to Sender",
+      "featureType": "Su",
+      "featureDescription": "At 17th level the Underdog learns to take even the greatest of challenges head-on. When targeted by a spell, the Underdog may make an attack roll as an immediate action. If this attack roll exceeds the caster’s opposed spellcraft check, the Underdog may send the spell back, functioning exactly as spell turning.",
+      "featureLevel": 17
+    },
+    {
+      "featureName": "In-Fighter - Interrupt",
+      "featureType": "Ex",
+      "featureDescription": "<p>At 18th level the In-Fighter is unmatched in close-quarters combat.&nbsp;</p><p>Whenever a melee attack is made against the In-Fighter within their reach, it provokes an Attack of Opportunity. Should this Attack of Opportunity deal damage to the foe, the provoking attack is interrupted and does not resolve.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Out-Fighter - Untouchable",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Out-Fighter has become a master of mobility, and seemingly nothing in all of creation can lock them down.</p><p>At 18th level the Out-Fighter is constantly under the effects of Freedom of Movement.</p><p>Additionally, the Out-Fighter's speeds can never be changed against their will.</p><p>Furthermore, the Out-Fighter's reach with all weapons mentioned in the Old Reliable class feature are increased by an additional +5ft</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Slugger - Press the Advantage",
+      "featureType": "Ex",
+      "featureDescription": "<p>The Slugger has mastered the act of breaking open their opponents defenses through might alone.</p><p>At 18th level, the Slugger may negate the Damage Reduction, Resistances, Fast Healing, and Regeneration of any creature they successfully damage, for a single turn.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Boxer-Puncher - Shutdown",
+      "featureType": "Su",
+      "featureDescription": "<p>At 18th level the Boxer-Puncher is ready to deal with almost any problem, meeting it with unrelenting force.</p><p>A number of times per day equal to their constitution modifier, the Boxer-Puncher may inflict the effects of <a target='_blank' href='https://www.d20pfsrd.com/magic/all-spells/f/feeblemind/'>Feeblemind</a> upon an opponent they have successfully hit.&nbsp;</p><p>The use of Shutdown is declared when the hit is confirmed, but before rolling damage.</p>",
+      "featureLevel": 18,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Master of Melee",
+      "featureType": "Ex",
+      "featureDescription": "The Underdog is able to flawlessly adapt to any situation, no matter the opponent. At 19th level the Underdog is able to use all styles simultaneously.",
+      "featureLevel": 19
+    },
+    {
+      "featureName": "Ready for Round Two",
+      "featureType": "Su",
+      "featureDescription": "Once per day, when the Underdog is reduced below zero hit points or killed outright, they can instead be restored to full health. This restoration also removes any status conditions the Underdog may be suffering at the time, as well as any other negative effects, however extreme (dismemberment, disintegration, entombment, eradication, desiccation, irradiation, decapitation, The Pharaoh’s CurseTM, mesothelioma, botulism, etc).",
+      "featureLevel": 20
+    }
+  ],
+  "epicLevelClassFeatures": [
+    {
+      "featureName": "Sheer Grit",
+      "featureType": "Ex",
+      "featureDescription": "<p>There are some hurdles that can't be overcome with hard work and dedication alone, you have yet to run into one of them, though.</p><p>At 22nd level the Epic Underdog gains immunity to Poisons, Diseases, Curses, and Mind-Affecting effects.</p>",
+      "featureLevel": 22,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Adrenaline",
+      "featureType": "Ex",
+      "featureDescription": "<p>When it comes down to having to convince yourself to do something that will most definitely kill you, your body seems to do most of the work for you.</p><p>At 23rd level, the Epic Underdog gains one Adrenaline point. Adrenaline is replenished whenever the Underdog deals or receives critical damage. Adrenaline points can be spent to replicate the effects of Hero Points.</p><p>The Epic Underdog gains a second Adrenaline point at 27th level.</p>",
+      "featureLevel": 23,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Best of Three",
+      "featureType": "Su",
+      "featureDescription": "<p>Alright so you ran it back but things went just about the same as they did last time, but you've got him this time for sure.</p><p>At 25th level, the Epic Underdog may utilize the restoration from Ready for Round Two twice per day.</p>",
+      "featureLevel": 25,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Adrenaline",
+      "featureLevel": 27,
+      "hideInBody": true
+    },
+    {
+      "featureName": "Determination",
+      "featureType": "Ex",
+      "featureDescription": "<p>It is a childish thought, to believe that you can continue to live through the impossibly deadly scenario before you simply because you really want to. And yet, childish you remain.</p><p>At 28th level the Epic Underdog gains immunity to Negative Levels and Death Effects.</p>",
+      "featureLevel": 28,
+      "setInnerHtml": true
+    },
+    {
+      "featureName": "Third Time's the Charm",
+      "featureType": "Su",
+      "featureDescription": "<p>You've got them right where you want them, all according to plan.</p><p>At 30th level, the Epic Underdog may now utilize the restoration from Ready for Round Two three times per day.</p><br /><p><b>Table: Epic Underdog Old Reliable Scaling</b></p><table><tbody><tr><td><p><b>Level</b></p></td><td><p><b>Crit Range</b></p></td><td><b>Status</b></td></tr><tr><td>21st-23rd</td><td>14-20</td><td>Disabled</td></tr><tr><td>24th-26th</td><td>13-20</td><td>Paralyzed</td></tr><tr><td>27th-29th</td><td>12-20</td><td>Unconscious</td></tr><tr><td>30th</td><td>11-20</td><td>Dead*</td></tr></tbody></table><p><i>*The 30th level critical status is considered to be a Death Effect.</i></p>",
+      "featureLevel": 30,
+      "setInnerHtml": true
+    }
+  ]
+}
