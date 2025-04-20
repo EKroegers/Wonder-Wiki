@@ -20,6 +20,7 @@ module.exports = {
           owner: 'EKroegers',
           name: 'Wonder-Wiki',
         },
+        draft: true,
       },
     },
   ],
