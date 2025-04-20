@@ -18,6 +18,10 @@
     "email": "kroegerethan@gmail.com"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EKroegers/Wonder-Wiki.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/preset-react": "^7.26.3",
@@ -42,6 +46,7 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "update-electron-app": "^3.1.1"
   }
 }
