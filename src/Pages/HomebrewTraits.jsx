@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import Feat from '../Components/Feat/Feat.jsx';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 import { TRAIT_LIST } from '../Data/Traits/0_TRAIT_LIST.jsx';
 
@@ -21,7 +21,7 @@ export function HomebrewTraits() {
           />
         );
       })}
-      <Link to={'/player-homebrew'}>Back</Link>
+      <LinkCard url={'/player-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

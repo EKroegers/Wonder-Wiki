@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import Pact from '../Components/Pact/Pact.jsx';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 import { PACT_LIST } from '../Data/Pacts/0_PACT_LIST.jsx';
 
@@ -63,7 +63,7 @@ export function Pacts() {
         of the pact bearer. As always, modifications to pacts must be approved
         by the DM.
       </p>
-      <Link to={'/player-homebrew'}>Back</Link>
+      <LinkCard url={'/player-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

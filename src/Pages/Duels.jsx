@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function Duels() {
   return (
@@ -114,7 +114,7 @@ export function Duels() {
         Abilities that function as Momentum Shifts are denoted as such within
         the description for the Ability itself.
       </p>
-      <Link to={'/dm-homebrew'}>Back</Link>
+      <LinkCard url={'/dm-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

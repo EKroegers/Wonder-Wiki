@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function OccultMagic() {
   return (
@@ -134,7 +134,7 @@ export function OccultMagic() {
         Breaking an abstract vow would have similar consequences as to breaking
         a Pact, that is to say, severe and debilitating.
       </p>
-      <Link to={'/reworks'}>Back</Link>
+      <LinkCard url={'/reworks'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
 import ClassTable from '../ClassTable/ClassTable.jsx';
 import ClassFeature from '../ClassFeature/ClassFeature.jsx';
 import EpicClassTable from '../ClassTable/EpicClassTable/EpicClassTable.jsx';
+import LinkCard from '../LinkCard/LinkCard.jsx';
 
 export default function CustomClassPage({
   name,
@@ -110,7 +110,11 @@ export default function CustomClassPage({
             })}
         </>
       ) : null}
-      <Link to={'/player-homebrew/custom-classes'}>Back</Link>
+      <LinkCard
+        url={'/player-homebrew/custom-classes'}
+        linkText={'Back'}
+        className={'Back'}
+      />
     </section>
   );
 }

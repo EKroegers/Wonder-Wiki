@@ -1,16 +1,16 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function PlayerHomebrew() {
   return (
     <section>
       <h1>Homebrew for Players</h1>
-      <Link to={'custom-classes'}>Custom Classes</Link>
-      <Link to={'domains'}>Domains</Link>
-      <Link to={'homebrew-feats'}>Homebrew Feats</Link>
-      <Link to={'homebrew-traits'}>Homebrew Traits</Link>
-      <Link to={'pacts'}>Pacts</Link>
-      <Link to={'/'}>Back</Link>
+      <LinkCard url={'custom-classes'} linkText={'Custom Classes'} />
+      <LinkCard url={'domains'} linkText={'Domains'} />
+      <LinkCard url={'homebrew-feats'} linkText={'Homebrew Feats'} />
+      <LinkCard url={'homebrew-traits'} linkText={'Homebrew Traits'} />
+      <LinkCard url={'pacts'} linkText={'Pacts'} />
+      <LinkCard url={'/'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

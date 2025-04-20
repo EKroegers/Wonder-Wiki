@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function Domains() {
   return (
@@ -131,7 +131,7 @@ export function Domains() {
         If a Domain does not have an enclosing Barrier, then it does not Clash
         when used against another Domain; the effects of both simply overlap.
       </p>
-      <Link to={'/player-homebrew'}>Back</Link>
+      <LinkCard url={'/player-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

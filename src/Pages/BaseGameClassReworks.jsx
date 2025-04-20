@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function BaseGameClassReworks() {
   return (
     <section>
       <h1>Base Game Class Reworks</h1>
-      <Link to={'rogue'}>Rogue</Link>
-      <Link to={'/reworks'}>Back</Link>
+      <LinkCard url={'rogue'} linkText={'Rogue'} />
+      <LinkCard url={'/reworks'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

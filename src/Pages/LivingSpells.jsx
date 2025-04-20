@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function LivingSpells() {
   return (
@@ -95,7 +95,7 @@ export function LivingSpells() {
         outsiders. Though Living Spells and creatures of these categories are
         not mutually exclusive.
       </p>
-      <Link to={'/setting'}>Back</Link>
+      <LinkCard url={'/setting'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

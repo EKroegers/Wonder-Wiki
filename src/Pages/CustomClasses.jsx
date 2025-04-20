@@ -1,18 +1,18 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function CustomClasses() {
   return (
     <section>
       <h1>Custom Classes</h1>
-      <Link to={'apostate'}>Apostate</Link>
-      <Link to={'astral-blade'}>Astral Blade</Link>
-      <Link to={'dagger-of-dusk'}>Dagger of Dusk</Link>
-      <Link to={'fateweaver'}>Fateweaver</Link>
-      <Link to={'mutant-mercenary'}>Mutant Mercenary</Link>
-      <Link to={'saiyan-warrior'}>Saiyan Warrior</Link>
-      <Link to={'underdog'}>Underdog</Link>
-      <Link to={'/player-homebrew'}>Back</Link>
+      <LinkCard url={'apostate'} linkText={'Apostate'} />
+      <LinkCard url={'astral-blade'} linkText={'Astral Blade'} />
+      <LinkCard url={'dagger-of-dusk'} linkText={'Dagger of Dusk'} />
+      <LinkCard url={'fateweaver'} linkText={'Fateweaver'} />
+      <LinkCard url={'mutant-mercenary'} linkText={'Mutant Mercenary'} />
+      <LinkCard url={'saiyan-warrior'} linkText={'Saiyan Warrior'} />
+      <LinkCard url={'underdog'} linkText={'Underdog'} />
+      <LinkCard url={'/player-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

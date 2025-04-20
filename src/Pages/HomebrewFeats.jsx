@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import Feat from '../Components/Feat/Feat.jsx';
 import ScalingFeat from '../Components/Feat/ScalingFeat/ScalingFeat.jsx';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 import { FEAT_LIST } from '../Data/Feats/0_FEAT_LIST.jsx';
 
@@ -39,7 +39,7 @@ export function HomebrewFeats() {
           );
         }
       })}
-      <Link to={'/player-homebrew'}>Back</Link>
+      <LinkCard url={'/player-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

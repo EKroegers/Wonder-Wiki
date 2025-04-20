@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function CoreRuleChanges() {
   return (
@@ -53,7 +53,7 @@ export function CoreRuleChanges() {
         bonus optionally apply superficial visual changes in addition to
         mechanical bonuses.
       </p>
-      <Link to={'/reworks'}>Back</Link>
+      <LinkCard url={'/reworks'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

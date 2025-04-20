@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function TrainingSystem() {
   return (
@@ -65,7 +65,7 @@ export function TrainingSystem() {
         they have claimed success, and seized their Improvement as a result, in
         this case leveling up.
       </p>
-      <Link to={'/dm-homebrew'}>Back</Link>
+      <LinkCard url={'/dm-homebrew'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

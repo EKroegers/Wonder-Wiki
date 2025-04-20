@@ -1,15 +1,18 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function Reworks() {
   return (
     <section>
       <h1>Reworks</h1>
-      <Link to={'base-game-class-reworks'}>Base Game Class Reworks</Link>
-      <Link to={'core-rule-changes'}>Core Rule Changes</Link>
-      <Link to={'occult-magic'}>Occult Magic</Link>
-      <Link to={'poisons'}>Poisons</Link>
-      <Link to={'/'}>Back</Link>
+      <LinkCard
+        url={'base-game-class-reworks'}
+        linkText={'Base Game Class Reworks'}
+      />
+      <LinkCard url={'core-rule-changes'} linkText={'Core Rule Changes'} />
+      <LinkCard url={'occult-magic'} linkText={'Occult Magic'} />
+      <LinkCard url={'poisons'} linkText={'Poisons'} />
+      <LinkCard url={'/'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }

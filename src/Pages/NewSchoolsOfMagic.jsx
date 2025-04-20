@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import LinkCard from '../Components/LinkCard/LinkCard.jsx';
 
 export function NewSchoolsOfMagic() {
   return (
@@ -129,7 +129,7 @@ export function NewSchoolsOfMagic() {
           bring it up to your DM.
         </i>
       </p>
-      <Link to={'/setting'}>Back</Link>
+      <LinkCard url={'/setting'} linkText={'Back'} className={'Back'} />
     </section>
   );
 }
