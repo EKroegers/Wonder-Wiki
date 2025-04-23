@@ -32,6 +32,7 @@ import { Pacts } from './Pages/Pacts.jsx';
 import { Setting } from './Pages/Setting.jsx';
 import { LivingSpells } from './Pages/LivingSpells.jsx';
 import { NewSchoolsOfMagic } from './Pages/NewSchoolsOfMagic.jsx';
+import { RacePageTemp } from './Pages/RacePage.temp.jsx';
 
 export default function App() {
   return (
@@ -81,7 +82,7 @@ export default function App() {
               path="new-schools-of-magic"
               element={<NewSchoolsOfMagic />}
             />
-            <Route path="races" element={<div />} />
+            <Route path="races" element={<RacePageTemp />} />
           </Route>
         </Route>
       </Routes>
