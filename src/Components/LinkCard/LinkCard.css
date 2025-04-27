@@ -1,31 +1,32 @@
 .Link-Card {
-  width: 100%;
-  display: block;
-  margin: 1rem 0;
-  padding: 2rem 0;
-  text-align: center;
-  text-decoration: none;
-  border: 2px solid black;
-  border-radius: 1rem;
-  color: black;
-  background-color: white;
-  transition: color 0.3s, background-color 0.3s;
-  &:hover,
-  &:focus {
-    color: white;
-    background-color: black;
-    transition: color 0.3s, background-color 0.3s;
-  }
+	width: 100%;
+	box-shadow: 0 6px 12px rgba(147, 86, 86, 0.15);
+	display: block;
+	margin: 1rem 0;
+	padding: 2rem 0;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 1rem;
+	color: black;
+	background-color: white;
+	transition: color 0.3s, background-color 0.3s;
+	&:hover,
+	&:focus {
+		color: white;
+		background-color: black;
+		transition: color 0.3s, background-color 0.3s;
+	}
 }
 
 .Link-Card.Back {
-  color: white;
-  background-color: black;
-  transition: color 0.3s, background-color 0.3s;
-  &:hover,
-  &:focus {
-    color: black;
-    background-color: white;
-    transition: color 0.3s, background-color 0.3s;
-  }
+	color: white;
+	background-color: black;
+	transition: color 0.3s, background-color 0.3s;
+	&:hover,
+	&:focus {
+		color: black;
+		background-color: white;
+		transition: color 0.3s, background-color 0.3s;
+	}
 }
